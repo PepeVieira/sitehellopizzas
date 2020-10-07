@@ -1,0 +1,30 @@
+p {
+	color:red;
+	font-size: 40px "Helvetica-Neue ";
+}
+
+p:first-of-type {
+	font-style: italic;
+}
+
+p:nth-of-type(2n+1) {
+	background: #eee;
+}
+
+input:disabled {
+	background: #eee;
+	border: 1 px #222;
+	cursor: not-allowed;
+}
+
+input:checked + label {
+	color: green;
+}
+
+input:disabled{
+	border: 1px solid red;
+}
+
+input:not(disabled) {
+	border: 1px solid green;
+}

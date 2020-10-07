@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url("../img/background-pizza.png") 0 0 no-repeat;
+	background-color: #131313;
+}
+
+header{
+	height: 123px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 30px 72px 0 72px;
+}
+
+h1, footer a{
+	height: 70px;
+	width: 304px;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url("../img/logo-helloPizza.png") 0 0 no-repeat;
+	display: block;
+}
+
+h2{
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	display:inline-block; 
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	float: left;
+	margin: 50px 45%;
+}
+
+section{
+	clear: both;
+	padding: 30px 72px 0 72px;
+	position: relative;
+	margin:0 0 50px 0;
+}
+
+img#pizza-sabores{
+	display: block;
+	clear: both;
+	margin: 0 10%;
+}
+
+nav{
+	float: right;
+	margin-top: -30px;
+}
+
+nav ul{
+	list-style: none;
+	display: block;
+}
+
+nav ul li{
+	float: left;
+	margin:0 50px;
+}
+
+nav ul li a{
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px
+}
+
+ul#vantagens {
+    list-style: none;
+    float: left;
+    margin: 30px 0 150px 0;
+}
+
+ul#vantagens li {
+    font-family: 'Reenie Beanie', cursive;
+    color: #fff;
+    font-size: 2.75em;
+    margin: 5px;
+}
+
+ul#vantagens li::before {
+  content: "\00b0 ";
+  color: #fbcb39;
+  font-family: sans-serif;
+  font-size: 1em;
+  vertical-align: bottom;
+  margin: 25px 10px 0 10px;
+}
+
+table{
+	width: 100%;
+	background-color: #2a2a2a;
+	clear: both;
+	border-collapse: collapse;
+	text-transform: uppercase;
+	margin-top:100px;
+}
+
+th, td, p, label{
+	font-size: 12px;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+th{
+	color: #4d4d4d;
+	font-weight: bold;
+}
+
+th, td{
+	border:1px #000 solid;
+	padding: 25px;
+	text-align: center;
+	width: 20%;
+}
+
+form{
+	clear: both;
+	margin:0 30%;
+}
+
+form label{
+	margin:15px 0;
+	display: block;
+	text-transform: uppercase;
+}
+
+form input, form textarea{
+	border:1px solid #2a2a2a;
+	height: 10px;
+	width: 500px;
+	border-radius: 30px;
+	background-color: transparent;;
+	display: block;
+	padding: 25px 25px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-style: italic;
+}
+
+form textarea{
+	height: 200px;
+	font-size: 0.75em;
+}
+
+input[type="submit"] {
+    width: 555px;
+    margin: 25px 0;
+    padding-top: 15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+footer {
+    height: 100px;
+    background-color: #2a2a2a;
+    position: relative;
+    padding: 35px 0 10px 0;
+}
+
+footer a {
+    width: 200px;
+    background-size: 200px 46px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0px auto;
+}
+
+footer p{
+	text-align: center;
+}
+
+.texto-positivo{
+	color: #87b50f;
+}
+
+.texto-negativo{
+	color: #fb3958;
+}

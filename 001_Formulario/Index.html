@@ -1,0 +1,136 @@
+<!Doctype.html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"
+	<title> Document </title>
+
+</head>
+
+<body>
+	<form method="GET" action="http://arquivo.devmedia.com.br/projeto/requisicao.php">
+		<fieldset>
+			<legend>Conta:</legend>
+				<div>
+					<label>Email:<label/>
+					<input type=email name="Email" required minlength="5" maxlength="256" />
+				</div>
+
+				<div>
+					<label>Senha:</label>
+					<input type=password  required  minlength="6" maxlength="8" />
+				</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Dados Pessoais:</legend>
+				<div>
+					<label>Nome:</label>
+					<input type="text" placeholder="Ex.: Felipe" name="nome" required />
+				</div>
+
+				<div>
+					<label>Telefone:</label>
+					<input type="text" placeholder="(11)99999-9999" pattern="\([0-9]{2}\)[\s][0-9]{5}-[0-9]{4}"  name="celular" required />
+				</div>
+
+				<div>
+					<label>Sexo:</label>
+					<input type="radio" value="masculino" name="sexo" checked />
+					<label>Masculino</label>
+					<input type="radio" value="feminino" name="sexo" />
+					<label>Feminino</label>
+				</div>
+
+				<div>
+					<label>Data de nascimento:</label>
+					<input type="date" name="data de nascimento" required />
+				</div>
+
+				<div>
+					<label>Foto do Perfil:</label>
+					<input type="file" accept="image/*" name="arquivo" />
+				</div>
+		</fieldset>		
+
+		<fieldset>
+			<legend>Endereço:</legend>
+				<div>
+					<label>Rua:</label>
+					<input type="text" name="Rua">
+				</div>
+
+				<div>
+					<label>Número:</label>
+					<input type="number" min="1" max="10000" name="número" />
+				</div>
+
+				<div>
+					<label>complemento</label>
+					<input type="text" name="complemento">
+				</div>
+
+				<div>
+					<label>Estados:</label>
+					<SELECT name="estado">
+						<option value="acre">AC</option>
+						<option value="alagoas">AL</option>
+						<option value="amapá">AP</option>
+						<option value="amazonas">AM</option>
+						<option value="bahia">BA</option>
+						<option value="ceará">CE</option>
+						<option value="distrito federal">DF</option>
+						<option value="espírito santo">ES</option>
+						<option value="goias">GO</option>
+						<option value="maranhão">MA</option>
+						<option value="mato grosso">MT</option>
+						<option value="mato grosso do sul">MS</option>
+						<option value="minas gerais">MG</option>
+						<option value="pará">PA</option>
+						<option value="paraíba">PB</option>
+						<option value="paraná">PR</option>
+						<option value="pernambuco">PE</option>
+						<option value="piuaí">PI</option>
+						<option value="rio de janeiro">RJ</option>
+						<option value="rio grande no norte">RN</option>
+						<option value="rio grande do sul">RS</option>
+						<option value="rondônia">RO</option>
+						<option value="roraima">RR</option>
+						<option value="santa catarina">SC</option>
+						<option value="são paulo">SP</option>
+						<option value="sergipe">SE</option>
+						<option value="tocantins">TO</option>
+
+					</SELECT>
+				</div>
+				<div>
+					<label>Cidade:</label>
+					<input type="text" name="cidade">
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Anúncios:</legend>
+
+					<div>
+						<label>Como conheceu a Hello Pizza?</label>
+						<textarea  name="Como_conheceu_o_site_?" maxlength="256" placeholder="Como conheceu a Hello Pizza?"></textarea>
+					</div>
+
+					<div>
+						<label>Desejo receber ofertas por email:</label>
+						<input type="checkbox" checked name="Receber_ofertas" />
+					</div>
+
+					<div>
+						<label>Não desejo receber ofertas por email:</label>
+						<input type="checkbox"  name="Não_Receber_ofertas" />
+		            </div>
+
+		        </field>
+		        <input type="submit"  value="Enviar" />
+ 	</form>
+
+</body>
+</html>
