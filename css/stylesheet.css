@@ -154,3 +154,20 @@ label {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 36px;
 }
+
+#hpizza {
+    color: #fff;
+    background-color: red;
+    border: none;
+    height: 60px;
+    line-height: 30px;
+    padding: 0 20;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#hpizza:hover {
+    transform: scale(1.05);
+}
