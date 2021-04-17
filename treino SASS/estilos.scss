@@ -1,0 +1,13 @@
+//// Declarações Customizadas
+   // Cores
+   $bk: #272822;
+   $r: #c03;
+   $g: #429032;
+   $b: #8cc53e;
+   $y: #49c5bf;
+   $bg: #f4f4f4;
+
+// Media Query Mixin - Desktop-first
+@mixin paraTelasPequenas($media) {
+    @media (max-width: $media/16+em) {@content;}
+    }   

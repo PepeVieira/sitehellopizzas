@@ -166,6 +166,7 @@ label {
     font-weight: bold;
     cursor: pointer;
     border-radius: 30px;
+    display: block;
 }
 
 #hpizza:hover {
