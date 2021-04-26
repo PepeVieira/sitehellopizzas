@@ -1,0 +1,65 @@
+<settings 
+	webServiceConnector="Data/WebServiceConnector" 
+	addEncodersToXML="yes" 
+	multiPartWebServiceResult="yes"
+	dataBindingClasses="Data/DataBindingClasses.swc"
+	dataBindingClassesName="DataBindingClasses">
+	<types>
+		<!-- numbers -->
+		<mapping xmlType="decimal" flashType="Number"/>
+		<mapping xmlType="float" flashType="Number"/>
+		<mapping xmlType="double" flashType="Number"/>
+		<mapping xmlType="integer" flashType="Integer"/>
+		<mapping xmlType="nonPositiveInteger" flashType="Integer" maxValue="0"/>
+		<mapping xmlType="negativeInteger" flashType="Integer" maxValue="-1"/>
+		<mapping xmlType="long" flashType="Integer"/>
+		<mapping xmlType="int" flashType="Integer"/>
+		<mapping xmlType="short" flashType="Integer" minValue="-32768" maxValue="32767"/>
+		<mapping xmlType="byte" flashType="Integer" minValue="-128" maxValue="127"/>
+		<mapping xmlType="nonNegativeInteger" flashType="Integer" minValue="0"/>
+		<mapping xmlType="unsignedLong" flashType="Integer" minValue="0"/>
+		<mapping xmlType="unsignedInt" flashType="Integer" minValue="0"/>
+		<mapping xmlType="unsignedShort" flashType="Integer" minValue="0" maxValue="65535"/>
+		<mapping xmlType="unsignedByte" flashType="Integer" minValue="0" maxValue="255"/>
+		<mapping xmlType="positiveInteger" flashType="Integer" minValue="0"/>
+		<!-- strings -->
+		<mapping xmlType="string" flashType="String"/>
+		<!--
+		<mapping xmlType="normalizedString" flashType="String"/>
+		<mapping xmlType="token" flashType="String"/>
+		<mapping xmlType="language" flashType="String"/>
+		<mapping xmlType="NMTOKEN" flashType="String"/>
+		<mapping xmlType="NMTOKENS" flashType="String"/>
+		<mapping xmlType="Name" flashType="String"/>
+		<mapping xmlType="NCName" flashType="String"/>
+		<mapping xmlType="ID" flashType="String"/>
+		<mapping xmlType="IDREF" flashType="String"/>
+		<mapping xmlType="IDREFS" flashType="String"/>
+		<mapping xmlType="ENTITY" flashType="String"/>
+		<mapping xmlType="ENTITIES" flashType="String"/>
+		-->
+		<!-- dates -->
+		<mapping xmlType="dateTime" flashType="Date"/>
+		<!--
+		<mapping xmlType="duration" flashType="xxxxx"/>
+		<mapping xmlType="time" flashType="xxxxx"/>
+		<mapping xmlType="date" flashType="xxxxx"/>
+		<mapping xmlType="gYearMonth" flashType="xxxxx"/>
+		<mapping xmlType="gYear" flashType="xxxxx"/>
+		<mapping xmlType="gMonthDay" flashType="xxxxx"/>
+		<mapping xmlType="gDay" flashType="xxxxx"/>
+		<mapping xmlType="gMonth" flashType="xxxxx"/>
+		-->
+		<!-- other -->
+		<mapping xmlType="boolean" flashType="Boolean"/>
+		<!--
+		<mapping xmlType="hexBinary" flashType="xxxxx"/>
+		<mapping xmlType="base64Binary" flashType="xxxxx"/>
+		<mapping xmlType="anyURI" flashType="xxxxx"/>
+		<mapping xmlType="QName" flashType="xxxxx"/>
+		<mapping xmlType="NOTATION" flashType="xxxxx"/>
+		<mapping xmlType="anyType" flashType="xxxxx"/>
+		<mapping xmlType="anySimpleType" flashType="xxxxx"/>
+		-->
+	</types>
+</settings>

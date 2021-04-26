@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xul-overlay href="../../../XULControls/DateControls.xml"?>
+
+<customactions>
+	<actionspanel>
+		<folder name="ActionScript 2.0 Classes" id="ActionScript 2.0 Classes" sort="false" tiptext="Predefined classes provided by ActionScript" helpid="x20980" version="4">
+			<folder name="Core" id="Core" tiptext="Core classes of ActionScript language" helpid="x20AAC" version="5">
+				<folder name="Date" id="Date" sort="false" index="true" tiptext="Class that helps you work with dates and times" helpid="x208E9" version="5">
+					<string name="new Date" tiptext="Creates a new Date object" helpid="x21A4C" text="new Date(%%)" text2="new Date(% timeValue %)" text3="new Date(% year, month, date, hour, min, sec, ms %)" version="5"/>
+					<folder name="Methods" id="Methods" tiptext="Methods of the Date object" helpid="x20AA2" version="5">
+						<string name="getDate" tiptext="Gets day of month [local time]" helpid="x21A4D" object="Date" text=".getDate()" version="5"/>
+						<string name="getMonth" tiptext="Gets month of year (0=Jan, 1=Feb, ...) [local time]" helpid="x21A56" object="Date" text=".getMonth()" version="5"/>
+						<string name="getFullYear" tiptext="Gets full year (e.g. 2000) [local time]" helpid="x21A4F" object="Date" text=".getFullYear()" version="5"/>
+						<string name="getDay" tiptext="Gets day of week (0=Sun, 1=Mon, ...) [local time]" helpid="x21A4E" object="Date" text=".getDay()" version="5"/>
+						<string name="getHours" tiptext="Gets hour of day (0=12am, 23=11pm) [local time]" helpid="x21A50" object="Date" text=".getHours()" version="5"/>
+						<string name="getMinutes" tiptext="Gets minute of hour [local time]" helpid="x21A55" object="Date" text=".getMinutes()" version="5"/>
+						<string name="getSeconds" tiptext="Gets seconds since last minute began [local time]" helpid="x21A57" object="Date" text=".getSeconds()" version="5"/>
+						<string name="getMilliseconds" tiptext="Gets milliseconds since last second began [local time]" helpid="x21A54" object="Date" text=".getMilliseconds()" version="5"/>
+						<string name="getYear" tiptext="Gets the year minus 1900 [local time]" helpid="x21A63" object="Date" text=".getYear()" version="5"/>
+						<string name="UTC" tiptext="Returns time value for specific UTC date and time" helpid="x21A4B" object="Date" text="Date.UTC(% year, [month], [date], [hour], [min], [sec], [ms] %)" version="5">
+							<parametersdialog>
+								<block id="YEAR_FLEX"/>
+								<block id="MONTH_OPT_FLEX"/>
+								<block id="DAY_OPT_FLEX"/>
+								<block id="HOURS_OPT_FLEX"/>
+								<block id="MINUTES_OPT_FLEX"/>
+								<block id="SECONDS_OPT_FLEX"/>
+								<block id="MILLISECONDS_OPT_FLEX"/>
+							</parametersdialog>
+						</string>
+						<string name="getTimezoneOffset" tiptext="Gets offset of local time from UTC time in minutes" helpid="x21A59" object="Date" text=".getTimezoneOffset()" version="5"/>
+						<string name="getTime" tiptext="Gets milliseconds since midnight Jan 1 1970 UTC" helpid="x21A58" object="Date" text=".getTime()" version="5"/>
+						<string name="getUTCDate" tiptext="Gets day of month [UTC time]" helpid="x21A5A" object="Date" text=".getUTCDate()" version="5"/>
+						<string name="getUTCMonth" tiptext="Gets month of year (0=Jan, 1=Feb, ...) [UTC time]" helpid="x21A60" object="Date" text=".getUTCMonth()" version="5"/>
+						<string name="getUTCFullYear" tiptext="Gets the full year (e.g. 2000) [UTC time]" helpid="x21A5C" object="Date" text=".getUTCFullYear()" version="5"/>
+						<string name="getUTCDay" tiptext="Gets day of week (0=Sun, 1=Mon, ...) [UTC time]" helpid="x21A5B" object="Date" text=".getUTCDay()" version="5"/>
+						<string name="getUTCHours" tiptext="Gets hour of day (0=12am, 23=11pm) [UTC time]" helpid="x21A5D" object="Date" text=".getUTCHours()" version="5"/>
+						<string name="getUTCMinutes" tiptext="Gets minute of hour [UTC time]" helpid="x21A5F" object="Date" text=".getUTCMinutes()" version="5"/>
+						<string name="getUTCSeconds" tiptext="Gets seconds since last minute began [UTC time]" helpid="x21A61" object="Date" text=".getUTCSeconds()" version="5"/>
+						<string name="getUTCMilliseconds" tiptext="Gets milliseconds since last second began [UTC time]" helpid="x21A5E" object="Date" text=".getUTCMilliseconds()" version="5"/>
+						<string name="setTime" tiptext="Sets milliseconds since midnight Jan 1 1970 UTC" helpid="x21A6B" object="Date" text=".setTime(% value %)" version="5">
+							<parametersdialog>
+								<label id="MILLISECONDS_LABEL"/>
+								<textbox id="MILLISECONDS_TEXTBOX" size="15" prompt="since 1/1/1970"/>
+							</parametersdialog>
+						</string>
+						<string name="setHours" tiptext="Sets hour of day (0=12am, 23=11pm) [local time]" helpid="x21A66" object="Date" text=".setHours(% hours%)" version="5">
+							<parametersdialog>
+								<block id="HOURS"/>
+							</parametersdialog>
+						</string>
+						<string name="setDate" tiptext="Sets day of month [local time]" helpid="x21A64" object="Date" text=".setDate(% date %)" version="5">
+							<parametersdialog>
+								<block id="DAY"/>
+							</parametersdialog>
+						</string>
+						<string name="setMonth" tiptext="Sets month of year (0=Jan, 1=Feb, ...) [local time]" helpid="x21A69" object="Date" text=".setMonth(% month %)" version="5">
+							<parametersdialog>
+								<block id="MONTH"/>
+							</parametersdialog>
+						</string>
+						<string name="setFullYear" tiptext="Sets the full year (e.g. 2000) [local time]" helpid="x21A65" object="Date" text=".setFullYear( %year, month, date %)" version="5">
+							<parametersdialog>
+								<block id="YEAR"/>
+								<block id="MONTH_OPT"/>
+								<block id="DAY_OPT"/>
+							</parametersdialog>
+						</string>
+						<string name="setSeconds" tiptext="Sets seconds since last minute began [local time]" helpid="x21A6A" object="Date" text=".setSeconds(% seconds %)" version="5">
+							<parametersdialog>
+								<block id="SECONDS"/>
+							</parametersdialog>
+						</string>
+						<string name="setMinutes" tiptext="Sets minute of hour [local time]" helpid="x21A68" object="Date" text=".setMinutes(% minutes %)" version="5">
+							<parametersdialog>
+								<block id="MINUTES"/>
+							</parametersdialog>
+						</string>
+						<string name="setMilliseconds" tiptext="Sets milliseconds since last second started [local time]" helpid="x21A67" object="Date" text=".setMilliseconds(% ms %)" version="5">
+							<parametersdialog>
+								<label id="MILLISECONDS_LABEL"/>
+								<textbox id="MILLISECONDS_TEXTBOX" prompt="0-999"/>
+							</parametersdialog>
+						</string>
+						<string name="setYear" tiptext="Sets the year minus 1900 [local time]" helpid="x21A73" object="Date" text=".setYear(% year %)" version="5">
+							<parametersdialog>
+								<block id="YEAR"/>
+							</parametersdialog>
+						</string>
+						<string name="setUTCDate" tiptext="Sets day of month [UTC time]" helpid="x21A6C" object="Date" text=".setUTCDate(% date %)" version="5">
+							<parametersdialog>
+								<block id="DAY"/>
+							</parametersdialog>
+						</string>
+						<string name="setUTCMonth" tiptext="Sets month of year (0=Jan, 1=Feb, ...) [UTC time]" helpid="x21A71" object="Date" text=".setUTCMonth(% month, date %)" text2=".setUTCMonth(% month %)" version="5">
+							<parametersdialog>
+								<block id="MONTH"/>
+							</parametersdialog>
+						</string>
+						<string name="setUTCFullYear" tiptext="Sets full year (e.g. 2000) [UTC time]" helpid="x21A6D" object="Date" text=".setUTCFullYear(% year, month, date %)" version="5">
+							<parametersdialog>
+								<block id="YEAR"/>
+								<block id="MONTH_OPT"/>
+								<block id="DAY_OPT"/>
+							</parametersdialog>
+						</string>
+						<string name="setUTCHours" tiptext="Sets hour of day (0=12am, 23=11pm) [UTC time]" helpid="x21A6E" object="Date" text=".setUTCHours(% hours %)" version="5">
+							<parametersdialog>
+								<block id="HOURS"/>
+							</parametersdialog>
+						</string>
+						<string name="setUTCMinutes" tiptext="Sets minute of hour [UTC time]" helpid="x21A70" object="Date" text=".setUTCMinutes(% minutes %)" version="5">
+							<parametersdialog>
+								<block id="MINUTES"/>
+							</parametersdialog>
+						</string>
+						<string name="setUTCSeconds" tiptext="Sets seconds since last minute began [UTC time]" helpid="x21A72" object="Date" text=".setUTCSeconds(% seconds %)" version="5">
+							<parametersdialog>
+								<block id="SECONDS"/>
+							</parametersdialog>
+						</string>
+						<string name="setUTCMilliseconds" tiptext="Sets milliseconds since last second began [UTC time]" helpid="x21A6F" object="Date" text=".setUTCMilliseconds(% ms %)" version="5">
+							<parametersdialog>
+								<label id="MILLISECONDS_LABEL"/>
+								<textbox id="MILLISECONDS_TEXTBOX" prompt="0-999"/>
+							</parametersdialog>
+						</string>
+						<string name="toString" tiptext="Return a string representation of the date/time" helpid="x21A74" object="Date" text=".toString()" version="5"/>
+					</folder>
+				</folder>
+			</folder>
+		</folder>
+	</actionspanel>
+</customactions>

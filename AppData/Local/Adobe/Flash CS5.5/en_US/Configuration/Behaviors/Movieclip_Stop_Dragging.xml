@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+
+<!-- **************************************************************************** -->
+<!-- Copyright 2003 Macromedia, Inc. All Rights Reserved.                         -->
+<!-- The following is Sample Code and is subject to all restrictions on           -->
+<!-- such code as contained in the End User License Agreement accompanying        -->
+<!-- this product.                                                                -->
+<!-- **************************************************************************** -->
+
+<flash_behavior version="1.0">
+
+<!--Below is where and how we define the behavior and its parameters-->
+
+<behavior_definition
+	dialogID="Stop Dragging Movieclip-dialog"
+	category="Movieclip"
+	name ="Stop Dragging Movieclip"
+	class="movieclip, button">
+	<properties>
+		<property id="dummy"/>
+	</properties>
+
+<!--The dialog window is tied to the controls below by its id-->
+<!--This controls generate the dialog using the XML to UI functionality-->
+
+	<dialog id="Stop Dragging Movieclip-dialog" title="Stop Dragging Movieclip" buttons="accept, cancel">
+		<vbox>
+			<hbox>
+				<label value="This behavior will stop the dragging of any movieclip."/>
+			</hbox>
+		</vbox>  
+	</dialog>
+
+<!-- Inside the CDATA section is where you place the Actionscript to be displayed in the AS panel-->
+
+	<actionscript>
+<![CDATA[
+	//Stop Dragging Movieclip Behavior
+	stopDrag();
+	//End Behavior
+]]>
+	</actionscript>
+</behavior_definition>
+
+</flash_behavior>

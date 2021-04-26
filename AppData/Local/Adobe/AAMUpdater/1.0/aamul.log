@@ -1,0 +1,784 @@
+: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-10-22T11:16:34: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-10-22T11:16:34: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-10-22T11:16:34: <<< Adobe Updater Log End <<<
+
+
+2020-10-23T12:09:23: >>> Adobe Updater Log Begin >>>
+2020-10-23T12:09:23: Application Version: 2.0.0.22
+2020-10-23T12:09:23: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-10-23T12:09:23: cmdline option: -logLevel = 2
+2020-10-23T12:09:23: StartupUtility : Loaded at startup/logon.
+2020-10-23T12:09:23: Non-admin user on Vista.. Checking for UAC now..
+2020-10-23T12:09:23: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-10-23T12:09:23: Scheduled check window has elapsed 
+2020-10-23T12:09:23: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-10-23T12:09:23: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-10-23T12:09:23: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-10-23T12:09:23: <<< Adobe Updater Log End <<<
+
+
+2020-10-23T14:25:55: >>> Adobe Updater Log Begin >>>
+2020-10-23T14:25:55: Application Version: 2.0.0.22
+2020-10-23T14:25:55: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-10-23T14:25:55: cmdline option: -logLevel = 2
+2020-10-23T14:25:55: StartupUtility : Loaded at startup/logon.
+2020-10-23T14:25:55: Non-admin user on Vista.. Checking for UAC now..
+2020-10-23T14:25:55: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-10-23T14:25:55: Scheduled check window has not yet elapsed 
+2020-10-23T14:25:55: StartupUtility : Window is NOT Elapsed.
+2020-10-23T14:25:55: <<< Adobe Updater Log End <<<
+
+
+2020-10-26T00:12:47: >>> Adobe Updater Log Begin >>>
+2020-10-26T00:12:47: Application Version: 2.0.0.22
+2020-10-26T00:12:47: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-10-26T00:12:47: cmdline option: -logLevel = 2
+2020-10-26T00:12:47: StartupUtility : Loaded at startup/logon.
+2020-10-26T00:12:47: Non-admin user on Vista.. Checking for UAC now..
+2020-10-26T00:12:47: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-10-26T00:12:47: Scheduled check window has elapsed 
+2020-10-26T00:12:47: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-10-26T00:12:47: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-10-26T00:12:47: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-10-26T00:12:47: <<< Adobe Updater Log End <<<
+
+
+2020-10-26T13:36:58: >>> Adobe Updater Log Begin >>>
+2020-10-26T13:36:58: Application Version: 2.0.0.22
+2020-10-26T13:36:58: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-10-26T13:36:58: cmdline option: -logLevel = 2
+2020-10-26T13:36:58: StartupUtility : Loaded at startup/logon.
+2020-10-26T13:36:58: Non-admin user on Vista.. Checking for UAC now..
+2020-10-26T13:36:58: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-10-26T13:36:58: Scheduled check window has not yet elapsed 
+2020-10-26T13:36:58: StartupUtility : Window is NOT Elapsed.
+2020-10-26T13:36:58: <<< Adobe Updater Log End <<<
+
+
+2020-10-27T14:45:50: >>> Adobe Updater Log Begin >>>
+2020-10-27T14:45:50: Application Version: 2.0.0.22
+2020-10-27T14:45:50: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-10-27T14:45:50: cmdline option: -logLevel = 2
+2020-10-27T14:45:50: StartupUtility : Loaded at startup/logon.
+2020-10-27T14:45:50: Non-admin user on Vista.. Checking for UAC now..
+2020-10-27T14:45:50: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-10-27T14:45:50: Scheduled check window has not yet elapsed 
+2020-10-27T14:45:50: StartupUtility : Window is NOT Elapsed.
+2020-10-27T14:45:50: <<< Adobe Updater Log End <<<
+
+
+2020-10-28T16:42:40: >>> Adobe Updater Log Begin >>>
+2020-10-28T16:42:40: Application Version: 2.0.0.22
+2020-10-28T16:42:40: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-10-28T16:42:40: cmdline option: -logLevel = 2
+2020-10-28T16:42:40: StartupUtility : Loaded at startup/logon.
+2020-10-28T16:42:40: Non-admin user on Vista.. Checking for UAC now..
+2020-10-28T16:42:40: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-10-28T16:42:40: Scheduled check window has elapsed 
+2020-10-28T16:42:40: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-10-28T16:42:40: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-10-28T16:42:40: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-10-28T16:42:40: <<< Adobe Updater Log End <<<
+
+
+2020-10-29T11:09:48: >>> Adobe Updater Log Begin >>>
+2020-10-29T11:09:48: Application Version: 2.0.0.22
+2020-10-29T11:09:48: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-10-29T11:09:48: cmdline option: -logLevel = 2
+2020-10-29T11:09:48: StartupUtility : Loaded at startup/logon.
+2020-10-29T11:09:48: Non-admin user on Vista.. Checking for UAC now..
+2020-10-29T11:09:48: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-10-29T11:09:48: Scheduled check window has not yet elapsed 
+2020-10-29T11:09:48: StartupUtility : Window is NOT Elapsed.
+2020-10-29T11:09:48: <<< Adobe Updater Log End <<<
+
+
+2020-10-30T15:51:30: >>> Adobe Updater Log Begin >>>
+2020-10-30T15:51:30: Application Version: 2.0.0.22
+2020-10-30T15:51:30: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-10-30T15:51:30: cmdline option: -logLevel = 2
+2020-10-30T15:51:30: StartupUtility : Loaded at startup/logon.
+2020-10-30T15:51:30: Non-admin user on Vista.. Checking for UAC now..
+2020-10-30T15:51:30: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-10-30T15:51:30: Scheduled check window has not yet elapsed 
+2020-10-30T15:51:30: StartupUtility : Window is NOT Elapsed.
+2020-10-30T15:51:30: <<< Adobe Updater Log End <<<
+
+
+2020-10-31T01:37:36: >>> Adobe Updater Log Begin >>>
+2020-10-31T01:37:36: Application Version: 2.0.0.22
+2020-10-31T01:37:36: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-10-31T01:37:36: cmdline option: -logLevel = 2
+2020-10-31T01:37:36: StartupUtility : Loaded at startup/logon.
+2020-10-31T01:37:36: Non-admin user on Vista.. Checking for UAC now..
+2020-10-31T01:37:36: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-10-31T01:37:36: Scheduled check window has elapsed 
+2020-10-31T01:37:36: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-10-31T01:37:36: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-10-31T01:37:36: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-10-31T01:37:36: <<< Adobe Updater Log End <<<
+
+
+2020-10-31T01:53:14: >>> Adobe Updater Log Begin >>>
+2020-10-31T01:53:14: Application Version: 2.0.0.22
+2020-10-31T01:53:14: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-10-31T01:53:14: cmdline option: -logLevel = 2
+2020-10-31T01:53:14: StartupUtility : Loaded at startup/logon.
+2020-10-31T01:53:14: Non-admin user on Vista.. Checking for UAC now..
+2020-10-31T01:53:14: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-10-31T01:53:14: Scheduled check window has not yet elapsed 
+2020-10-31T01:53:14: StartupUtility : Window is NOT Elapsed.
+2020-10-31T01:53:14: <<< Adobe Updater Log End <<<
+
+
+2020-11-01T02:58:12: >>> Adobe Updater Log Begin >>>
+2020-11-01T02:58:12: Application Version: 2.0.0.22
+2020-11-01T02:58:12: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-01T02:58:12: cmdline option: -logLevel = 2
+2020-11-01T02:58:12: StartupUtility : Loaded at startup/logon.
+2020-11-01T02:58:12: Non-admin user on Vista.. Checking for UAC now..
+2020-11-01T02:58:12: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-01T02:58:12: Scheduled check window has elapsed 
+2020-11-01T02:58:12: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-11-01T02:58:12: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-11-01T02:58:12: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-11-01T02:58:12: <<< Adobe Updater Log End <<<
+
+
+2020-11-02T16:40:41: >>> Adobe Updater Log Begin >>>
+2020-11-02T16:40:41: Application Version: 2.0.0.22
+2020-11-02T16:40:41: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-02T16:40:41: cmdline option: -logLevel = 2
+2020-11-02T16:40:41: StartupUtility : Loaded at startup/logon.
+2020-11-02T16:40:41: Non-admin user on Vista.. Checking for UAC now..
+2020-11-02T16:40:41: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-02T16:40:41: Scheduled check window has elapsed 
+2020-11-02T16:40:41: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-11-02T16:40:41: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-11-02T16:40:41: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-11-02T16:40:41: <<< Adobe Updater Log End <<<
+
+
+2020-11-03T11:10:19: >>> Adobe Updater Log Begin >>>
+2020-11-03T11:10:19: Application Version: 2.0.0.22
+2020-11-03T11:10:19: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-03T11:10:19: cmdline option: -logLevel = 2
+2020-11-03T11:10:19: StartupUtility : Loaded at startup/logon.
+2020-11-03T11:10:19: Non-admin user on Vista.. Checking for UAC now..
+2020-11-03T11:10:19: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-03T11:10:19: Scheduled check window has elapsed 
+2020-11-03T11:10:19: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-11-03T11:10:19: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-11-03T11:10:19: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-11-03T11:10:19: <<< Adobe Updater Log End <<<
+
+
+2020-11-04T10:56:50: >>> Adobe Updater Log Begin >>>
+2020-11-04T10:56:50: Application Version: 2.0.0.22
+2020-11-04T10:56:50: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-04T10:56:50: cmdline option: -logLevel = 2
+2020-11-04T10:56:50: StartupUtility : Loaded at startup/logon.
+2020-11-04T10:56:50: Non-admin user on Vista.. Checking for UAC now..
+2020-11-04T10:56:50: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-04T10:56:50: Scheduled check window has not yet elapsed 
+2020-11-04T10:56:50: StartupUtility : Window is NOT Elapsed.
+2020-11-04T10:56:50: <<< Adobe Updater Log End <<<
+
+
+2020-11-04T11:06:51: >>> Adobe Updater Log Begin >>>
+2020-11-04T11:06:51: Application Version: 2.0.0.22
+2020-11-04T11:06:51: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-04T11:06:51: cmdline option: -logLevel = 2
+2020-11-04T11:06:51: StartupUtility : Loaded in scheduled mode.
+2020-11-04T11:06:51: Non-admin user on Vista.. Checking for UAC now..
+2020-11-04T11:06:51: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-04T11:06:51: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-11-04T11:06:51: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-11-04T11:06:51: <<< Adobe Updater Log End <<<
+
+
+2020-11-05T10:21:13: >>> Adobe Updater Log Begin >>>
+2020-11-05T10:21:13: Application Version: 2.0.0.22
+2020-11-05T10:21:13: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-05T10:21:13: cmdline option: -logLevel = 2
+2020-11-05T10:21:13: StartupUtility : Loaded at startup/logon.
+2020-11-05T10:21:13: Non-admin user on Vista.. Checking for UAC now..
+2020-11-05T10:21:13: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-05T10:21:13: Scheduled check window has not yet elapsed 
+2020-11-05T10:21:13: StartupUtility : Window is NOT Elapsed.
+2020-11-05T10:21:13: <<< Adobe Updater Log End <<<
+
+
+2020-11-05T10:31:10: >>> Adobe Updater Log Begin >>>
+2020-11-05T10:31:10: Application Version: 2.0.0.22
+2020-11-05T10:31:10: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-05T10:31:10: cmdline option: -logLevel = 2
+2020-11-05T10:31:10: StartupUtility : Loaded in scheduled mode.
+2020-11-05T10:31:10: Non-admin user on Vista.. Checking for UAC now..
+2020-11-05T10:31:10: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-05T10:31:10: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-11-05T10:31:10: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-11-05T10:31:10: <<< Adobe Updater Log End <<<
+
+
+2020-11-09T18:40:51: >>> Adobe Updater Log Begin >>>
+2020-11-09T18:40:51: Application Version: 2.0.0.22
+2020-11-09T18:40:51: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-09T18:40:51: cmdline option: -logLevel = 2
+2020-11-09T18:40:51: StartupUtility : Loaded at startup/logon.
+2020-11-09T18:40:51: Non-admin user on Vista.. Checking for UAC now..
+2020-11-09T18:40:51: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-09T18:40:51: Scheduled check window has elapsed 
+2020-11-09T18:40:51: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-11-09T18:40:51: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-11-09T18:40:51: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-11-09T18:40:51: <<< Adobe Updater Log End <<<
+
+
+2020-11-10T15:30:44: >>> Adobe Updater Log Begin >>>
+2020-11-10T15:30:44: Application Version: 2.0.0.22
+2020-11-10T15:30:44: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-10T15:30:44: cmdline option: -logLevel = 2
+2020-11-10T15:30:44: StartupUtility : Loaded at startup/logon.
+2020-11-10T15:30:44: Non-admin user on Vista.. Checking for UAC now..
+2020-11-10T15:30:44: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-10T15:30:44: Scheduled check window has elapsed 
+2020-11-10T15:30:44: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-11-10T15:30:44: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-11-10T15:30:44: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-11-10T15:30:44: <<< Adobe Updater Log End <<<
+
+
+2020-11-10T16:29:27: >>> Adobe Updater Log Begin >>>
+2020-11-10T16:29:27: Application Version: 2.0.0.22
+2020-11-10T16:29:27: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-10T16:29:27: cmdline option: -logLevel = 2
+2020-11-10T16:29:27: StartupUtility : Loaded at startup/logon.
+2020-11-10T16:29:27: Non-admin user on Vista.. Checking for UAC now..
+2020-11-10T16:29:27: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-10T16:29:27: Scheduled check window has not yet elapsed 
+2020-11-10T16:29:27: StartupUtility : Window is NOT Elapsed.
+2020-11-10T16:29:27: <<< Adobe Updater Log End <<<
+
+
+2020-11-12T14:10:07: >>> Adobe Updater Log Begin >>>
+2020-11-12T14:10:07: Application Version: 2.0.0.22
+2020-11-12T14:10:07: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-12T14:10:07: cmdline option: -logLevel = 2
+2020-11-12T14:10:07: StartupUtility : Loaded at startup/logon.
+2020-11-12T14:10:07: Non-admin user on Vista.. Checking for UAC now..
+2020-11-12T14:10:07: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-12T14:10:07: Scheduled check window has elapsed 
+2020-11-12T14:10:07: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-11-12T14:10:07: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-11-12T14:10:07: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-11-12T14:10:07: <<< Adobe Updater Log End <<<
+
+
+2020-11-13T04:00:00: >>> Adobe Updater Log Begin >>>
+2020-11-13T04:00:00: Application Version: 2.0.0.22
+2020-11-13T04:00:00: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-13T04:00:00: cmdline option: -logLevel = 2
+2020-11-13T04:00:00: StartupUtility : Loaded in scheduled mode.
+2020-11-13T04:00:00: Non-admin user on Vista.. Checking for UAC now..
+2020-11-13T04:00:00: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-13T04:00:00: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-11-13T04:00:00: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-11-13T04:00:00: <<< Adobe Updater Log End <<<
+
+
+2020-11-16T01:18:32: >>> Adobe Updater Log Begin >>>
+2020-11-16T01:18:32: Application Version: 2.0.0.22
+2020-11-16T01:18:32: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-16T01:18:32: cmdline option: -logLevel = 2
+2020-11-16T01:18:32: StartupUtility : Loaded at startup/logon.
+2020-11-16T01:18:32: Non-admin user on Vista.. Checking for UAC now..
+2020-11-16T01:18:32: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-16T01:18:32: Scheduled check window has elapsed 
+2020-11-16T01:18:32: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-11-16T01:18:32: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-11-16T01:18:32: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-11-16T01:18:33: <<< Adobe Updater Log End <<<
+
+
+2020-11-25T01:22:37: >>> Adobe Updater Log Begin >>>
+2020-11-25T01:22:37: Application Version: 2.0.0.22
+2020-11-25T01:22:37: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-25T01:22:37: cmdline option: -logLevel = 2
+2020-11-25T01:22:37: StartupUtility : Loaded at startup/logon.
+2020-11-25T01:22:37: Non-admin user on Vista.. Checking for UAC now..
+2020-11-25T01:22:37: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-25T01:22:37: Scheduled check window has elapsed 
+2020-11-25T01:22:37: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-11-25T01:22:37: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-11-25T01:22:37: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-11-25T01:22:38: <<< Adobe Updater Log End <<<
+
+
+2020-11-25T12:34:01: >>> Adobe Updater Log Begin >>>
+2020-11-25T12:34:01: Application Version: 2.0.0.22
+2020-11-25T12:34:01: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-11-25T12:34:01: cmdline option: -logLevel = 2
+2020-11-25T12:34:01: StartupUtility : Loaded at startup/logon.
+2020-11-25T12:34:01: Non-admin user on Vista.. Checking for UAC now..
+2020-11-25T12:34:01: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-11-25T12:34:01: Scheduled check window has not yet elapsed 
+2020-11-25T12:34:01: StartupUtility : Window is NOT Elapsed.
+2020-11-25T12:34:01: <<< Adobe Updater Log End <<<
+
+
+2020-12-01T15:32:53: >>> Adobe Updater Log Begin >>>
+2020-12-01T15:32:53: Application Version: 2.0.0.22
+2020-12-01T15:32:53: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-01T15:32:53: cmdline option: -logLevel = 2
+2020-12-01T15:32:53: StartupUtility : Loaded at startup/logon.
+2020-12-01T15:32:53: Non-admin user on Vista.. Checking for UAC now..
+2020-12-01T15:32:53: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-01T15:32:53: Scheduled check window has elapsed 
+2020-12-01T15:32:53: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-12-01T15:32:53: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-12-01T15:32:53: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-12-01T15:32:53: <<< Adobe Updater Log End <<<
+
+
+2020-12-01T15:42:45: >>> Adobe Updater Log Begin >>>
+2020-12-01T15:42:45: Application Version: 2.0.0.22
+2020-12-01T15:42:45: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-01T15:42:45: cmdline option: -logLevel = 2
+2020-12-01T15:42:45: StartupUtility : Loaded in scheduled mode.
+2020-12-01T15:42:45: Non-admin user on Vista.. Checking for UAC now..
+2020-12-01T15:42:45: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-01T15:42:45: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-12-01T15:42:45: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-12-01T15:42:45: <<< Adobe Updater Log End <<<
+
+
+2020-12-02T19:56:20: >>> Adobe Updater Log Begin >>>
+2020-12-02T19:56:20: Application Version: 2.0.0.22
+2020-12-02T19:56:20: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-02T19:56:20: cmdline option: -logLevel = 2
+2020-12-02T19:56:20: StartupUtility : Loaded at startup/logon.
+2020-12-02T19:56:20: Non-admin user on Vista.. Checking for UAC now..
+2020-12-02T19:56:20: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-02T19:56:20: Scheduled check window has elapsed 
+2020-12-02T19:56:20: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-12-02T19:56:20: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-12-02T19:56:20: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-12-02T19:56:20: <<< Adobe Updater Log End <<<
+
+
+2020-12-04T01:12:45: >>> Adobe Updater Log Begin >>>
+2020-12-04T01:12:45: Application Version: 2.0.0.22
+2020-12-04T01:12:45: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-04T01:12:45: cmdline option: -logLevel = 2
+2020-12-04T01:12:45: StartupUtility : Loaded at startup/logon.
+2020-12-04T01:12:45: Non-admin user on Vista.. Checking for UAC now..
+2020-12-04T01:12:45: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-04T01:12:45: Scheduled check window has elapsed 
+2020-12-04T01:12:45: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-12-04T01:12:45: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-12-04T01:12:45: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-12-04T01:12:45: <<< Adobe Updater Log End <<<
+
+
+2020-12-04T01:24:02: >>> Adobe Updater Log Begin >>>
+2020-12-04T01:24:02: Application Version: 2.0.0.22
+2020-12-04T01:24:02: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-04T01:24:02: cmdline option: -logLevel = 2
+2020-12-04T01:24:02: StartupUtility : Loaded in scheduled mode.
+2020-12-04T01:24:02: Non-admin user on Vista.. Checking for UAC now..
+2020-12-04T01:24:02: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-04T01:24:02: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-12-04T01:24:02: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-12-04T01:24:02: <<< Adobe Updater Log End <<<
+
+
+2020-12-04T17:43:14: >>> Adobe Updater Log Begin >>>
+2020-12-04T17:43:14: Application Version: 2.0.0.22
+2020-12-04T17:43:14: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-04T17:43:14: cmdline option: -logLevel = 2
+2020-12-04T17:43:14: StartupUtility : Loaded at startup/logon.
+2020-12-04T17:43:14: Non-admin user on Vista.. Checking for UAC now..
+2020-12-04T17:43:14: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-04T17:43:14: Scheduled check window has not yet elapsed 
+2020-12-04T17:43:14: StartupUtility : Window is NOT Elapsed.
+2020-12-04T17:43:14: <<< Adobe Updater Log End <<<
+
+
+2020-12-07T14:51:12: >>> Adobe Updater Log Begin >>>
+2020-12-07T14:51:12: Application Version: 2.0.0.22
+2020-12-07T14:51:12: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-07T14:51:12: cmdline option: -logLevel = 2
+2020-12-07T14:51:12: StartupUtility : Loaded at startup/logon.
+2020-12-07T14:51:12: Non-admin user on Vista.. Checking for UAC now..
+2020-12-07T14:51:12: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-07T14:51:12: Scheduled check window has elapsed 
+2020-12-07T14:51:12: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-12-07T14:51:12: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-12-07T14:51:12: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-12-07T14:51:13: <<< Adobe Updater Log End <<<
+
+
+2020-12-07T15:01:51: >>> Adobe Updater Log Begin >>>
+2020-12-07T15:01:51: Application Version: 2.0.0.22
+2020-12-07T15:01:51: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-07T15:01:51: cmdline option: -logLevel = 2
+2020-12-07T15:01:51: StartupUtility : Loaded in scheduled mode.
+2020-12-07T15:01:51: Non-admin user on Vista.. Checking for UAC now..
+2020-12-07T15:01:51: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-07T15:01:51: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-12-07T15:01:51: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-12-07T15:01:51: <<< Adobe Updater Log End <<<
+
+
+2020-12-11T01:54:34: >>> Adobe Updater Log Begin >>>
+2020-12-11T01:54:34: Application Version: 2.0.0.22
+2020-12-11T01:54:34: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-11T01:54:34: cmdline option: -logLevel = 2
+2020-12-11T01:54:34: StartupUtility : Loaded at startup/logon.
+2020-12-11T01:54:34: Non-admin user on Vista.. Checking for UAC now..
+2020-12-11T01:54:34: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-11T01:54:34: Scheduled check window has elapsed 
+2020-12-11T01:54:34: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-12-11T01:54:34: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-12-11T01:54:34: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-12-11T01:54:36: <<< Adobe Updater Log End <<<
+
+
+2020-12-11T02:09:39: >>> Adobe Updater Log Begin >>>
+2020-12-11T02:09:39: Application Version: 2.0.0.22
+2020-12-11T02:09:39: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-11T02:09:39: cmdline option: -logLevel = 2
+2020-12-11T02:09:39: StartupUtility : Loaded in scheduled mode.
+2020-12-11T02:09:39: Non-admin user on Vista.. Checking for UAC now..
+2020-12-11T02:09:39: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-11T02:09:39: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-12-11T02:09:39: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-12-11T02:09:39: <<< Adobe Updater Log End <<<
+
+
+2020-12-11T13:19:12: >>> Adobe Updater Log Begin >>>
+2020-12-11T13:19:12: Application Version: 2.0.0.22
+2020-12-11T13:19:12: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-11T13:19:12: cmdline option: -logLevel = 2
+2020-12-11T13:19:12: StartupUtility : Loaded at startup/logon.
+2020-12-11T13:19:12: Non-admin user on Vista.. Checking for UAC now..
+2020-12-11T13:19:12: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-11T13:19:12: Scheduled check window has not yet elapsed 
+2020-12-11T13:19:12: StartupUtility : Window is NOT Elapsed.
+2020-12-11T13:19:12: <<< Adobe Updater Log End <<<
+
+
+2020-12-11T17:24:31: >>> Adobe Updater Log Begin >>>
+2020-12-11T17:24:31: Application Version: 2.0.0.22
+2020-12-11T17:24:31: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-11T17:24:31: cmdline option: -logLevel = 2
+2020-12-11T17:24:31: StartupUtility : Loaded at startup/logon.
+2020-12-11T17:24:31: Non-admin user on Vista.. Checking for UAC now..
+2020-12-11T17:24:31: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-11T17:24:31: Scheduled check window has not yet elapsed 
+2020-12-11T17:24:31: StartupUtility : Window is NOT Elapsed.
+2020-12-11T17:24:31: <<< Adobe Updater Log End <<<
+
+
+2020-12-12T11:56:34: >>> Adobe Updater Log Begin >>>
+2020-12-12T11:56:34: Application Version: 2.0.0.22
+2020-12-12T11:56:34: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-12T11:56:34: cmdline option: -logLevel = 2
+2020-12-12T11:56:34: StartupUtility : Loaded at startup/logon.
+2020-12-12T11:56:34: Non-admin user on Vista.. Checking for UAC now..
+2020-12-12T11:56:34: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-12T11:56:34: Scheduled check window has elapsed 
+2020-12-12T11:56:34: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-12-12T11:56:34: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-12-12T11:56:34: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-12-12T11:56:34: <<< Adobe Updater Log End <<<
+
+
+2020-12-13T14:22:39: >>> Adobe Updater Log Begin >>>
+2020-12-13T14:22:39: Application Version: 2.0.0.22
+2020-12-13T14:22:39: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-13T14:22:39: cmdline option: -logLevel = 2
+2020-12-13T14:22:39: StartupUtility : Loaded at startup/logon.
+2020-12-13T14:22:39: Non-admin user on Vista.. Checking for UAC now..
+2020-12-13T14:22:39: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-13T14:22:39: Scheduled check window has elapsed 
+2020-12-13T14:22:39: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-12-13T14:22:39: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-12-13T14:22:39: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-12-13T14:22:39: <<< Adobe Updater Log End <<<
+
+
+2020-12-18T02:05:53: >>> Adobe Updater Log Begin >>>
+2020-12-18T02:05:53: Application Version: 2.0.0.22
+2020-12-18T02:05:53: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2020-12-18T02:05:53: cmdline option: -logLevel = 2
+2020-12-18T02:05:53: StartupUtility : Loaded at startup/logon.
+2020-12-18T02:05:53: Non-admin user on Vista.. Checking for UAC now..
+2020-12-18T02:05:53: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2020-12-18T02:05:53: Scheduled check window has elapsed 
+2020-12-18T02:05:53: StartupUtility : Window is Elapsed and going to launch PDApp.
+2020-12-18T02:05:53: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-12-18T02:05:53: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2020-12-18T02:05:53: <<< Adobe Updater Log End <<<
+
+
+2021-01-04T18:08:12: >>> Adobe Updater Log Begin >>>
+2021-01-04T18:08:12: Application Version: 2.0.0.22
+2021-01-04T18:08:12: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-01-04T18:08:12: cmdline option: -logLevel = 2
+2021-01-04T18:08:12: StartupUtility : Loaded at startup/logon.
+2021-01-04T18:08:12: Non-admin user on Vista.. Checking for UAC now..
+2021-01-04T18:08:12: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-01-04T18:08:12: Scheduled check window has elapsed 
+2021-01-04T18:08:12: StartupUtility : Window is Elapsed and going to launch PDApp.
+2021-01-04T18:08:12: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-01-04T18:08:12: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-01-04T18:08:15: <<< Adobe Updater Log End <<<
+
+
+2021-01-22T02:37:24: >>> Adobe Updater Log Begin >>>
+2021-01-22T02:37:24: Application Version: 2.0.0.22
+2021-01-22T02:37:24: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-01-22T02:37:24: cmdline option: -logLevel = 2
+2021-01-22T02:37:24: StartupUtility : Loaded at startup/logon.
+2021-01-22T02:37:24: Non-admin user on Vista.. Checking for UAC now..
+2021-01-22T02:37:24: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-01-22T02:37:24: Scheduled check window has elapsed 
+2021-01-22T02:37:24: StartupUtility : Window is Elapsed and going to launch PDApp.
+2021-01-22T02:37:24: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-01-22T02:37:24: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-01-22T02:37:24: <<< Adobe Updater Log End <<<
+
+
+2021-01-22T02:50:01: >>> Adobe Updater Log Begin >>>
+2021-01-22T02:50:01: Application Version: 2.0.0.22
+2021-01-22T02:50:02: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-01-22T02:50:02: cmdline option: -logLevel = 2
+2021-01-22T02:50:02: StartupUtility : Loaded in scheduled mode.
+2021-01-22T02:50:02: Non-admin user on Vista.. Checking for UAC now..
+2021-01-22T02:50:02: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-01-22T02:50:02: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-01-22T02:50:02: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-01-22T02:50:02: <<< Adobe Updater Log End <<<
+
+
+2021-02-22T20:19:20: >>> Adobe Updater Log Begin >>>
+2021-02-22T20:19:20: Application Version: 2.0.0.22
+2021-02-22T20:19:20: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-02-22T20:19:20: cmdline option: -logLevel = 2
+2021-02-22T20:19:20: StartupUtility : Loaded at startup/logon.
+2021-02-22T20:19:20: Non-admin user on Vista.. Checking for UAC now..
+2021-02-22T20:19:20: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-02-22T20:19:20: Scheduled check window has elapsed 
+2021-02-22T20:19:20: StartupUtility : Window is Elapsed and going to launch PDApp.
+2021-02-22T20:19:20: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-02-22T20:19:20: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-02-22T20:19:20: <<< Adobe Updater Log End <<<
+
+
+2021-02-25T16:46:04: >>> Adobe Updater Log Begin >>>
+2021-02-25T16:46:04: Application Version: 2.0.0.22
+2021-02-25T16:46:04: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-02-25T16:46:04: cmdline option: -logLevel = 2
+2021-02-25T16:46:04: StartupUtility : Loaded at startup/logon.
+2021-02-25T16:46:04: Non-admin user on Vista.. Checking for UAC now..
+2021-02-25T16:46:04: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-02-25T16:46:04: Scheduled check window has elapsed 
+2021-02-25T16:46:04: StartupUtility : Window is Elapsed and going to launch PDApp.
+2021-02-25T16:46:04: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-02-25T16:46:04: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-02-25T16:46:04: <<< Adobe Updater Log End <<<
+
+
+2021-02-25T16:56:03: >>> Adobe Updater Log Begin >>>
+2021-02-25T16:56:03: Application Version: 2.0.0.22
+2021-02-25T16:56:03: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-02-25T16:56:03: cmdline option: -logLevel = 2
+2021-02-25T16:56:03: StartupUtility : Loaded in scheduled mode.
+2021-02-25T16:56:03: Non-admin user on Vista.. Checking for UAC now..
+2021-02-25T16:56:03: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-02-25T16:56:03: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-02-25T16:56:03: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-02-25T16:56:03: <<< Adobe Updater Log End <<<
+
+
+2021-02-26T01:58:29: >>> Adobe Updater Log Begin >>>
+2021-02-26T01:58:29: Application Version: 2.0.0.22
+2021-02-26T01:58:29: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-02-26T01:58:29: cmdline option: -logLevel = 2
+2021-02-26T01:58:29: StartupUtility : Loaded at startup/logon.
+2021-02-26T01:58:29: Non-admin user on Vista.. Checking for UAC now..
+2021-02-26T01:58:29: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-02-26T01:58:29: Scheduled check window has not yet elapsed 
+2021-02-26T01:58:29: StartupUtility : Window is NOT Elapsed.
+2021-02-26T01:58:29: <<< Adobe Updater Log End <<<
+
+
+2021-02-26T05:00:00: >>> Adobe Updater Log Begin >>>
+2021-02-26T05:00:00: Application Version: 2.0.0.22
+2021-02-26T05:00:00: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-02-26T05:00:00: cmdline option: -logLevel = 2
+2021-02-26T05:00:00: StartupUtility : Loaded in scheduled mode.
+2021-02-26T05:00:00: Non-admin user on Vista.. Checking for UAC now..
+2021-02-26T05:00:00: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-02-26T05:00:00: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-02-26T05:00:00: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-02-26T05:00:00: <<< Adobe Updater Log End <<<
+
+
+2021-02-26T14:23:08: >>> Adobe Updater Log Begin >>>
+2021-02-26T14:23:08: Application Version: 2.0.0.22
+2021-02-26T14:23:08: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-02-26T14:23:08: cmdline option: -logLevel = 2
+2021-02-26T14:23:08: StartupUtility : Loaded at startup/logon.
+2021-02-26T14:23:08: Non-admin user on Vista.. Checking for UAC now..
+2021-02-26T14:23:08: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-02-26T14:23:08: Scheduled check window has not yet elapsed 
+2021-02-26T14:23:08: StartupUtility : Window is NOT Elapsed.
+2021-02-26T14:23:08: <<< Adobe Updater Log End <<<
+
+
+2021-02-26T23:48:59: >>> Adobe Updater Log Begin >>>
+2021-02-26T23:48:59: Application Version: 2.0.0.22
+2021-02-26T23:48:59: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-02-26T23:48:59: cmdline option: -logLevel = 2
+2021-02-26T23:48:59: StartupUtility : Loaded at startup/logon.
+2021-02-26T23:48:59: Non-admin user on Vista.. Checking for UAC now..
+2021-02-26T23:48:59: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-02-26T23:48:59: Scheduled check window has not yet elapsed 
+2021-02-26T23:48:59: StartupUtility : Window is NOT Elapsed.
+2021-02-26T23:48:59: <<< Adobe Updater Log End <<<
+
+
+2021-03-04T00:56:16: >>> Adobe Updater Log Begin >>>
+2021-03-04T00:56:16: Application Version: 2.0.0.22
+2021-03-04T00:56:16: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-03-04T00:56:16: cmdline option: -logLevel = 2
+2021-03-04T00:56:16: StartupUtility : Loaded at startup/logon.
+2021-03-04T00:56:16: Non-admin user on Vista.. Checking for UAC now..
+2021-03-04T00:56:16: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-03-04T00:56:16: Scheduled check window has elapsed 
+2021-03-04T00:56:16: StartupUtility : Window is Elapsed and going to launch PDApp.
+2021-03-04T00:56:16: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-03-04T00:56:16: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-03-04T00:56:16: <<< Adobe Updater Log End <<<
+
+
+2021-03-08T14:53:04: >>> Adobe Updater Log Begin >>>
+2021-03-08T14:53:04: Application Version: 2.0.0.22
+2021-03-08T14:53:04: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-03-08T14:53:04: cmdline option: -logLevel = 2
+2021-03-08T14:53:04: StartupUtility : Loaded at startup/logon.
+2021-03-08T14:53:04: Non-admin user on Vista.. Checking for UAC now..
+2021-03-08T14:53:04: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-03-08T14:53:04: Scheduled check window has elapsed 
+2021-03-08T14:53:04: StartupUtility : Window is Elapsed and going to launch PDApp.
+2021-03-08T14:53:04: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-03-08T14:53:04: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-03-08T14:53:04: <<< Adobe Updater Log End <<<
+
+
+2021-03-08T15:20:13: >>> Adobe Updater Log Begin >>>
+2021-03-08T15:20:13: Application Version: 2.0.0.22
+2021-03-08T15:20:13: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-03-08T15:20:13: cmdline option: -logLevel = 2
+2021-03-08T15:20:13: StartupUtility : Loaded at startup/logon.
+2021-03-08T15:20:13: Non-admin user on Vista.. Checking for UAC now..
+2021-03-08T15:20:13: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-03-08T15:20:13: Scheduled check window has not yet elapsed 
+2021-03-08T15:20:13: StartupUtility : Window is NOT Elapsed.
+2021-03-08T15:20:13: <<< Adobe Updater Log End <<<
+
+
+2021-04-04T22:42:22: >>> Adobe Updater Log Begin >>>
+2021-04-04T22:42:22: Application Version: 2.0.0.22
+2021-04-04T22:42:22: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-04-04T22:42:22: cmdline option: -logLevel = 2
+2021-04-04T22:42:22: StartupUtility : Loaded at startup/logon.
+2021-04-04T22:42:22: Non-admin user on Vista.. Checking for UAC now..
+2021-04-04T22:42:22: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-04-04T22:42:22: Scheduled check window has elapsed 
+2021-04-04T22:42:22: StartupUtility : Window is Elapsed and going to launch PDApp.
+2021-04-04T22:42:22: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-04-04T22:42:22: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-04-04T22:42:22: <<< Adobe Updater Log End <<<
+
+
+2021-04-22T11:45:36: >>> Adobe Updater Log Begin >>>
+2021-04-22T11:45:36: Application Version: 2.0.0.22
+2021-04-22T11:45:36: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-04-22T11:45:36: cmdline option: -logLevel = 2
+2021-04-22T11:45:36: StartupUtility : Loaded at startup/logon.
+2021-04-22T11:45:36: Non-admin user on Vista.. Checking for UAC now..
+2021-04-22T11:45:36: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-04-22T11:45:36: Scheduled check window has elapsed 
+2021-04-22T11:45:36: StartupUtility : Window is Elapsed and going to launch PDApp.
+2021-04-22T11:45:36: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-04-22T11:45:36: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-04-22T11:45:36: <<< Adobe Updater Log End <<<
+
+
+2021-04-22T19:11:21: >>> Adobe Updater Log Begin >>>
+2021-04-22T19:11:21: Application Version: 2.0.0.22
+2021-04-22T19:11:21: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-04-22T19:11:21: cmdline option: -logLevel = 2
+2021-04-22T19:11:21: StartupUtility : Loaded at startup/logon.
+2021-04-22T19:11:21: Non-admin user on Vista.. Checking for UAC now..
+2021-04-22T19:11:21: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-04-22T19:11:21: Scheduled check window has not yet elapsed 
+2021-04-22T19:11:21: StartupUtility : Window is NOT Elapsed.
+2021-04-22T19:11:21: <<< Adobe Updater Log End <<<
+
+
+2021-04-22T19:27:03: >>> Adobe Updater Log Begin >>>
+2021-04-22T19:27:03: Application Version: 2.0.0.22
+2021-04-22T19:27:03: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-04-22T19:27:03: cmdline option: -logLevel = 2
+2021-04-22T19:27:03: StartupUtility : Loaded in scheduled mode.
+2021-04-22T19:27:03: Non-admin user on Vista.. Checking for UAC now..
+2021-04-22T19:27:03: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-04-22T19:27:03: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-04-22T19:27:03: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-04-22T19:27:03: <<< Adobe Updater Log End <<<
+
+
+2021-04-23T11:22:37: >>> Adobe Updater Log Begin >>>
+2021-04-23T11:22:37: Application Version: 2.0.0.22
+2021-04-23T11:22:37: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-04-23T11:22:37: cmdline option: -logLevel = 2
+2021-04-23T11:22:37: StartupUtility : Loaded at startup/logon.
+2021-04-23T11:22:37: Non-admin user on Vista.. Checking for UAC now..
+2021-04-23T11:22:37: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-04-23T11:22:37: Scheduled check window has not yet elapsed 
+2021-04-23T11:22:37: StartupUtility : Window is NOT Elapsed.
+2021-04-23T11:22:37: <<< Adobe Updater Log End <<<
+
+
+2021-04-23T11:33:28: >>> Adobe Updater Log Begin >>>
+2021-04-23T11:33:28: Application Version: 2.0.0.22
+2021-04-23T11:33:28: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-04-23T11:33:28: cmdline option: -logLevel = 2
+2021-04-23T11:33:28: StartupUtility : Loaded in scheduled mode.
+2021-04-23T11:33:28: Non-admin user on Vista.. Checking for UAC now..
+2021-04-23T11:33:28: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-04-23T11:33:28: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-04-23T11:33:28: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-04-23T11:33:28: <<< Adobe Updater Log End <<<
+
+
+2021-04-25T20:24:27: >>> Adobe Updater Log Begin >>>
+2021-04-25T20:24:27: Application Version: 2.0.0.22
+2021-04-25T20:24:27: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log
+2021-04-25T20:24:27: cmdline option: -logLevel = 2
+2021-04-25T20:24:27: StartupUtility : Loaded at startup/logon.
+2021-04-25T20:24:27: Non-admin user on Vista.. Checking for UAC now..
+2021-04-25T20:24:27: UCIsUpdaterEnabled : UpdaterIsEnabled.
+2021-04-25T20:24:27: Scheduled check window has elapsed 
+2021-04-25T20:24:27: StartupUtility : Window is Elapsed and going to launch PDApp.
+2021-04-25T20:24:27: StartupUtility: Calling LaunchExecutable for exe  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2021-04-25T20:24:27: App launched is (UTF8)=> = "C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe"
+2021-04-25T20:24:27: <<< Adobe Updater Log End <<<
+
+

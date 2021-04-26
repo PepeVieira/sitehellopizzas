@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flash_datatype version="1.0">
+	<datatype_definition name ="SocialSecurity">
+		<properties>
+			<!-- standard properties that all datatypes have. These can be edited
+			in the Inspector's Schema tab. -->			
+			<property id="category" default=""/>		
+			<property id="base" default="string"/>		
+			<property id="formatter" default=""/>			
+			<property id="defaultValue" default=""/>			
+			<property id="defaultLabel" default=""/>
+			<property id="defaultUIControl" default=""/>
+
+			<!-- properties that are specific to this datatype. These can be edited
+			in the "Validation Settings" dialog, below. -->			
+		</properties>
+
+		<actionscript class="mx.data.types.SocialSecurity" />
+	</datatype_definition>
+</flash_datatype>

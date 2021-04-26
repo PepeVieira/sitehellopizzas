@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<customactions>
+	<actionspanel>
+		<folder name="Components" id="V2 Components" index="true" tiptext="Flash V2 Components" helpid="" version="6">
+			<folder name="FLVPlayback" id="[mx.video.FLVPlayback]" index="true" tiptext="Use FLVPlayback to play FLV files" helpid="x22819" version="8">
+				<folder name="Static Properties" id="Static Properties" tiptext="FLVPlayback static properties" version="8">
+					<string name="ACTIONSCRIPT" tiptext="Use with findCuePoint() to search actionscript cue points" helpid="x22822" text="mx.video.FLVPlayback.ACTIONSCRIPT" codehint="false" version="8"/>
+					<string name="ALL" tiptext="Use with findCuePoint() to search all cue points" helpid="x22823" text="mx.video.FLVPlayback.ALL" codehint="false" version="8"/>
+					<string name="BUFFERING" tiptext="Buffering state property value" helpid="x2281B" text="mx.video.FLVPlayback.BUFFERING" codehint="false" version="8"/>
+					<string name="CONNECTION_ERROR" tiptext="Connection error state property value" helpid="x22827" text="mx.video.FLVPlayback.CONNECTION_ERROR" codehint="false" version="8"/>
+					<string name="DISCONNECTED" tiptext="Disconnected state property value" helpid="x22828" text="mx.video.FLVPlayback.DISCONNECTED" codehint="false" version="8"/>
+					<string name="EVENT" tiptext="Use with findCuePoint() to search event cue points" helpid="x2283A" text="mx.video.FLVPlayback.EVENT" codehint="false" version="8"/>
+					<string name="FLV" tiptext="Use with findCuePoint() to search all embedded cue points" helpid="x2283B" text="mx.video.FLVPlayback.FLV" codehint="false" version="8"/>
+					<string name="LOADING" tiptext="Loading state property value" helpid="x218F9C" text="mx.video.FLVPlayback.LOADING" codehint="false" version="8"/>
+					<string name="NAVIGATION" tiptext="Use with findCuePoint() to search navigation cue points" helpid="x2283D" text="mx.video.FLVPlayback.NAVIGATION" codehint="false" version="8"/>
+					<string name="PAUSED" tiptext="Paused state property value" helpid="x2283E" text="mx.video.FLVPlayback.PAUSED" codehint="false" version="8"/>
+					<string name="PLAYING" tiptext="Playing state property value" helpid="x2284B" text="mx.video.FLVPlayback.PLAYING" codehint="false" version="8"/>
+					<string name="REWINDING" tiptext="Rewinding state property value" helpid="x2284C" text="mx.video.FLVPlayback.REWINDING" codehint="false" version="8"/>
+					<string name="SEEKING" tiptext="Seeking state property value" helpid="x22897" text="mx.video.FLVPlayback.SEEKING" codehint="false" version="8"/>
+					<string name="STOPPED" tiptext="Stopped state property value" helpid="x22898" text="mx.video.FLVPlayback.STOPPED" codehint="false" version="8"/>
+				</folder>
+				<folder name="Properties" id="Properties" tiptext="FLVPlayback properties" version="8">
+					<string name="activeVideoPlayerIndex" tiptext="Manage multiple VideoPlayers within a single component" helpid="x2283F" text=".activeVideoPlayerIndex" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="autoPlay" tiptext="Whether to play video automatically after load" helpid="x22840" text=".autoPlay" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="autoRewind" tiptext="Whether to rewind video after stop" helpid="x22841" text=".autoRewind" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="autoSize" tiptext="Whether to resize component to match FLV dimensions" helpid="x22842" text=".autoSize" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="backButton" tiptext="Hooks up BackButton Custom UI Component" helpid="x22843" text=".backButton" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="bitrate" tiptext="Bit rate used for switching between FLVs of different size and quality" helpid="x22844" text=".bitrate" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="buffering" tiptext="Read only, whether in buffering state" helpid="x22845" text=".buffering" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="bufferingBar" tiptext="Hooks up BufferingBar Custom UI Component" helpid="x22887" text=".bufferingBar" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="bufferingBarHidesAndDisablesOthers" tiptext="Alters how buffering state effects skin controls" helpid="x22888" text=".bufferingBarHidesAndDisablesOthers" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="bufferTime" tiptext="Time in seconds of FLV buffered in memory before playback" helpid="x22846" text=".bufferTime" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="bytesLoaded" tiptext="Number of bytes of FLV downloaded in progressive download" helpid="x22847" text=".bytesLoaded" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="bytesTotal" tiptext="Size in bytes of complete FLV being downloaded in progressive download" helpid="x22848" text=".bytesTotal" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="contentPath" tiptext="Path to FLV file or SMIL file" helpid="x22849" text=".contentPath" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="forwardButton" tiptext="Hooks up ForwardButton Custom UI Component" helpid="x2284D" text=".forwardButton" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="height" tiptext="Height" helpid="x2284E" text=".height" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="idleTimeout" tiptext="Time in seconds before connection to server is terminated in stopped or paused mode" helpid="x2284F" text=".idleTimeout" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="isLive" tiptext="For FCS playback, whether stream is live" helpid="x22851" text=".isLive" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="isRTMP" tiptext="Read only, whether playback is FCS (rtmp) or progressive (http)" helpid="x22850" text=".isRTMP" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="maintainAspectRatio" tiptext="Whether to reduce component size to maintain FLV's aspect ratio" helpid="x22852" text=".maintainAspectRatio" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="metadata" tiptext="Read only, object with metadata from FLV" helpid="x22853" text=".metadata" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="metadataLoaded" tiptext="Read only, whether metadata has been loaded" helpid="x22854" text=".metadataLoaded" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="muteButton" tiptext="Hooks up MuteButton Custom UI Component" helpid="x22870" text=".muteButton" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="ncMgr" tiptext="Read only, INCManager instance" helpid="x22855" text=".ncMgr" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="pauseButton" tiptext="Hooks up PauseButton Custom UI Component" helpid="x22856" text=".pauseButton" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="paused" tiptext="Read only, whether in paused state" helpid="x22857" text=".paused" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="playButton" tiptext="Hooks up PlayButton Custom UI Component" helpid="x22858" text=".playButton" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="playheadPercentage" tiptext="Current playhead time as percentage of total time" helpid="x22889" text=".playheadPercentage" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="playheadTime" tiptext="Current playhead time in seconds" helpid="x22859" text=".playheadTime" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="playheadUpdateInterval" tiptext="Frequency with which playheadUpdate event is dispatched in milliseconds" helpid="x2285A" text=".playheadUpdateInterval" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="playing" tiptext="Read only, whether in playing state" helpid="x2285B" text=".playing" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="playPauseButton" tiptext="Hooks up PlayPauseButton Custom UI Component" helpid="x2285C" text=".playPauseButton" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="preferredHeight" tiptext="Source height of FLV" helpid="x2285D" text=".preferredHeight" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="preferredWidth" tiptext="Source width of FLV" helpid="x2285E" text=".preferredWidth" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="progressInterval" tiptext="Frequency with which progress event is dispatched in milliseconds" helpid="x2285F" text=".progressInterval" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="scaleX" tiptext="Specifies the horizontal scale factor" helpid="x22860" text=".scaleX" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="scaleY" tiptext="Specifies the vertical scale factor" helpid="x22861" text=".scaleY" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="scrubbing" tiptext="Read only, whether user is currently dragging seek bar handle" helpid="x2288A" text=".scrubbing" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="seekBar" tiptext="Hooks up SeekBar Custom UI Component" helpid="x22862" text=".seekBar" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="seekBarInterval" tiptext="Frequency at which seek bar handle location is checked in milliseconds" helpid="x22863" text=".seekBarInterval" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="seekBarScrubTolerance" tiptext="Minimum distance in percentage that user must drag seek bar before a seek occurs" helpid="x22864" text=".seekBarScrubTolerance" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="seekToPrevOffset" tiptext="Indicates how seekToPrevNavCuePoint should skip cue points" helpid="x22865" text=".seekToPrevOffset" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="skin" tiptext="Path to skin swf" helpid="x22866" text=".skin" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="skinAutoHide" tiptext="Whether to hide skin" helpid="x2288B" text=".skinAutoHide" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="state" tiptext="Read only, playback state" helpid="x22867" text=".state" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="stateResponsive" tiptext="Read only, whether current state is responsive" helpid="x22868" text=".stateResponsive" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="stopButton" tiptext="Hooks up StopButton Custom UI Component" helpid="x22869" text=".stopButton" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="stopped" tiptext="Read only, whether in stopped state" helpid="x2286A" text=".stopped" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="totalTime" tiptext="Duration of FLV" helpid="x2286B" text=".totalTime" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="transform" tiptext="Sound transform object" helpid="x2286C" text=".transform" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="visible" tiptext="Toggles visibility" helpid="x2286D" text=".visible" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="visibleVideoPlayerIndex" tiptext="Manage multiple VideoPlayers within a single component" helpid="x2286E" text=".visibleVideoPlayerIndex" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="volume" tiptext="Volume ranges from 0 to 100" helpid="x2286F" text=".volume" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="volumeBar" tiptext="Hooks up VolumeBar Custom UI Component" helpid="x2288C" text=".volumeBar" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="volumeBarInterval" tiptext="Frequency at which volume bar handle lcoation is checked in milliseconds" helpid="x2288D" text=".volumeBarInterval" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="volumeBarScrubTolerance" tiptext="Minimum distance in percentage that user must drag volume bar before a seek occurs" helpid="x2288E" text=".volumeBarScrubTolerance" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="width" tiptext="Width" helpid="x22871" text=".width" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="x" tiptext="X location" helpid="x22872" text=".x" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="y" tiptext="Y location" helpid="x22873" text=".y" object="[mx.video.FLVPlayback]" version="8"/>
+				</folder>
+				<folder name="Methods" id="Methods" tiptext="FLVPlayback methods" version="8">
+					<string name="addASCuePoint" tiptext="Add a dynamic cue point" helpid="x2281C" text=".addASCuePoint(%timeOrCuePoint:Object [, name:String, parameters:Object]%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="addEventListener" tiptext="Adds a listener for an event" helpid="x2281D" text=".addEventListener(% %)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="bringVideoPlayerToFront" tiptext="Manage multiple VideoPlayers within a single component" helpid="x2281E" text=".bringVideoPlayerToFront(%index:Number%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="closeVideoPlayer" tiptext="Manage multiple VideoPlayers within a single component" helpid="x2281F" text=".closeVideoPlayer(%index:Number%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="findCuePoint" tiptext="Find a cue point matching criteria precisely" helpid="x22821" text=".findCuePoint(%timeNameOrCuePoint:Object [, type:String]%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="findNearestCuePoint" tiptext="Find nearest cue point matching criteria" helpid="x22825" text=".findNearestCuePoint(%timeNameOrCuePoint:Object [, type:String]%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="findNextCuePointWithName" tiptext="Find next cue point after this one with the same name" helpid="x22826" text=".findNextCuePointWithName(%cuePoint:Object%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="getVideoPlayer" tiptext="Manage multiple VideoPlayers within a single component" helpid="x22829" text=".getVideoPlayer(%index:Number%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="isFLVCuePointEnabled" tiptext="Determine whether embedded FLV cue point is enabled" helpid="x2282A" text=".isFLVCuePointEnabled(%timeNameOrCuePoint:Object%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="load" tiptext="Load FLV without playing" helpid="x2282B" text=".load(%contentPath:String [,totalTime:Number, isLive:Boolean]%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="pause" tiptext="Pause current FLV" helpid="x2282C" text=".pause()" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="play" tiptext="Play current FLV or a new one" helpid="x2282D" text=".play(%[contentPath:String, totalTime:Number, isLive:Boolean]%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="removeASCuePoint" tiptext="Remove a dynamic cue point" helpid="x2282E" text=".removeASCuePoint(%timeNameOrCuePoint:Object%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="removeEventListener" tiptext="Removes a listener for an event" helpid="x2282F" text=".removeEventListener(%eventName:String, eventHandler:Object%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="seek" tiptext="Seek to a time in seconds in current FLV" helpid="x22830" text=".seek(%time:Number%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="seekPercent" tiptext="Seek to a time in percentage of total time in current FLV" helpid="x22831" text=".seekPercent(%percent:Number%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="seekSeconds" tiptext="Seek to a time in seconds in current FLV" helpid="x22832" text=".seekSeconds(%time:Number%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="seekToNavCuePoint" tiptext="Seek to a navigation cue point" helpid="x22833" text=".seekToNavCuePoint(%timeNameOrCuePoint:Object%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="seekToNextNavCuePoint" tiptext="Seek to the next navigation cue point from current playhead time" helpid="x22834" text=".seekToNextNavCuePoint(%timeNameOrCuePoint:Object%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="seekToPrevNavCuePoint" tiptext="Seek to the previous navigation cue point from current playhead time" helpid="x22835" text=".seekToPrevNavCuePoint(%timeNameOrCuePoint:Object%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="setFLVCuePointEnabled" tiptext="Set embedded FLV cue point to enabled or disabled" helpid="x22836" text=".setFLVCuePointEnabled(%enabled:Boolean, timeNameOrCuePoint:Object%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="setScale" tiptext="Set the horizontal and vertical scale factor" helpid="x22837" text=".setScale(%xscale:Number, yscale:Number%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="setSize" tiptext="Set height and width" helpid="x22838" text=".setSize(%width:Number, height:Number%)" object="[mx.video.FLVPlayback]" version="8"/>
+					<string name="stop" tiptext="Stop current FLV" helpid="x22839" text=".stop()" object="[mx.video.FLVPlayback]" version="8"/>
+				</folder>
+				<folder name="Events" id="Events" tiptext="FLVPlayback events" version="8">
+					<string name="buffering" tiptext="buffering event" helpid="x22876" text=".addEventListener(&#34;buffering&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="close" tiptext="close event" helpid="x22877" text=".addEventListener(&#34;close&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="complete" tiptext="complete event" helpid="x22878" text=".addEventListener(&#34;complete&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="cuePoint" tiptext="cuePoint event" helpid="x22879" text=".addEventListener(&#34;cuePoint&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="fastForward" tiptext="fastForward event" helpid="x2287A" text=".addEventListener(&#34;fastForward&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="metadataReceived" tiptext="metadataReceived event" helpid="x2287B" text=".addEventListener(&#34;metadataReceived&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="paused" tiptext="paused event" helpid="x2287C" text=".addEventListener(&#34;paused&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="playheadUpdate" tiptext="playheadUpdate event" helpid="x2287D" text=".addEventListener(&#34;playheadUpdate&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="playing" tiptext="playing event" helpid="x2287E" text=".addEventListener(&#34;playing&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="progress" tiptext="progress event" helpid="x2287F" text=".addEventListener(&#34;progress&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="ready" tiptext="ready event" helpid="x22880" text=".addEventListener(&#34;ready&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="resize" tiptext="resize event" helpid="x22881" text=".addEventListener(&#34;resize&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="rewind" tiptext="rewind event" helpid="x22882" text=".addEventListener(&#34;rewind&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="scrubFinish" tiptext="scrubFinish event" helpid="x2288F" text=".addEventListener(&#34;scrubFinish&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="scrubStart" tiptext="scrubStart event" helpid="x2289D" text=".addEventListener(&#34;scrubStart&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="seek" tiptext="seek event" helpid="x22883" text=".addEventListener(&#34;seek&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="skinError" tiptext="skinError event" helpid="x2289E" text=".addEventListener(&#34;skinError&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="skinLoaded" tiptext="skinLoaded event" helpid="x2289F" text=".addEventListener(&#34;skinLoaded&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="stateChange" tiptext="stateChange event" helpid="x22884" text=".addEventListener(&#34;stateChange&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="stopped" tiptext="stopped event" helpid="x22885" text=".addEventListener(&#34;stopped&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+					<string name="volumeUpdate" tiptext="volumeUpdate event" helpid="x22886" text=".addEventListener(&#34;volumeUpdate&#34;,%listener%);" object="[mx.video.FLVPlayback]" version="8" codehint="false"/>
+				</folder>
+			</folder>
+		</folder>
+		<folder name="Types" id="Types" index="true" tiptext="FLV Playback Component types that can be used for strong typing" helpid="" version="8">
+			<string name="FLVPlayback" tiptext="FLVPlayback type" helpid="x2281A" text="FLVPlayback" object="mx.video.FLVPlayback" version="8"/>
+		</folder>
+	</actionspanel>
+  <codehints>
+    <package name="mx.video" children="FLVPlayback"/>
+  </codehints>
+  <colorsyntax>
+		<identifier text="FLVPlayback"/>
+		<identifier text="VideoError"/>
+		<identifier text="VideoPlayer"/>
+		<identifier text="mx.video.FLVPlayback"/>
+		<identifier text="mx.video.VideoError"/>
+		<identifier text="mx.video.VideoPlayer"/>
+		<identifier text="ACTIONSCRIPT"/>
+		<identifier text="ALL"/>
+		<identifier text="BUFFERING"/>
+		<identifier text="CONNECTION_ERROR"/>
+		<identifier text="DISCONNECTED"/>
+		<identifier text="EVENT"/>
+		<identifier text="FLV"/>
+		<identifier text="LOADING"/>
+		<identifier text="NAVIGATION"/>
+		<identifier text="PAUSED"/>
+		<identifier text="PLAYING"/>
+		<identifier text="REWINDING"/>
+		<identifier text="SEEKING"/>
+		<identifier text="STOPPED"/>
+		<identifier text="activeVideoPlayerIndex"/>
+		<identifier text="autoPlay"/>
+		<identifier text="autoRewind"/>
+		<identifier text="autoSize"/>
+		<identifier text="backButton"/>
+		<identifier text="bitrate"/>
+		<identifier text="buffering"/>
+		<identifier text="bufferingBar"/>
+		<identifier text="bufferingBarHidesAndDisablesOthers"/>
+		<identifier text="bufferTime"/>
+		<identifier text="bytesLoaded"/>
+		<identifier text="bytesTotal"/>
+		<identifier text="contentPath"/>
+		<identifier text="forwardButton"/>
+		<identifier text="height"/>
+		<identifier text="idleTimeout"/>
+		<identifier text="isLive"/>
+		<identifier text="isRTMP"/>
+		<identifier text="maintainAspectRatio"/>
+		<identifier text="metadata"/>
+		<identifier text="metadataLoaded"/>
+		<identifier text="muteButton"/>
+		<identifier text="ncMgr"/>
+		<identifier text="pauseButton"/>
+		<identifier text="paused"/>
+		<identifier text="playButton"/>
+		<identifier text="playheadPercentage"/>
+		<identifier text="playheadTime"/>
+		<identifier text="playheadUpdateInterval"/>
+		<identifier text="playing"/>
+		<identifier text="playPauseButton"/>
+		<identifier text="preferredHeight"/>
+		<identifier text="preferredWidth"/>
+		<identifier text="progressInterval"/>
+		<identifier text="scaleX"/>
+		<identifier text="scaleY"/>
+		<identifier text="scrubbing"/>
+		<identifier text="seekBar"/>
+		<identifier text="seekBarInterval"/>
+		<identifier text="seekBarScrubTolerance"/>
+		<identifier text="seekToPrevOffset"/>
+		<identifier text="skin"/>
+		<identifier text="skinAutoHide"/>
+		<identifier text="state"/>
+		<identifier text="stateResponsive"/>
+		<identifier text="stopButton"/>
+		<identifier text="stopped"/>
+		<identifier text="totalTime"/>
+		<identifier text="transform"/>
+		<identifier text="visible"/>
+		<identifier text="visibleVideoPlayerIndex"/>
+		<identifier text="volume"/>
+		<identifier text="volumeBar"/>
+		<identifier text="volumeBarInterval"/>
+		<identifier text="volumeBarScrubTolerance"/>
+		<identifier text="width"/>
+		<identifier text="x"/>
+		<identifier text="y"/>
+		<identifier text="addASCuePoint"/>
+		<identifier text="addEventListener"/>
+		<identifier text="bringVideoPlayerToFront"/>
+		<identifier text="closeVideoPlayer"/>
+		<identifier text="findCuePoint"/>
+		<identifier text="findNearestCuePoint"/>
+		<identifier text="findNextCuePointWithName"/>
+		<identifier text="getVideoPlayer"/>
+		<identifier text="isFLVCuePointEnabled"/>
+		<identifier text="load"/>
+		<identifier text="pause"/>
+		<identifier text="play"/>
+		<identifier text="removeASCuePoint"/>
+		<identifier text="removeEventListener"/>
+		<identifier text="seek"/>
+		<identifier text="seekPercent"/>
+		<identifier text="seekSeconds"/>
+		<identifier text="seekToNavCuePoint"/>
+		<identifier text="seekToNextNavCuePoint"/>
+		<identifier text="seekToPrevNavCuePoint"/>
+		<identifier text="setFLVCuePointEnabled"/>
+		<identifier text="setScale"/>
+		<identifier text="setSize"/>
+		<identifier text="stop"/>
+	</colorsyntax>
+</customactions>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>  <!ELEMENT screenTypePackage (screenType+)>
+<!ATTLIST screenTypePackage
+          name		CDATA #REQUIRED
+          xmlns		CDATA #IMPLIED> <!ELEMENT screenType ANY>
+<!ATTLIST screenType
+		  name					CDATA #REQUIRED
+		  version				CDATA #REQUIRED
+		  menu					(yes | no) #REQUIRED
+		  minActionScriptVersion		CDATA #REQUIRED
+		  minPlayerVersion		CDATA #REQUIRED
+		  default				(slide | form) #IMPLIED
+		  swf_implementation	CDATA #IMPLIED
+		  jsfl_implementation	CDATA #REQUIRED
+		  class_implementation	CDATA #IMPLIED
+		  symbolname			CDATA #REQUIRED
+		  classname				CDATA #IMPLIED> 

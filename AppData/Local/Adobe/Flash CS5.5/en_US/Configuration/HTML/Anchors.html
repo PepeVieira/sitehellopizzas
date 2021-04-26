@@ -1,0 +1,33 @@
+﻿$TTFlash with Named Anchors
+$DS
+Insert Script and HTML Anchors to enable bookmarking of Adobe Flash Player 6 and above content.
+$DF
+
+<!-- saved from url=(0013)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+$CS
+<title>$TI</title>
+<script language="JavaScript">
+	// This is only needed for Netscape browsers.
+	function flashGetHref() { return location.href; }
+	function flashPutHref(href) { location.href = href; }
+	function flashGetTitle() { return document.title; }
+	function flashPutTitle(title) { document.title = title; }
+</script>
+</head>
+<body bgcolor="$BG">
+<!--url's used in the movie-->
+$MU
+<!--text used in the movie-->
+$MT
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=$FV,$JR,$NR,0" width="$WI" height="$HE" id="$TI" align="$HA">
+<param name="allowScriptAccess" value="sameDomain" />
+$PO
+<embed $PEwidth="$WI" height="$HE" name="$TI" align="$HA" swLiveConnect="true" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer"/>
+</object>
+<!--bookmarks used in the movie-->
+$BL
+</body>
+</html>

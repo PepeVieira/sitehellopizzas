@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<flash_encoder version="1.0">
+	<encoder_definition category="Basic Types" name="Number" >
+		<actionscript class="mx.data.encoders.Num"/>
+	</encoder_definition>
+</flash_encoder>

@@ -1,0 +1,43 @@
+<group name = "selection">
+	<tool name = "arrow"/>
+	<tool name = "bezierSelect"/>
+	<tool name = "freeXform" >
+		<tool name = "fillXform"/>
+	</tool>
+	<tool name = "ThreeDRotate" >
+		<tool name = "ThreeDXform"/>
+	</tool>
+	<tool name = "lasso"/>
+	<separator/>
+	<tool name = "pen" >
+		<tool name = "penplus"/>
+		<tool name = "penminus"/>
+		<tool name = "penmodify"/>
+	</tool>
+	<tool name = "text"/>
+	<tool name = "line"/>
+	<tool name = "rect" >
+		<tool name = "oval"/>
+		<tool name = "rectPrimitive"/>
+		<tool name = "ovalPrimitive"/>
+		<tool name = "polystar"/>
+	</tool>
+	<tool name = "pencil"/>
+	<tool name = "brush" >
+		<tool name = "sprayBrush"/>
+	</tool>
+	<tool name = "deco"/>
+	<separator/>
+	<tool name = "ikbridgelink" >
+		<tool name = "rig"/>
+	</tool>	
+	<tool name = "bucket" >
+		<tool name = "inkBottle"/>
+	</tool>
+
+	<tool name = "eyeDropper"/>
+	<tool name = "eraser"/>
+	<separator/>
+	<tool name = "hand"/>
+	<tool name = "magnifier"/>
+</group>

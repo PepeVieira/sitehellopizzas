@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xul-overlay href="../../../XULControls/FSCommand2Controls.xml"?>
+
+<toolbox>
+	<actionspanelsupplement>
+		<string name="Escape" text="fscommand2(&quot;Escape&quot;% , original , encoded %);\n" type="keyFirstArg">
+			<parametersdialog autolayout="false">
+				<row>
+					<block id="COMMAND"/>
+				</row>
+				<row>
+					<label value="Original:" align="right" control="ORIGINAL"/>
+					<textbox id="ORIGINAL" prompt="expression"/>
+				</row>
+				<row>
+					<label value="Encoded Variable Name:" align="right" control="ENCODED"/>
+					<textbox id="ENCODED" prompt="quoted string"/>
+				</row>
+			</parametersdialog>
+		</string>
+		<string name="FullScreen" text="fscommand2(&quot;FullScreen&quot;% , boolean %);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<label value="Full Screen:" align="right" control="FULLSCREEN"/>
+				<textbox id="FULLSCREEN" prompt="boolean"/>
+			</parametersdialog>
+		</string>
+		<string name="GetBatteryLevel" text="fscommand2(&quot;GetBatteryLevel&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetDateDay" text="fscommand2(&quot;GetDateDay&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetDateMonth" text="fscommand2(&quot;GetDateMonth&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetDateWeekday" text="fscommand2(&quot;GetDateWeekday&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetDateYear" text="fscommand2(&quot;GetDateYear&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetDevice" text="fscommand2(&quot;GetDevice&quot;% , &quot;device&quot;%);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetDeviceID" text="fscommand2(&quot;GetDeviceID&quot;% , &quot;id&quot; %);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<label value="ID Variable Name:" align="right" control="VNAME"/>
+				<textbox id="VNAME" prompt="quoted string"/>
+			</parametersdialog>
+		</string>
+		<string name="GetFreePlayerMemory" text="fscommand2(&quot;GetFreePlayerMemory&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetLanguage" text="fscommand2(&quot;GetLanguage&quot;% , &quot;language&quot; %);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<label value="Language Variable Name:" align="right" control="VNAME"/>
+				<textbox id="VNAME" prompt="quoted string"/>
+			</parametersdialog>
+		</string>
+		<string name="GetLocaleLongDate" text="fscommand2(&quot;GetLocaleLongDate&quot;% , &quot;longdate&quot; %);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<label value="Date Variable Name:" align="right" control="VNAME"/>
+				<textbox id="VNAME" prompt="quoted string"/>
+			</parametersdialog>
+		</string>
+		<string name="GetLocaleShortDate" text="fscommand2(&quot;GetLocaleShortDate&quot;% , &quot;shortdate&quot; %);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<label value="Date Variable Name:" align="right" control="VNAME"/>
+				<textbox id="VNAME" prompt="quoted string"/>
+			</parametersdialog>
+		</string>
+		<string name="GetLocaleTime" text="fscommand2(&quot;GetLocaleTime&quot;% , &quot;time&quot; %);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<label value="Time Variable Name:" align="right" control="VNAME"/>
+				<textbox id="VNAME" prompt="quoted string"/>
+			</parametersdialog>
+		</string>
+		<string name="GetMaxBatteryLevel" text="fscommand2(&quot;GetMaxBatteryLevel&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetMaxSignalLevel" text="fscommand2(&quot;GetMaxSignalLevel&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetMaxVolumeLevel" text="fscommand2(&quot;GetMaxVolumeLevel&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetNetworkConnectStatus" text="fscommand2(&quot;GetNetworkConnectStatus&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetNetworkName" text="fscommand2(&quot;GetNetworkName&quot;% , &quot;networkname&quot; %);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<label value="Network Name:" align="right" control="NETNAME"/>
+				<textbox id="NETNAME" prompt="quoted string"/>
+			</parametersdialog>
+		</string>
+		<string name="GetNetworkRequestStatus" text="fscommand2(&quot;GetNetworkRequestStatus&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetNetworkStatus" text="fscommand2(&quot;GetNetworkStatus&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetPlatform" text="fscommand2(&quot;GetPlatform&quot;% , &quot;platform&quot; %);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<label value="Platform Variable Name:" align="right" control="VNAME"/>
+				<textbox id="VNAME" prompt="quoted var name"/>
+			</parametersdialog>
+		</string>
+		<string name="GetPowerSource" text="fscommand2(&quot;GetPowerSource&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetSignalLevel" text="fscommand2(&quot;GetSignalLevel&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetTimeHours" text="fscommand2(&quot;GetTimeHours&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetTimeMinutes" text="fscommand2(&quot;GetTimeMinutes&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetTimeSeconds" text="fscommand2(&quot;GetTimeSeconds&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetTimeZoneOffset" text="fscommand2(&quot;GetTimeZoneOffset&quot;% , &quot;timezoneoffset&quot; %);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<label value="Offset Variable Name:" align="right" control="VNAME"/>
+				<textbox id="VNAME" prompt="quoted string"/>
+			</parametersdialog>
+		</string>
+		<string name="GetTotalPlayerMemory" text="fscommand2(&quot;GetTotalPlayerMemory&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="GetVolumeLevel" text="fscommand2(&quot;GetVolumeLevel&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="ResetSoftKeys" text="fscommand2(&quot;ResetSoftKeys&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="SetInputTextType" text="fscommand2(&quot;SetInputTextType&quot;% , variableName , type %);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<label value="Input Variable Name:" align="right" control="VNAME"/>
+				<textbox id="VNAME" prompt="quoted var name"/>
+				<block id="INPUTTYPE"/>
+			</parametersdialog>
+		</string>
+		<string name="SetQuality" text="fscommand2(&quot;SetQuality&quot;% , quality %);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="QUALITYTYPE"/>
+			</parametersdialog>
+		</string>
+		<string name="SetSoftKeys" text="fscommand2(&quot;SetSoftkeys&quot;% , left , right %);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<label value="Left Key Value:" align="right" control="LKEY"/>
+				<textbox id="LKEY" prompt="expression"/>
+				<label value="Right Key Value:" align="right" control="RKEY"/>
+				<textbox id="RKEY" prompt="expression"/>
+			</parametersdialog>
+		</string>
+		<string name="StartVibrate" text="fscommand2(&quot;StartVibrate&quot;% , time_on , time_off , repeat %);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<label value="On Time:" align="right" control="ONTIME"/>
+				<textbox id="ONTIME" prompt="milliseconds"/>
+				<label value="Off Time:" align="right" control="OFFTIME"/>
+				<textbox id="OFFTIME" prompt="milliseconds"/>
+				<block id="REPEAT"/>
+			</parametersdialog>
+		</string>
+		<string name="StopVibrate" text="fscommand2(&quot;StopVibrate&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+		<string name="Unescape" text="fscommand2(&quot;Unescape&quot;% , original , encoded %);\n" type="keyFirstArg">
+			<parametersdialog autolayout="false">
+				<row>
+					<block id="COMMAND"/>
+				</row>
+				<row>
+					<label value="Original:" align="right" control="ORIGINAL"/>
+					<textbox id="ORIGINAL" prompt="expression"/>
+				</row>
+				<row>
+					<label value="Encoded Variable Name:" align="right" control="ENCODED"/>
+					<textbox id="ENCODED" prompt="quoted var name"/>
+				</row>
+			</parametersdialog>
+		</string>
+		<string name="Quit" text="fscommand2(&quot;Quit&quot;);\n" type="keyFirstArg">
+			<parametersdialog>
+				<block id="COMMAND"/>
+				<block id="NO_PARAMETERS"/>
+			</parametersdialog>
+		</string>
+	</actionspanelsupplement>
+</toolbox>

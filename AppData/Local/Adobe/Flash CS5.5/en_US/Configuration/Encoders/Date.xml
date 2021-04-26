@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flash_encoder version="1.0">
+	<encoder_definition dialogID="Dialog" category="Basic Types" name ="Date" >
+		<properties>
+			<property id="format" default="MM/DD/YYYY HH:MM:SS"/>
+		</properties>
+		<dialog id="Dialog" title="Date Encoder Settings" buttons="accept, cancel">
+			<grid>		
+				<columns>
+					<column/>
+					<column/>
+				</columns>
+	
+				<row>
+					<label value="Format: " control="format"/>
+					<textbox id="format" width="65"/>
+				</row>
+			</grid>	
+		</dialog>
+		<actionscript class="mx.data.encoders.Dte"/>
+	</encoder_definition>
+</flash_encoder>

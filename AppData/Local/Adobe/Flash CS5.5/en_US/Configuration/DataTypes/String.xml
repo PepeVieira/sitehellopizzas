@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flash_datatype version="1.0">
+	<datatype_definition dialogID="String-dialog" name ="String">
+		<properties>
+			<!-- standard properties that all datatypes have. These can be edited
+			in the Inspector's Schema tab. -->			
+			<property id="category" default=""/>		
+			<property id="base" default="String"/>		
+			<property id="formatter" default=""/>			
+			<property id="defaultValue" default=""/>			
+			<property id="defaultLabel" default=""/>
+			<property id="defaultUIControl" default=""/>
+
+			<!-- properties that are specific to this datatype. These can be edited
+			in the "Validation Settings" dialog, below. -->			
+			<property id="minLength" default=""/>			
+			<property id="maxLength" default=""/>
+
+		</properties>
+
+		<dialog id="String-dialog" title="String Validation Settings" buttons="accept, cancel">
+		<grid>		
+		 	<columns>
+ 				<column/>
+   				<column/>
+  			</columns>
+
+			<row>
+				<label value="Min Length  " control="minLength"/>
+					<textbox id="minLength"/>
+			</row>
+			<row>
+				<label value="Max Length  " control="maxLength"/>
+					<textbox id="maxLength"/>
+			</row>            
+		</grid>
+		</dialog>
+
+		<actionscript class="mx.data.types.Str"/>
+	</datatype_definition>
+</flash_datatype>
+ 

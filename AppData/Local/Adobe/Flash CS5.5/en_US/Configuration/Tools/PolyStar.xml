@@ -1,0 +1,7 @@
+<properties>
+	<property name="Style: "            variable="style"  list="polygon,star"  defaultValue="0"  type="Strings"  />
+	<property name="Number of Sides: "  variable="nsides" min="3" max="32"     defaultValue="5"  type="Number"   /> 
+	<property name="Star point size: "  variable="pointParam" min="0" max="1"     defaultValue=".5"  type="Double"   /> 
+</properties>
+
+

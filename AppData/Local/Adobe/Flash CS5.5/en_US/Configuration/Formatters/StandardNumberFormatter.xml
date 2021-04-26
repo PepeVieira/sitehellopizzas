@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<flash_formatter version="1.0">
+	<formatter_definition dialogID="NumberDialog" category="Basic Types" name ="Number Formatter" >
+		<properties>
+			<property id="precision" default="2"/>
+		</properties>
+		<dialog id="NumberDialog" title="Number Format Settings" buttons="accept, cancel">
+			<hbox>
+               <label value="Precision" control="precision"/>
+               <textbox id="precision"/>
+            </hbox>
+		</dialog>
+		<actionscript class="mx.data.formatters.NumberFormatter"/>
+	</formatter_definition>
+</flash_formatter>

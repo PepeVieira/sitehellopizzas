@@ -1,0 +1,212 @@
+﻿<?xml version="1.0"?>
+<startpage version="2.0">
+	<layout>
+	<!-- list of the columns used -->
+		<column>
+			<!--can be one of recentitems, newitems or sampleitems-->
+			<sampleitems max="7"/>
+			<recentitems max="5"/>
+		</column>
+		<column>
+			<!--can be one of recentitems, newitems or sampleitems-->
+			<newitems max="12"/>
+			<extenditems max="1"/>
+		</column>
+		<column>
+			<!--can be one of recentitems, newitems or sampleitems-->
+			<learn max="12" />
+		</column>
+	</layout>
+	
+	<strings>
+	<!-- list all strings used-->	
+		<!-- used for default content when no internet connection is detected -->
+		<productname>Flash</productname>
+		<nointernethead>Adobe® TV</nointernethead>
+		<nointernetmain>Tune in to your online source for expert tutorials, insight, and inspiration.</nointernetmain>
+
+		<!-- column 1: templates/extend -->
+		<createfromtemplates>Create from Template</createfromtemplates>
+		<extend>Extend</extend>
+		
+		<!-- column 2: new/recent -->
+		<createnew>Create New</createnew>
+		<openrecentitem>Open a Recent Item</openrecentitem>
+		<open>Open...</open>
+		<more>More...</more>
+		
+		<!-- column 3: learn -->
+		<learn>Learn</learn>
+		
+		<!-- don't show again checkbox at the bottom-->
+		<dontshowagain>Don't show again</dontshowagain>
+		<checkboxalert>To turn the Welcome Screen on, choose Show Welcome Screen from the General category in the Preferences dialog.</checkboxalert>
+		
+		<!-- these are live urls on the screen-->
+		<exchange>Flash Exchange »</exchange>
+		<quicktour>Getting Started »</quicktour>
+		<tutorial>New Features »</tutorial>
+		<training>Developers »</training>
+		<training2>Designers »</training2>
+		<learn0>1. Introducing Flash »</learn0>
+		<learn1>2. Symbols »</learn1>
+		<learn2>3. Timelines and Animation »</learn2>
+		<learn3>4. Instance Names »</learn3>
+		<learn4>5. Simple Interactivity »</learn4>
+		<learn5>6. ActionScript »</learn5>
+		<learn6>7. Working with Data »</learn6>
+		<learn7>8. Building an Application »</learn7>
+		<learn8>9. Publishing for Mobile »</learn8>
+		<learn9>10. Publishing for AIR »</learn9>
+		<learn10>11. Adobe TV »</learn10>
+		
+		<!-- used for issuing MMExecute JS commands -->
+		<appobject>fl</appobject>
+		
+		<!-- list of localizable weblinks -->
+		<urlexchange>http://www.adobe.com/go/flash_exchange</urlexchange>
+		<urlquicktour>http://www.adobe.com/go/flashgettingstarted_en/</urlquicktour>
+		<urltutorial>http://www.adobe.com/go/flashnewfeatures_en/</urltutorial>
+		<urltraining>http://www.adobe.com/go/flash_training_en/</urltraining>
+		<urltraining2>http://www.adobe.com/go/flash_training2_en/</urltraining2>
+		<urlshim>https://www.adobe.com/startpage/fl.swf</urlshim>
+		<urllearn0>http://www.adobe.com/go/fl_learn1</urllearn0>
+		<urllearn1>http://www.adobe.com/go/fl_learn2</urllearn1>
+		<urllearn2>http://www.adobe.com/go/fl_learn3</urllearn2>
+		<urllearn3>http://www.adobe.com/go/fl_learn4</urllearn3>
+		<urllearn4>http://www.adobe.com/go/fl_learn5</urllearn4>
+		<urllearn5>http://www.adobe.com/go/fl_learn6</urllearn5>
+		<urllearn6>http://www.adobe.com/go/fl_learn7</urllearn6>
+		<urllearn7>http://www.adobe.com/go/fl_learn8</urllearn7>
+		<urllearn8>http://www.adobe.com/go/fl_learn9</urllearn8>
+		<urllearn9>http://www.adobe.com/go/fl_learn10</urllearn9>
+		<urllearn10>http://www.adobe.com/go/fl_learn11</urllearn10>
+		<localshim>resources/defaultdynswf.swf</localshim>
+	</strings>
+	
+	<resources>
+		<!-- list of image resources -->
+		<banner>resources/images/banner.png</banner>
+		<bglist>resources/images/background-list.png</bglist>
+		<iconfolder>resources/images/folder.png</iconfolder>
+		<iconapp>resources/images/icon_app.png</iconapp>
+		<iconappxl>resources/images/appicon_xl.png</iconappxl>
+		<icondoc>resources/images/appicondoc.png</icondoc>
+		<icondocsecondary>resources/images/appicondocsec.png</icondocsecondary>
+		<icondocas>resources/images/icon_app.png</icondocas>
+		<icondocjs>resources/images/icon_app.png</icondocjs>
+		<iconproj>resources/images/icon_app.png</iconproj>
+		<icondocgeneric>resources/images/appicondoc.png</icondocgeneric>
+		<icondochelp>resources/images/icon_help.png</icondochelp>		
+		<exchangeicon>resources/images/icon_exchange.png</exchangeicon>
+		<helpdocicon>resources/images/icon_helpdoc.png</helpdocicon>
+		<checkboxon>resources/images/check_on.png</checkboxon>
+		<checkboxoff>resources/images/check_off.png</checkboxoff>
+		<buttonhover>resources/images/btn_hover.png</buttonhover>
+		<vsepline>resources/images/sep_v.png</vsepline>
+		<hsepline>resources/images/sep_h.png</hsepline>
+		<iconnewjsfl>resources/images/new_jsfl.png</iconnewjsfl>
+		<iconnewflp>resources/images/new_flp.png</iconnewflp>
+		<iconnewas>resources/images/new_as.png</iconnewas>
+	</resources>
+	
+	<filetypes>
+		<!-- links extensions to images and names-->
+			<!-- fticon maps to a resource in the image resources list above-->
+		<type>
+			<ftextension>fla</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>fla</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>fla</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>as</ftextension>
+			<fticon>iconnewas</fticon>
+		</type>
+		<type>
+			<ftextension>asc</ftextension>
+			<fticon>iconnewas</fticon>
+		</type>
+		<type>
+			<ftextension>jsfl</ftextension>
+			<fticon>iconnewjsfl</fticon>
+		</type>
+		<type>
+			<ftextension>flp</ftextension>
+			<fticon>iconnewflp</fticon>
+		</type>
+	</filetypes>
+	
+	<dimensions>
+		<dialog>
+			<w>650</w><h>600</h>
+		</dialog>
+		<icon>
+			<w>16</w><h>16</h>
+		</icon>
+		<prodicon>
+			<w>48</w><h>48</h>
+		</prodicon>
+		<header>
+			<w>650</w><h>104</h>
+		</header>
+		<footer>
+			<w>650</w><h>24</h>
+		</footer>
+		<listarea>
+			<w>650</w><h>362</h>
+		</listarea>
+		<linksarea>
+			<w>650</w><h>110</h>
+		</linksarea>
+		<itemline>
+			<w>180</w><h>22</h>
+		</itemline>
+		<headline>
+			<w>180</w><h>27</h>
+		</headline>
+		<paddingoverall>
+			<w>16</w><h>15</h>
+		</paddingoverall>
+		<indentitemline>
+			<w>8</w><h>0</h>
+		</indentitemline>
+	</dimensions>
+	
+	<colors>
+		<cbackground>FFFFFF</cbackground>
+		<clinksarea>FFFFFF</clinksarea>
+		<cfooter>EEEEEE</cfooter>
+	</colors>
+	
+	<fonts>
+		<headline>
+			<name>Arial</name>
+			<size>13</size>
+			<bold>true</bold>
+			<italic>false</italic>
+			<!--1E364F-->
+			<color>555555</color>
+		</headline>
+		<itemline>
+			<name>Arial</name>
+			<size>11</size>
+			<bold>false</bold>
+			<italic>false</italic>
+			<color>000000</color>
+		</itemline>
+		<itemlineemph>
+			<name>Arial</name>
+			<size>11</size>
+			<bold>true</bold>
+			<italic>false</italic>
+			<color>000000</color>
+		</itemlineemph>
+	</fonts>
+</startpage>

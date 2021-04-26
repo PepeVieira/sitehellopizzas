@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!-- THIS IS A TEMPLATE FILE WITH SAMPLE VALUES FILLED IN. PLEASE REVIEW AND UPDATE FOR YOUR INSTALLER -->
+  <!-- Its Schema is available here public/Common/xplat/schema/CSUManifest.xsd -->
+  <Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUManifest.xsd" CSUVersion="1.0">    <UpdateID>5.5.1</UpdateID>
+
+    <OwningChannel><!-- Channel ID which owns this update -->AdobeExtensionManagerCS5.5-5.5</OwningChannel>
+<!-- One for each locale to be displayed in CS Updater-->
+  <DisplayName default="en_US">
+                     <en_US>Adobe Extension Manager CS5.5 Update</en_US>
+					<cs_CZ>Aktualizace správce rozšíření Adobe Extension Manager CS5.5</cs_CZ>
+					<da_DK>Adobe Extension Manager CS5.5 Opdatering</da_DK>
+					<de_DE>Update für Adobe Extension Manager CS5.5</de_DE>
+					<es_ES>Actualización de Adobe Extension Manager CS5.5</es_ES>
+					<fi_FI>Adobe Extension Manager CS5.5 -päivitys</fi_FI>
+					<fr_FR>Mise à jour d’Adobe Extension Manager CS5.5</fr_FR>
+					<hu_HU>Adobe Extension Manager CS5.5 – frissítés</hu_HU>
+					<it_IT>Aggiornamento di Adobe Extension Manager CS5.5</it_IT>
+					<ja_JP>Adobe Extension Manager CS5.5 アップデート</ja_JP>
+					<ko_KR>Adobe Extension Manager CS5.5 업데이트</ko_KR>
+					<nb_NO>Adobe Extension Manager CS5.5-oppdatering</nb_NO>
+					<nl_NL>Adobe Extension Manager CS5.5-update</nl_NL>
+					<pl_PL>Aktualizacja programu Adobe Extension Manager CS5.5</pl_PL>
+					<pt_BR>Atualização do Adobe Extension Manager CS5.5</pt_BR>
+					<ro_RO>Actualizare Adobe Extension Manager CS5.5</ro_RO>
+					<ru_RU>Обновление Adobe Extension Manager CS5.5</ru_RU>
+					<sv_SE>Adobe Extension Manager CS5.5-uppdatering</sv_SE>
+					<tr_TR>Adobe Extension Manager CS5.5 Güncelleştirmesi</tr_TR>
+					<uk_UA>Оновлення Adobe Extension Manager CS5.5</uk_UA>
+					<zh_CN>Adobe Extension Manager CS5.5 更新</zh_CN>
+					<zh_TW>Adobe Extension Manager CS5.5 更新</zh_TW>
+				</DisplayName>
+  <!-- One for each locale to be displayed in CS Updater-->
+  <Description default="en_US">
+                    <en_US>This update adds integration with the Adobe Product Improvement Program.</en_US>
+					<cs_CZ>Tato aktualizace umožňuje integraci s programem zdokonalování produktů Adobe.</cs_CZ>
+					<da_DK>Denne opdatering tilføjer integration med Adobes produktforbedringsprogram.</da_DK>
+					<de_DE>Mit diesem Update wird die Integration in das Adobe-Programm zur Produktverbesserung hinzugefügt.</de_DE>
+					<es_ES>Esta actualización facilita la integración con el programa de mejora de productos de Adobe.</es_ES>
+					<fi_FI>Tämä päivitys lisää Adobe Product Improvement Program -integroinnin.</fi_FI>
+					<fr_FR>Cette mise à jour permet d’intégrer le logiciel au programme d’amélioration des produits Adobe.</fr_FR>
+					<hu_HU>Ez a frissítés biztosítja az integrációt az Adobe termékfejlesztési programmal.</hu_HU>
+					<it_IT>Con questo aggiornamento verrà aggiunta l'integrazione con il Programma di perfezionamento prodotti Adobe.</it_IT>
+					<ja_JP>このアップデートにより、Adobe 製品向上プログラムと統合します。</ja_JP>
+					<ko_KR>이 업데이트는 Adobe 제품 개선 프로그램과의 통합을 추가합니다.</ko_KR>
+					<nb_NO>Denne oppdateringen gir integrasjon med Adobes produktforbedringsprogram.</nb_NO>
+					<nl_NL>Met deze update wordt integratie met het Adobe-productverbeteringsprogramma toegevoegd.</nl_NL>
+					<pl_PL>Ta aktualizacja zapewnia integrację z programem Adobe Product Improvement.</pl_PL>
+					<pt_BR>Esta atualização faz parte do Programa de aprimoramento do produto Adobe.</pt_BR>
+					<ro_RO>Această actualizare adaugă integrare cu Programul de îmbunătăţire a produselor Adobe.</ro_RO>
+					<ru_RU>Это обновление добавляет интеграцию с программой улучшения продуктов Adobe.</ru_RU>
+					<sv_SE>Med den här uppdateringen integreras Adobes Produktförbättringsprogram.</sv_SE>
+					<tr_TR>Bu güncelleştirme, Adobe Ürün İyileştirme Programı ile entegrasyon sağlar.</tr_TR>
+					<uk_UA>Це оновлення забезпечує інтеграцію із програмою вдосконалення продуктів Adobe.</uk_UA>
+					<zh_CN>此更新增加了与 Adobe 产品改进计划的集成。</zh_CN>
+					<zh_TW>此更新新增與 Adobe 產品改進計畫的整合。</zh_TW>
+				</Description>
+  <AffectedChannels>
+    <!--Channel IDs which could get affected by this update.-->
+    <ChannelID>AdobeExtensionManagerCS5.5-5.5</ChannelID>
+  </AffectedChannels>
+  <InstallFiles>
+    <File RIBSBased="1">
+      <Name>Setup.zip</Name>
+      <Type>1</Type>
+      <ExecutableName>AdobePatchInstaller.exe</ExecutableName>
+      <Size>23311502</Size>
+    </File>
+  </InstallFiles>
+  <NeedsReboot>false</NeedsReboot>
+</Manifest>

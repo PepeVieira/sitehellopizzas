@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<panelset>
+
+  <application maximize="false" rect="160 43 1456 731"/>
+
+  <document maximize="true" rect="0 0 500 500"/>
+
+  <panelframe dock="right" height="325" iconmodewidth="35" mode="icon" width="35" x="1" y="12">
+    <panelcontainer activepanel="276" expanded="true" height="268" visible="true">
+      <panel height="268" id="drovercolor" unconstrainedheight="268" unconstrainedwidth="208" width="208"/>
+      <panel height="268" id="droverswatch" unconstrainedheight="268" unconstrainedwidth="208" width="208"/>
+    </panelcontainer>
+    <panelcontainer activepanel="379" expanded="true" height="215" visible="true">
+      <panel height="215" id="droveralign" unconstrainedheight="215" unconstrainedwidth="212" width="212"/>
+      <panel height="215" id="droverinfo" unconstrainedheight="215" unconstrainedwidth="212" width="212"/>
+      <panel height="215" id="transform" unconstrainedheight="215" unconstrainedwidth="212" width="212"/>
+    </panelcontainer>
+    <panelcontainer expanded="true" height="1" visible="true">
+      <panel height="1" id="65" swffilename="Code Snippets.swf" unconstrainedheight="355" unconstrainedwidth="326" width="1"/>
+      <panel height="1" id="components" unconstrainedheight="355" unconstrainedwidth="326" width="1"/>
+      <panel height="1" id="drovermotionpresets" splitter="0,49" unconstrainedheight="355" unconstrainedwidth="326" width="1"/>
+    </panelcontainer>
+    <panelcontainer expanded="true" height="375" visible="true">
+      <panel height="375" id="64" swffilename="Project.swf" unconstrainedheight="375" unconstrainedwidth="500" width="500"/>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="right" height="637" width="282" x="37" y="12">
+    <panelcontainer expanded="true" height="617" visible="true">
+      <panel height="617" id="droverproperties" unconstrainedheight="114" unconstrainedwidth="278" width="278"/>
+      <panel column0id="1" column0width="200.00" column1id="2" column1width="25.00" column2id="3" column2width="230.00" column3id="4" column3width="70.00" column4id="5" column4width="135.00" column5id="6" column5width="70.00" filename="" height="617" id="droverlibrary" previewwithgrid="0" previewwithmoviebackground="1" sortasending="1" sortcolumn="1" splitter="0.15" unconstrainedheight="114" unconstrainedwidth="278" width="278"/>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="right" height="637" iconmodewidth="35" width="28" x="320" y="12">
+    <panelcontainer expanded="true" height="617" visible="true">
+      <panel height="617" id="tools" unconstrainedheight="175" unconstrainedwidth="189" width="24"/>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="bottom" height="200" width="938" x="0" y="1">
+    <panelcontainer expanded="true" height="180" visible="true">
+      <panel height="180" id="drovertimeline" isInLayerMode="false" unconstrainedheight="180" unconstrainedwidth="600" width="934"/>
+      <panel height="180" id="output" unconstrainedheight="180" unconstrainedwidth="600" visibleTab="false" width="934"/>
+      <panel height="180" id="compiler errors" unconstrainedheight="180" unconstrainedwidth="600" visibleTab="false" width="934"/>
+      <panel height="180" id="keyframeeditor" unconstrainedheight="180" unconstrainedwidth="600" width="934"/>
+    </panelcontainer>
+  </panelframe>
+
+</panelset>

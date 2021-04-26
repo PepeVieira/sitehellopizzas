@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<panelset>
+
+  <application maximize="true"/>
+
+  <document maximize="true"/>
+
+  <panelframe dock="left" height="914" width="212" x="7" y="0">
+    <panelcontainer expanded="true" height="423" visible="true">
+      <panel height="423" id="debug console" width="208"/>
+    </panelcontainer>
+    <panelcontainer expanded="true" height="423" visible="true">
+      <panel height="423" id="variables" width="208"/>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="left" width="38">
+    <panelcontainer expanded="true" visible="false">
+      <panel id="tools"/>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="bottom" height="190" width="1054" x="0" y="7">
+    <panelcontainer expanded="true" height="150" title="" visible="true">
+      <panel height="150" id="output" width="1050"/>
+      <panel height="150" id="compiler errors" width="1050" visibleTab="false"/>
+    </panelcontainer>
+  </panelframe>
+
+</panelset>

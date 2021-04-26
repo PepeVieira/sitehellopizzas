@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<toolbox>
+	<actionspanelsupplement>
+		<string name="setSelectColor" object="[flash.text.TextSnapshot]" text=".setSelectColor(%[hexColor:uint=0xFFFF00]%):void">
+			<parametersdialog>
+				<label value="Color:" control="COLORCHIP"/>
+				<colorchip id="COLORCHIP" format="hex"/>
+			</parametersdialog>
+		</string>
+		<string name="trace" text="trace(%arguments:restParam%):void">
+			<parametersdialog>
+				<label value="Arguments:" control="EXPRESSION" align="right"/>
+				<expression id="EXPRESSION" size="60"  flex="1" prompt="restParam"/>
+			</parametersdialog>
+		</string>
+	</actionspanelsupplement>
+</toolbox>

@@ -1,0 +1,442 @@
+erNotifications : AAM Update Notifier executable path is  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-09-16T03:26:39: <<< Adobe Updater Log End <<<
+
+
+2020-09-16T15:49:46: >>> Adobe Updater Log Begin >>>
+2020-09-16T15:49:46: Application Version: 2.0.0.15
+2020-09-16T15:49:46: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-09-16T15:49:46: cmdline option: -logLevel = 2
+2020-09-16T15:49:46: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-09-16T15:49:46: is  task present thread returns  true.
+2020-09-16T15:49:46: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-09-17T04:21:45: <<< Adobe Updater Log End <<<
+
+
+2020-09-17T14:28:11: >>> Adobe Updater Log Begin >>>
+2020-09-17T14:28:11: Application Version: 2.0.0.15
+2020-09-17T14:28:11: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-09-17T14:28:11: cmdline option: -logLevel = 2
+2020-09-17T14:28:11: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-09-17T14:28:11: is  task present thread returns  true.
+2020-09-17T14:28:11: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-09-17T18:30:18: <<< Adobe Updater Log End <<<
+
+
+2020-09-18T00:40:50: >>> Adobe Updater Log Begin >>>
+2020-09-18T00:40:50: Application Version: 2.0.0.15
+2020-09-18T00:40:50: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-09-18T00:40:50: cmdline option: -logLevel = 2
+2020-09-18T00:40:50: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-09-18T00:40:50: is  task present thread returns  true.
+2020-09-18T00:40:50: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-09-18T05:04:38: <<< Adobe Updater Log End <<<
+
+
+2020-09-18T18:16:49: >>> Adobe Updater Log Begin >>>
+2020-09-18T18:16:49: Application Version: 2.0.0.15
+2020-09-18T18:16:49: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-09-18T18:16:49: cmdline option: -logLevel = 2
+2020-09-18T18:16:49: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-09-18T18:16:49: is  task present thread returns  true.
+2020-09-18T18:16:49: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-09-19T03:07:03: <<< Adobe Updater Log End <<<
+
+
+2020-09-21T16:11:09: >>> Adobe Updater Log Begin >>>
+2020-09-21T16:11:09: Application Version: 2.0.0.15
+2020-09-21T16:11:09: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-09-21T16:11:09: cmdline option: -logLevel = 2
+2020-09-21T16:11:09: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-09-21T16:11:09: is  task present thread returns  true.
+2020-09-21T16:11:09: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-09-22T15:53:58: >>> Adobe Updater Log Begin >>>
+2020-09-22T15:53:58: Application Version: 2.0.0.15
+2020-09-22T15:53:58: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-09-22T15:53:58: cmdline option: -logLevel = 2
+2020-09-22T15:53:58: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-09-22T15:53:58: is  task present thread returns  true.
+2020-09-22T15:53:58: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-09-22T20:04:19: <<< Adobe Updater Log End <<<
+
+
+2020-09-25T22:13:01: >>> Adobe Updater Log Begin >>>
+2020-09-25T22:13:01: Application Version: 2.0.0.15
+2020-09-25T22:13:01: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-09-25T22:13:01: cmdline option: -logLevel = 2
+2020-09-25T22:13:01: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-09-25T22:13:01: is  task present thread returns  true.
+2020-09-25T22:13:01: UpdaterNotifications : Automatic updater scheduled check was missed.
+2020-09-25T22:13:01: is  task present thread returns  false.
+2020-09-25T22:13:01: UpdaterNotifications : Fallback task is not present
+2020-09-25T22:13:01: UpdaterNotifications : No other task scheduled. Adding fall back task to run updater after 30 minutes
+2020-09-25T22:13:01: UpdaterNotifications : Stepped into << AddOneTimeUpdaterSchedulerTask >> call.
+2020-09-25T22:13:01: UpdaterNotifications : Adding one time scheduled task for csupdater.
+2020-09-25T22:13:02: add  task thread returns  true.
+2020-09-25T22:13:02: UpdaterNotifications : Successfully returning from  << AddOneTimeUpdaterSchedulerTask >> call.
+2020-09-25T22:13:02: UpdaterNotifications : Successfully added fall back task to run updater after 30 minutes
+2020-09-25T22:13:02: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-09-27T18:23:43: >>> Adobe Updater Log Begin >>>
+2020-09-27T18:23:43: Application Version: 2.0.0.15
+2020-09-27T18:23:43: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-09-27T18:23:43: cmdline option: -logLevel = 2
+2020-09-27T18:23:43: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-09-27T18:23:43: is  task present thread returns  true.
+2020-09-27T18:23:43: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-09-28T01:18:55: <<< Adobe Updater Log End <<<
+
+
+2020-09-28T14:50:09: >>> Adobe Updater Log Begin >>>
+2020-09-28T14:50:09: Application Version: 2.0.0.15
+2020-09-28T14:50:09: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-09-28T14:50:09: cmdline option: -logLevel = 2
+2020-09-28T14:50:09: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-09-28T14:50:09: is  task present thread returns  true.
+2020-09-28T14:50:09: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-09-29T03:52:17: <<< Adobe Updater Log End <<<
+
+
+2020-09-29T13:51:46: >>> Adobe Updater Log Begin >>>
+2020-09-29T13:51:46: Application Version: 2.0.0.15
+2020-09-29T13:51:46: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-09-29T13:51:46: cmdline option: -logLevel = 2
+2020-09-29T13:51:46: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-09-29T13:51:46: is  task present thread returns  true.
+2020-09-29T13:51:46: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-09-30T14:32:58: >>> Adobe Updater Log Begin >>>
+2020-09-30T14:32:58: Application Version: 2.0.0.15
+2020-09-30T14:32:58: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-09-30T14:32:58: cmdline option: -logLevel = 2
+2020-09-30T14:32:58: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-09-30T14:32:58: is  task present thread returns  true.
+2020-09-30T14:32:58: UpdaterNotifications : Automatic updater scheduled check was missed.
+2020-09-30T14:32:58: is  task present thread returns  false.
+2020-09-30T14:32:58: UpdaterNotifications : Fallback task is not present
+2020-09-30T14:32:58: UpdaterNotifications : No other task scheduled. Adding fall back task to run updater after 30 minutes
+2020-09-30T14:32:58: UpdaterNotifications : Stepped into << AddOneTimeUpdaterSchedulerTask >> call.
+2020-09-30T14:32:58: UpdaterNotifications : Adding one time scheduled task for csupdater.
+2020-09-30T14:32:59: add  task thread returns  true.
+2020-09-30T14:32:59: UpdaterNotifications : Successfully returning from  << AddOneTimeUpdaterSchedulerTask >> call.
+2020-09-30T14:32:59: UpdaterNotifications : Successfully added fall back task to run updater after 30 minutes
+2020-09-30T14:32:59: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-01T04:01:10: <<< Adobe Updater Log End <<<
+
+
+2020-10-01T15:23:22: >>> Adobe Updater Log Begin >>>
+2020-10-01T15:23:22: Application Version: 2.0.0.15
+2020-10-01T15:23:22: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-01T15:23:22: cmdline option: -logLevel = 2
+2020-10-01T15:23:22: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-01T15:23:22: is  task present thread returns  true.
+2020-10-01T15:23:22: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-02T04:19:23: <<< Adobe Updater Log End <<<
+
+
+2020-10-05T16:10:51: >>> Adobe Updater Log Begin >>>
+2020-10-05T16:10:51: Application Version: 2.0.0.15
+2020-10-05T16:10:51: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-05T16:10:51: cmdline option: -logLevel = 2
+2020-10-05T16:10:51: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-05T16:10:51: is  task present thread returns  true.
+2020-10-05T16:10:51: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-06T15:34:30: >>> Adobe Updater Log Begin >>>
+2020-10-06T15:34:30: Application Version: 2.0.0.15
+2020-10-06T15:34:30: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-06T15:34:30: cmdline option: -logLevel = 2
+2020-10-06T15:34:30: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-06T15:34:30: is  task present thread returns  true.
+2020-10-06T15:34:30: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-06T16:17:10: is  task present thread returns  false.
+2020-10-06T16:17:10: UpdaterNotifications : AAM Update Notifier executable path is  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-10-06T16:17:10: <<< Adobe Updater Log End <<<
+
+
+2020-10-07T01:28:58: >>> Adobe Updater Log Begin >>>
+2020-10-07T01:28:58: Application Version: 2.0.0.15
+2020-10-07T01:28:58: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-07T01:28:58: cmdline option: -logLevel = 2
+2020-10-07T01:28:58: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-07T01:28:58: is  task present thread returns  true.
+2020-10-07T01:28:58: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-07T03:01:48: <<< Adobe Updater Log End <<<
+
+
+2020-10-07T18:54:48: >>> Adobe Updater Log Begin >>>
+2020-10-07T18:54:48: Application Version: 2.0.0.15
+2020-10-07T18:54:48: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-07T18:54:48: cmdline option: -logLevel = 2
+2020-10-07T18:54:48: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-07T18:54:48: is  task present thread returns  true.
+2020-10-07T18:54:48: UpdaterNotifications : Automatic updater scheduled check was missed.
+2020-10-07T18:54:48: is  task present thread returns  false.
+2020-10-07T18:54:48: UpdaterNotifications : Fallback task is not present
+2020-10-07T18:54:48: UpdaterNotifications : No other task scheduled. Adding fall back task to run updater after 30 minutes
+2020-10-07T18:54:48: UpdaterNotifications : Stepped into << AddOneTimeUpdaterSchedulerTask >> call.
+2020-10-07T18:54:48: UpdaterNotifications : Adding one time scheduled task for csupdater.
+2020-10-07T18:54:48: add  task thread returns  true.
+2020-10-07T18:54:48: UpdaterNotifications : Successfully returning from  << AddOneTimeUpdaterSchedulerTask >> call.
+2020-10-07T18:54:48: UpdaterNotifications : Successfully added fall back task to run updater after 30 minutes
+2020-10-07T18:54:48: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-07T18:54:49: is  task present thread returns  true.
+2020-10-07T18:54:49: remove current  task thread returns  true.
+2020-10-07T18:54:49: UpdaterNotifications : AAM Update Notifier executable path is  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-10-07T18:54:49: <<< Adobe Updater Log End <<<
+
+
+2020-10-07T18:58:46: >>> Adobe Updater Log Begin >>>
+2020-10-07T18:58:46: Application Version: 2.0.0.15
+2020-10-07T18:58:46: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-07T18:58:46: cmdline option: -logLevel = 2
+2020-10-07T18:58:46: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-07T18:58:46: is  task present thread returns  true.
+2020-10-07T18:58:46: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-07T20:14:34: <<< Adobe Updater Log End <<<
+
+
+2020-10-07T20:16:37: >>> Adobe Updater Log Begin >>>
+2020-10-07T20:16:37: Application Version: 2.0.0.15
+2020-10-07T20:16:37: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-07T20:16:37: cmdline option: -logLevel = 2
+2020-10-07T20:16:37: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-07T20:16:37: is  task present thread returns  true.
+2020-10-07T20:16:37: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-07T22:20:12: <<< Adobe Updater Log End <<<
+
+
+2020-10-08T14:14:39: >>> Adobe Updater Log Begin >>>
+2020-10-08T14:14:39: Application Version: 2.0.0.15
+2020-10-08T14:14:39: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-08T14:14:39: cmdline option: -logLevel = 2
+2020-10-08T14:14:39: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-08T14:14:39: is  task present thread returns  true.
+2020-10-08T14:14:39: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-08T15:54:16: <<< Adobe Updater Log End <<<
+
+
+2020-10-08T15:54:35: >>> Adobe Updater Log Begin >>>
+2020-10-08T15:54:35: Application Version: 2.0.0.15
+2020-10-08T15:54:35: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-08T15:54:35: cmdline option: -logLevel = 2
+2020-10-08T15:54:35: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-08T15:54:35: is  task present thread returns  true.
+2020-10-08T15:54:35: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-13T18:12:17: >>> Adobe Updater Log Begin >>>
+2020-10-13T18:12:17: Application Version: 2.0.0.15
+2020-10-13T18:12:17: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-13T18:12:17: cmdline option: -logLevel = 2
+2020-10-13T18:12:17: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-13T18:12:17: is  task present thread returns  true.
+2020-10-13T18:12:17: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-14T02:30:39: <<< Adobe Updater Log End <<<
+
+
+2020-10-14T19:16:36: >>> Adobe Updater Log Begin >>>
+2020-10-14T19:16:36: Application Version: 2.0.0.15
+2020-10-14T19:16:36: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-14T19:16:36: cmdline option: -logLevel = 2
+2020-10-14T19:16:36: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-14T19:16:36: is  task present thread returns  true.
+2020-10-14T19:16:36: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-15T03:34:55: <<< Adobe Updater Log End <<<
+
+
+2020-10-15T13:19:57: >>> Adobe Updater Log Begin >>>
+2020-10-15T13:19:57: Application Version: 2.0.0.15
+2020-10-15T13:19:57: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-15T13:19:57: cmdline option: -logLevel = 2
+2020-10-15T13:19:57: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-15T13:19:57: is  task present thread returns  true.
+2020-10-15T13:19:57: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-16T19:57:36: >>> Adobe Updater Log Begin >>>
+2020-10-16T19:57:36: Application Version: 2.0.0.15
+2020-10-16T19:57:36: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-16T19:57:36: cmdline option: -logLevel = 2
+2020-10-16T19:57:36: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-16T19:57:36: is  task present thread returns  true.
+2020-10-16T19:57:36: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-16T22:55:14: <<< Adobe Updater Log End <<<
+
+
+2020-10-17T18:58:11: >>> Adobe Updater Log Begin >>>
+2020-10-17T18:58:11: Application Version: 2.0.0.15
+2020-10-17T18:58:11: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-17T18:58:11: cmdline option: -logLevel = 2
+2020-10-17T18:58:11: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-17T18:58:11: is  task present thread returns  true.
+2020-10-17T18:58:11: UpdaterNotifications : Automatic updater scheduled check was missed.
+2020-10-17T18:58:11: is  task present thread returns  false.
+2020-10-17T18:58:11: UpdaterNotifications : Fallback task is not present
+2020-10-17T18:58:11: UpdaterNotifications : No other task scheduled. Adding fall back task to run updater after 30 minutes
+2020-10-17T18:58:11: UpdaterNotifications : Stepped into << AddOneTimeUpdaterSchedulerTask >> call.
+2020-10-17T18:58:11: UpdaterNotifications : Adding one time scheduled task for csupdater.
+2020-10-17T18:58:12: add  task thread returns  true.
+2020-10-17T18:58:12: UpdaterNotifications : Successfully returning from  << AddOneTimeUpdaterSchedulerTask >> call.
+2020-10-17T18:58:12: UpdaterNotifications : Successfully added fall back task to run updater after 30 minutes
+2020-10-17T18:58:12: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-18T23:10:41: >>> Adobe Updater Log Begin >>>
+2020-10-18T23:10:41: Application Version: 2.0.0.15
+2020-10-18T23:10:41: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-18T23:10:41: cmdline option: -logLevel = 2
+2020-10-18T23:10:41: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-18T23:10:41: is  task present thread returns  true.
+2020-10-18T23:10:41: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-19T00:23:16: <<< Adobe Updater Log End <<<
+
+
+2020-10-19T14:47:04: >>> Adobe Updater Log Begin >>>
+2020-10-19T14:47:04: Application Version: 2.0.0.15
+2020-10-19T14:47:04: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-19T14:47:04: cmdline option: -logLevel = 2
+2020-10-19T14:47:04: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-19T14:47:04: is  task present thread returns  true.
+2020-10-19T14:47:04: UpdaterNotifications : Automatic updater scheduled check was missed.
+2020-10-19T14:47:04: is  task present thread returns  false.
+2020-10-19T14:47:04: UpdaterNotifications : Fallback task is not present
+2020-10-19T14:47:04: UpdaterNotifications : No other task scheduled. Adding fall back task to run updater after 30 minutes
+2020-10-19T14:47:04: UpdaterNotifications : Stepped into << AddOneTimeUpdaterSchedulerTask >> call.
+2020-10-19T14:47:04: UpdaterNotifications : Adding one time scheduled task for csupdater.
+2020-10-19T14:47:05: add  task thread returns  true.
+2020-10-19T14:47:05: UpdaterNotifications : Successfully returning from  << AddOneTimeUpdaterSchedulerTask >> call.
+2020-10-19T14:47:05: UpdaterNotifications : Successfully added fall back task to run updater after 30 minutes
+2020-10-19T14:47:05: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-19T14:49:24: is  task present thread returns  true.
+2020-10-19T14:49:24: remove current  task thread returns  true.
+2020-10-19T14:49:24: UpdaterNotifications : AAM Update Notifier executable path is  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-10-19T14:49:24: <<< Adobe Updater Log End <<<
+
+
+2020-10-19T14:49:35: >>> Adobe Updater Log Begin >>>
+2020-10-19T14:49:35: Application Version: 2.0.0.15
+2020-10-19T14:49:35: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-19T14:49:35: cmdline option: -logLevel = 2
+2020-10-19T14:49:35: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-19T14:49:35: is  task present thread returns  true.
+2020-10-19T14:49:35: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-20T16:19:15: >>> Adobe Updater Log Begin >>>
+2020-10-20T16:19:15: Application Version: 2.0.0.15
+2020-10-20T16:19:15: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-20T16:19:15: cmdline option: -logLevel = 2
+2020-10-20T16:19:15: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-20T16:19:15: is  task present thread returns  true.
+2020-10-20T16:19:15: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-22T23:08:46: >>> Adobe Updater Log Begin >>>
+2020-10-22T23:08:46: Application Version: 2.0.0.15
+2020-10-22T23:08:46: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-22T23:08:46: cmdline option: -logLevel = 2
+2020-10-22T23:08:46: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-22T23:08:46: is  task present thread returns  true.
+2020-10-22T23:08:46: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-23T03:28:32: <<< Adobe Updater Log End <<<
+
+
+2020-10-23T14:42:54: >>> Adobe Updater Log Begin >>>
+2020-10-23T14:42:54: Application Version: 2.0.0.15
+2020-10-23T14:42:54: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-23T14:42:54: cmdline option: -logLevel = 2
+2020-10-23T14:42:54: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-23T14:42:54: is  task present thread returns  true.
+2020-10-23T14:42:54: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-23T22:56:55: <<< Adobe Updater Log End <<<
+
+
+2020-10-26T14:46:26: >>> Adobe Updater Log Begin >>>
+2020-10-26T14:46:26: Application Version: 2.0.0.15
+2020-10-26T14:46:26: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-26T14:46:26: cmdline option: -logLevel = 2
+2020-10-26T14:46:26: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-26T14:46:26: is  task present thread returns  true.
+2020-10-26T14:46:26: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-27T03:06:20: is  task present thread returns  false.
+2020-10-27T03:06:20: UpdaterNotifications : AAM Update Notifier executable path is  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-10-27T03:06:20: <<< Adobe Updater Log End <<<
+
+
+2020-10-28T17:54:46: >>> Adobe Updater Log Begin >>>
+2020-10-28T17:54:46: Application Version: 2.0.0.15
+2020-10-28T17:54:46: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-28T17:54:46: cmdline option: -logLevel = 2
+2020-10-28T17:54:46: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-28T17:54:46: is  task present thread returns  true.
+2020-10-28T17:54:46: UpdaterNotifications : Automatic updater scheduled check was missed.
+2020-10-28T17:54:46: is  task present thread returns  false.
+2020-10-28T17:54:46: UpdaterNotifications : Fallback task is not present
+2020-10-28T17:54:46: UpdaterNotifications : No other task scheduled. Adding fall back task to run updater after 30 minutes
+2020-10-28T17:54:46: UpdaterNotifications : Stepped into << AddOneTimeUpdaterSchedulerTask >> call.
+2020-10-28T17:54:46: UpdaterNotifications : Adding one time scheduled task for csupdater.
+2020-10-28T17:54:47: add  task thread returns  true.
+2020-10-28T17:54:47: UpdaterNotifications : Successfully returning from  << AddOneTimeUpdaterSchedulerTask >> call.
+2020-10-28T17:54:47: UpdaterNotifications : Successfully added fall back task to run updater after 30 minutes
+2020-10-28T17:54:47: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-28T19:12:26: is  task present thread returns  true.
+2020-10-28T19:12:27: remove current  task thread returns  true.
+2020-10-28T19:12:27: UpdaterNotifications : AAM Update Notifier executable path is  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-10-28T19:12:27: <<< Adobe Updater Log End <<<
+
+
+2020-10-29T12:38:19: >>> Adobe Updater Log Begin >>>
+2020-10-29T12:38:19: Application Version: 2.0.0.15
+2020-10-29T12:38:19: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-29T12:38:19: cmdline option: -logLevel = 2
+2020-10-29T12:38:19: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-29T12:38:19: is  task present thread returns  true.
+2020-10-29T12:38:19: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-29T20:10:33: is  task present thread returns  false.
+2020-10-29T20:10:33: UpdaterNotifications : AAM Update Notifier executable path is  = C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe
+2020-10-29T20:10:33: <<< Adobe Updater Log End <<<
+
+
+2020-10-30T15:54:31: >>> Adobe Updater Log Begin >>>
+2020-10-30T15:54:31: Application Version: 2.0.0.15
+2020-10-30T15:54:31: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-10-30T15:54:31: cmdline option: -logLevel = 2
+2020-10-30T15:54:31: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-10-30T15:54:31: is  task present thread returns  true.
+2020-10-30T15:54:31: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-10-30T18:25:34: <<< Adobe Updater Log End <<<
+
+
+2020-11-03T15:19:57: >>> Adobe Updater Log Begin >>>
+2020-11-03T15:19:57: Application Version: 2.0.0.15
+2020-11-03T15:19:57: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-11-03T15:19:57: cmdline option: -logLevel = 2
+2020-11-03T15:19:57: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-11-03T15:19:57: is  task present thread returns  true.
+2020-11-03T15:19:57: UpdaterNotifications : Automatic updater scheduled check was missed.
+2020-11-03T15:19:57: is  task present thread returns  false.
+2020-11-03T15:19:57: UpdaterNotifications : Fallback task is not present
+2020-11-03T15:19:57: UpdaterNotifications : No other task scheduled. Adding fall back task to run updater after 30 minutes
+2020-11-03T15:19:57: UpdaterNotifications : Stepped into << AddOneTimeUpdaterSchedulerTask >> call.
+2020-11-03T15:19:57: UpdaterNotifications : Adding one time scheduled task for csupdater.
+2020-11-03T15:19:58: add  task thread returns  true.
+2020-11-03T15:19:58: UpdaterNotifications : Successfully returning from  << AddOneTimeUpdaterSchedulerTask >> call.
+2020-11-03T15:19:58: UpdaterNotifications : Successfully added fall back task to run updater after 30 minutes
+2020-11-03T15:19:58: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-11-04T03:26:15: <<< Adobe Updater Log End <<<
+
+
+2020-11-10T16:49:19: >>> Adobe Updater Log Begin >>>
+2020-11-10T16:49:19: Application Version: 2.0.0.15
+2020-11-10T16:49:19: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-11-10T16:49:19: cmdline option: -logLevel = 2
+2020-11-10T16:49:19: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-11-10T16:49:19: is  task present thread returns  true.
+2020-11-10T16:49:19: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-11-10T22:53:10: <<< Adobe Updater Log End <<<
+
+
+2020-11-25T01:33:22: >>> Adobe Updater Log Begin >>>
+2020-11-25T01:33:22: Application Version: 2.0.0.15
+2020-11-25T01:33:22: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2020-11-25T01:33:22: cmdline option: -logLevel = 2
+2020-11-25T01:33:22: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2020-11-25T01:33:22: is  task present thread returns  true.
+2020-11-25T01:33:22: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2020-11-25T01:33:24: <<< Adobe Updater Log End <<<
+
+
+2021-04-22T17:25:59: >>> Adobe Updater Log Begin >>>
+2021-04-22T17:25:59: Application Version: 2.0.0.15
+2021-04-22T17:25:59: cmdline option: -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log
+2021-04-22T17:25:59: cmdline option: -logLevel = 2
+2021-04-22T17:25:59: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2021-04-22T17:25:59: is  task present thread returns  true.
+2021-04-22T17:25:59: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.

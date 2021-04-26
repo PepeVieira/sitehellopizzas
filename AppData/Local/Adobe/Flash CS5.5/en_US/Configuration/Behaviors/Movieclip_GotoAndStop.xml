@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+
+<!-- **************************************************************************** -->
+<!-- Copyright 2003 Macromedia, Inc. All Rights Reserved.                         -->
+<!-- The following is Sample Code and is subject to all restrictions on           -->
+<!-- such code as contained in the End User License Agreement accompanying        -->
+<!-- this product.                                                                -->
+<!-- **************************************************************************** -->
+
+<flash_behavior version="1.0">
+	<behavior_definition
+		dialogID="Goto_and_Stop-dialog"
+		category="Movieclip"
+		name="Goto and Stop at frame or label">
+		<properties>
+			<property id="target" default="this"/>
+			<property id="frame" default="1"/>
+		</properties>
+	
+		<!--The dialog window is tied to the controls below by its id-->
+		<!--This controls generate the dialog using the XML to UI functionality-->
+		
+		<dialog id="Goto_and_Stop-dialog" title="Goto and Stop at frame or label" buttons="accept, cancel">
+			<vbox>
+				<label value="Choose the movie clip that you want to stop playing:               "/>
+			</vbox>
+			<grid>
+				<rows>
+					<row align="center">
+						<targetlist id="target" tabindex="1" class="movieclip"/>
+					</row>
+				</rows>
+				<label value=""/>
+				<label value="Enter the frame number or frame label at which the movie clip"/>
+				<label value="should stop playing:"/>
+				<rows>
+					<row align="center">
+						<textbox literal="true" id="frame" tabindex="2" required="true" requiredname="frame"/>
+					</row>
+				</rows>
+			</grid> 
+		</dialog>
+		<actionscript>
+<![CDATA[
+	//Movieclip GotoAndStop Behavior
+	$target$.gotoAndStop($frame$);
+	//End Behavior
+]]>
+		</actionscript>
+	</behavior_definition>
+</flash_behavior>

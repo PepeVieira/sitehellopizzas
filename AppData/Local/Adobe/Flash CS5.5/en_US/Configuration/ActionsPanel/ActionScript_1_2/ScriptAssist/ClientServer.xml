@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xul-overlay href="../../../XULControls/URLControls.xml"?>
+
+<customactions>
+	<actionspanelsupplement>
+		<string name="load" object="LoadVars" text=".load(% url %)">
+			<parametersdialog>
+				<block id="URL"/>
+			</parametersdialog>
+		</string>
+		<string name="send" object="LoadVars" text=".send(% url, window, method %)">
+			<parametersdialog>
+				<block id="URL"/>
+				<block id="URL_WINDOW"/>
+				<label value="Method:" align="right" control="METHOD_EXPRESSION"/>
+				<expression id="METHOD_EXPRESSION" size="60" prompt="method"/>
+			</parametersdialog>
+		</string>
+		<string name="sendAndLoad" object="LoadVars" text=".sendAndLoad(% url:String, targetObject, method %)">
+			<parametersdialog>
+				<block id="URL"/>
+				<label value="Target Object:" align="right" control="TARGET"/>
+				<textbox id="TARGET" size="30" prompt="object"/>
+				<label value="Method:" align="right" control="METHOD_EXPRESSION"/>
+				<expression id="METHOD_EXPRESSION" size="30" prompt="method"/>
+			</parametersdialog>
+		</string>
+		<string name="load" object="XML" text=".load(% url %)">
+			<parametersdialog>
+				<block id="URL"/>
+			</parametersdialog>
+		</string>
+		<string name="send" object="XML" text=".send(% url, window %)">
+			<parametersdialog>
+				<block id="URL"/>
+				<block id="URL_WINDOW"/>
+				<label value="Method:" align="right" control="METHOD_EXPRESSION"/>
+				<expression id="METHOD_EXPRESSION" size="60" prompt="method"/>
+			</parametersdialog>
+		</string>
+		<string name="sendAndLoad" object="XML" text='.sendAndLoad(% url:String="", resultXML %)'>
+			<parametersdialog>
+				<block id="URL"/>
+				<label value="Result XML:" align="right" control="RSLT"/>
+				<textbox id="RSLT" size="50" prompt="xml"/>
+			</parametersdialog>
+		</string>
+	</actionspanelsupplement>
+</customactions>

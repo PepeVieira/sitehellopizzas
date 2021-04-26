@@ -1,0 +1,2475 @@
+%!Adobe-FontList 1.13
+%Locale:0x416
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:83pv-RKSJ-H
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\83pv-RKSJ-H
+FileLength:7463
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:90ms-RKSJ-H
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\90ms-RKSJ-H
+FileLength:6398
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:90ms-RKSJ-UCS2
+Registry:Adobe
+Ordering:90ms_RKSJ_UCS2
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\90ms-RKSJ-UCS2
+FileLength:112126
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:90ms-RKSJ-V
+Registry:Adobe
+Ordering:Japan1
+UseCMap:90ms-RKSJ-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\90ms-RKSJ-V
+FileLength:4454
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:90msp-RKSJ-H
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\90msp-RKSJ-H
+FileLength:6327
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:90msp-RKSJ-V
+Registry:Adobe
+Ordering:Japan1
+UseCMap:90msp-RKSJ-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\90msp-RKSJ-V
+FileLength:4436
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:90pv-RKSJ-H
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\90pv-RKSJ-H
+FileLength:8239
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:90pv-RKSJ-UCS2
+Registry:Adobe
+Ordering:90pv_RKSJ_UCS2
+UseCMap:90pv-RKSJ-UCS2C
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\90pv-RKSJ-UCS2
+FileLength:1854
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:90pv-RKSJ-UCS2C
+Registry:Adobe
+Ordering:90pv_RKSJ_UCS2C
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\90pv-RKSJ-UCS2C
+FileLength:102591
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Add-RKSJ-H
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Add-RKSJ-H
+FileLength:15845
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Add-RKSJ-V
+Registry:Adobe
+Ordering:Japan1
+UseCMap:Add-RKSJ-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Add-RKSJ-V
+FileLength:4027
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-CNS1-0
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-CNS1-0
+FileLength:4034
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-CNS1-1
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-CNS1-1
+FileLength:4218
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-CNS1-2
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-CNS1-2
+FileLength:4239
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-CNS1-3
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-CNS1-3
+FileLength:4344
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-CNS1-4
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-CNS1-4
+FileLength:4365
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-CNS1-5
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-CNS1-5
+FileLength:4365
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-CNS1-B5pc
+Registry:Adobe
+Ordering:Adobe_CNS1_B5pc
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-CNS1-B5pc
+FileLength:7955
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-CNS1-ETenms-B5
+Registry:Adobe
+Ordering:Adobe_CNS1_ETenms_B5
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-CNS1-ETen-B5
+FileLength:8375
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-CNS1-H-CID
+Registry:Adobe
+Ordering:Adobe_CNS1_H_CID
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-CNS1-H-CID
+FileLength:1973
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-CNS1-H-Host
+Registry:Adobe
+Ordering:Adobe_CNS1_H_Host
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-CNS1-H-Host
+FileLength:8490
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-CNS1-H-Mac
+Registry:Adobe
+Ordering:Adobe_CNS1_H_Mac
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-CNS1-H-Mac
+FileLength:8022
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-CNS1-UCS2
+Registry:Adobe
+Ordering:Adobe_CNS1_UCS2
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-CNS1-UCS2
+FileLength:281794
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-GB1-0
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-GB1-0
+FileLength:3472
+FileModTime:1288023226
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-GB1-1
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-GB1-1
+FileLength:3634
+FileModTime:1288023226
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-GB1-2
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-GB1-2
+FileLength:4636
+FileModTime:1288023226
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-GB1-3
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-GB1-3
+FileLength:4635
+FileModTime:1288023226
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-GB1-4
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-GB1-4
+FileLength:5217
+FileModTime:1288023226
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-GB1-5
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-GB1-5
+FileLength:5322
+FileModTime:1288023226
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-GB1-GBK-EUC
+Registry:Adobe
+Ordering:Adobe_GB1_GBK_EUC
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-GB1-GBK-EUC
+FileLength:93830
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-GB1-GBpc-EUC
+Registry:Adobe
+Ordering:Adobe_GB1_GBpc_EUC
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-GB1-GBpc-EUC
+FileLength:4226
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-GB1-H-CID
+Registry:Adobe
+Ordering:Adobe_GB1_H_CID
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-GB1-H-CID
+FileLength:2092
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-GB1-H-Host
+Registry:Adobe
+Ordering:Adobe_GB1_H_Host
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-GB1-H-Host
+FileLength:94436
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-GB1-H-Mac
+Registry:Adobe
+Ordering:Adobe_GB1_H_Mac
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-GB1-H-Mac
+FileLength:4207
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-GB1-UCS2
+Registry:Adobe
+Ordering:Adobe_GB1_UCS2
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-GB1-UCS2
+FileLength:244619
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Japan1-0
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Japan1-0
+FileLength:3523
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Japan1-1
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Japan1-1
+FileLength:3524
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Japan1-2
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Japan1-2
+FileLength:3564
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Japan1-3
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Japan1-3
+FileLength:3575
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Japan1-4
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Japan1-4
+FileLength:4077
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Japan1-5
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Japan1-5
+FileLength:4476
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Japan1-6
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Japan1-6
+FileLength:4707
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Japan1-90ms-RKSJ
+Registry:Adobe
+Ordering:Adobe_Japan1_90ms_RKSJ
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Japan1-90ms-RKSJ
+FileLength:6353
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Japan1-90pv-RKSJ
+Registry:Adobe
+Ordering:Adobe_Japan1_90pv_RKSJ
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Japan1-90pv-RKSJ
+FileLength:8442
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Japan1-H-CID
+Registry:Adobe
+Ordering:Adobe_Japan1_H_CID
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Japan1-H-CID
+FileLength:2291
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Japan1-H-Host
+Registry:Adobe
+Ordering:Adobe_Japan1_H_Host
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Japan1-H-Host
+FileLength:6625
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Japan1-H-Mac
+Registry:Adobe
+Ordering:Adobe_Japan1_H_Mac
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Japan1-H-Mac
+FileLength:5492
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Japan1-UCS2
+Registry:Adobe
+Ordering:Adobe_Japan1_UCS2
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Japan1-UCS2
+FileLength:301722
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Korea1-0
+Registry:Adobe
+Ordering:Korea1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Korea1-0
+FileLength:3618
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Korea1-1
+Registry:Adobe
+Ordering:Korea1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Korea1-1
+FileLength:4309
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Korea1-2
+Registry:Adobe
+Ordering:Korea1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Korea1-2
+FileLength:4308
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Korea1-H-CID
+Registry:Adobe
+Ordering:Adobe_Korea1_H_CID
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Korea1-H-CID
+FileLength:1642
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Korea1-H-Host
+Registry:Adobe
+Ordering:Adobe_Korea1_H_Host
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Korea1-H-Host
+FileLength:16064
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Korea1-H-Mac
+Registry:Adobe
+Ordering:Adobe_Korea1_H_Mac
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Korea1-H-Mac
+FileLength:11427
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Korea1-KSCms-UHC
+Registry:Adobe
+Ordering:Adobe_Korea1_KSCms_UHC
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Korea1-KSCms-UHC
+FileLength:15858
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Korea1-KSCpc-EUC
+Registry:Adobe
+Ordering:Adobe_Korea1_KSCpc_EUC
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Korea1-KSCpc-EUC
+FileLength:11507
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Adobe-Korea1-UCS2
+Registry:Adobe
+Ordering:Adobe_Korea1_UCS2
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Adobe-Korea1-UCS2
+FileLength:154586
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:B5pc-H
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\B5pc-H
+FileLength:7953
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:B5pc-UCS2
+Registry:Adobe
+Ordering:B5pc_UCS2
+UseCMap:B5pc-UCS2C
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\B5pc-UCS2
+FileLength:1225
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:B5pc-UCS2C
+Registry:Adobe
+Ordering:B5pc_UCS2C
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\B5pc-UCS2C
+FileLength:284606
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:B5pc-V
+Registry:Adobe
+Ordering:CNS1
+UseCMap:B5pc-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\B5pc-V
+FileLength:3095
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:CNS-EUC-H
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\CNS-EUC-H
+FileLength:12805
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:CNS-EUC-V
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\CNS-EUC-V
+FileLength:13885
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:ETen-B5-H
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\ETen-B5-H
+FileLength:8115
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:ETen-B5-UCS2
+Registry:Adobe
+Ordering:ETen_B5_UCS2
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\ETen-B5-UCS2
+FileLength:288463
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:ETen-B5-V
+Registry:Adobe
+Ordering:CNS1
+UseCMap:ETen-B5-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\ETen-B5-V
+FileLength:3134
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:ETenms-B5-H
+Registry:Adobe
+Ordering:CNS1
+UseCMap:ETen-B5-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\ETenms-B5-H
+FileLength:2877
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:ETenms-B5-V
+Registry:Adobe
+Ordering:CNS1
+UseCMap:ETenms-B5-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\ETenms-B5-V
+FileLength:3209
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:ETHK-B5-H
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\ETHK-B5-H
+FileLength:24599
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:ETHK-B5-V
+Registry:Adobe
+Ordering:CNS1
+UseCMap:ETHK-B5-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\ETHK-B5-V
+FileLength:3114
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:EUC-H
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\EUC-H
+FileLength:5351
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:EUC-V
+Registry:Adobe
+Ordering:Japan1
+UseCMap:EUC-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\EUC-V
+FileLength:3397
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Ext-RKSJ-H
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Ext-RKSJ-H
+FileLength:16444
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Ext-RKSJ-V
+Registry:Adobe
+Ordering:Japan1
+UseCMap:Ext-RKSJ-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Ext-RKSJ-V
+FileLength:3667
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GB-EUC-H
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GB-EUC-H
+FileLength:4669
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GB-EUC-V
+Registry:Adobe
+Ordering:GB1
+UseCMap:GB-EUC-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GB-EUC-V
+FileLength:3267
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GBK-EUC-H
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GBK-EUC-H
+FileLength:87444
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GBK-EUC-UCS2
+Registry:Adobe
+Ordering:GBK_EUC_UCS2
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GBK-EUC-UCS2
+FileLength:233552
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GBK-EUC-V
+Registry:Adobe
+Ordering:GB1
+UseCMap:GBK-EUC-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GBK-EUC-V
+FileLength:3255
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GBK2K-H
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GBK2K-H
+FileLength:96320
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GBK2K-V
+Registry:Adobe
+Ordering:GB1
+UseCMap:GBK2K-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GBK2K-V
+FileLength:3669
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GBKp-EUC-H
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GBKp-EUC-H
+FileLength:87424
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GBKp-EUC-V
+Registry:Adobe
+Ordering:GB1
+UseCMap:GBKp-EUC-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GBKp-EUC-V
+FileLength:3261
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GBpc-EUC-H
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GBpc-EUC-H
+FileLength:4699
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GBpc-EUC-UCS2
+Registry:Adobe
+Ordering:GBpc_EUC_UCS2
+UseCMap:GBpc-EUC-UCS2C
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GBpc-EUC-UCS2
+FileLength:1312
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GBpc-EUC-UCS2C
+Registry:Adobe
+Ordering:GBpc_EUC_UCS2C
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GBpc-EUC-UCS2C
+FileLength:148118
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GBpc-EUC-V
+Registry:Adobe
+Ordering:GB1
+UseCMap:GBpc-EUC-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GBpc-EUC-V
+FileLength:3279
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GBT-EUC-H
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GBT-EUC-H
+FileLength:49274
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:GBT-EUC-V
+Registry:Adobe
+Ordering:GB1
+UseCMap:GBT-EUC-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\GBT-EUC-V
+FileLength:3275
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:H
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\H
+FileLength:5210
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:HKdla-B5-H
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\HKdla-B5-H
+FileLength:24471
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:HKdla-B5-V
+Registry:Adobe
+Ordering:CNS1
+UseCMap:HKdla-B5-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\HKdla-B5-V
+FileLength:3099
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:HKdlb-B5-H
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\HKdlb-B5-H
+FileLength:22013
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:HKdlb-B5-V
+Registry:Adobe
+Ordering:CNS1
+UseCMap:HKdlb-B5-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\HKdlb-B5-V
+FileLength:3099
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:HKgccs-B5-H
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\HKgccs-B5-H
+FileLength:14442
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:HKgccs-B5-V
+Registry:Adobe
+Ordering:CNS1
+UseCMap:HKgccs-B5-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\HKgccs-B5-V
+FileLength:3105
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:HKm314-B5-H
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\HKm314-B5-H
+FileLength:14245
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:HKm314-B5-V
+Registry:Adobe
+Ordering:CNS1
+UseCMap:HKm314-B5-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\HKm314-B5-V
+FileLength:3105
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:HKm471-B5-H
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\HKm471-B5-H
+FileLength:17365
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:HKm471-B5-V
+Registry:Adobe
+Ordering:CNS1
+UseCMap:HKm471-B5-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\HKm471-B5-V
+FileLength:3105
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:HKscs-B5-H
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\HKscs-B5-H
+FileLength:24653
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:HKscs-B5-V
+Registry:Adobe
+Ordering:CNS1
+UseCMap:HKscs-B5-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\HKscs-B5-V
+FileLength:3120
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Identity-H
+Registry:Adobe
+Ordering:Identity
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Identity-H
+FileLength:8228
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Identity-V
+Registry:Adobe
+Ordering:Identity
+UseCMap:Identity-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\Identity-V
+FileLength:2761
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:KSC-EUC-H
+Registry:Adobe
+Ordering:Korea1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\KSC-EUC-H
+FileLength:12359
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:KSC-EUC-V
+Registry:Adobe
+Ordering:Korea1
+UseCMap:KSC-EUC-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\KSC-EUC-V
+FileLength:3199
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:KSCms-UHC-H
+Registry:Adobe
+Ordering:Korea1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\KSCms-UHC-H
+FileLength:16785
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:KSCms-UHC-HW-H
+Registry:Adobe
+Ordering:Korea1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\KSCms-UHC-HW-H
+FileLength:16780
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:KSCms-UHC-HW-V
+Registry:Adobe
+Ordering:Korea1
+UseCMap:KSCms-UHC-HW-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\KSCms-UHC-HW-V
+FileLength:3211
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:KSCms-UHC-UCS2
+Registry:Adobe
+Ordering:KSCms_UHC_UCS2
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\KSCms-UHC-UCS2
+FileLength:189847
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:KSCms-UHC-V
+Registry:Adobe
+Ordering:Korea1
+UseCMap:KSCms-UHC-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\KSCms-UHC-V
+FileLength:3213
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:KSCpc-EUC-H
+Registry:Adobe
+Ordering:Korea1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\KSCpc-EUC-H
+FileLength:13232
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:KSCpc-EUC-UCS2
+Registry:Adobe
+Ordering:KSCpc_EUC_UCS2
+UseCMap:KSCpc-EUC-UCS2C
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\KSCpc-EUC-UCS2
+FileLength:16328
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:KSCpc-EUC-UCS2C
+Registry:Adobe
+Ordering:KSCpc_EUC_UCS2C
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\KSCpc-EUC-UCS2C
+FileLength:156825
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UCS2-90ms-RKSJ
+Registry:Adobe
+Ordering:UCS2_90ms_RKSJ
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UCS2-90ms-RKSJ
+FileLength:155399
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UCS2-90pv-RKSJ
+Registry:Adobe
+Ordering:UCS2_90pv_RKSJ
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UCS2-90pv-RKSJ
+FileLength:148339
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UCS2-B5pc
+Registry:Adobe
+Ordering:UCS2_B5pc
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UCS2-B5pc
+FileLength:284931
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UCS2-ETen-B5
+Registry:Adobe
+Ordering:UCS2_ETen_B5
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UCS2-ETen-B5
+FileLength:299283
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UCS2-GBK-EUC
+Registry:Adobe
+Ordering:UCS2_GBK_EUC
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UCS2-GBK-EUC
+FileLength:243835
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UCS2-GBpc-EUC
+Registry:Adobe
+Ordering:UCS2_GBpc_EUC
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UCS2-GBpc-EUC
+FileLength:197163
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UCS2-KSCms-UHC
+Registry:Adobe
+Ordering:UCS2_KCSms_UHC
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UCS2-KSCms-UHC
+FileLength:196449
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UCS2-KSCpc-EUC
+Registry:Adobe
+Ordering:UCS2_KSCpc_EUC
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UCS2-KSCpc-EUC
+FileLength:153399
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniCNS-UCS2-H
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniCNS-UCS2-H
+FileLength:343410
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniCNS-UCS2-V
+Registry:Adobe
+Ordering:CNS1
+UseCMap:UniCNS-UCS2-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniCNS-UCS2-V
+FileLength:3130
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniCNS-UTF16-H
+Registry:Adobe
+Ordering:CNS1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniCNS-UTF16-H
+FileLength:271849
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniCNS-UTF16-V
+Registry:Adobe
+Ordering:CNS1
+UseCMap:UniCNS-UTF16-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniCNS-UTF16-V
+FileLength:3123
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniGB-UCS2-H
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniGB-UCS2-H
+FileLength:288773
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniGB-UCS2-V
+Registry:Adobe
+Ordering:GB1
+UseCMap:UniGB-UCS2-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniGB-UCS2-V
+FileLength:3337
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniGB-UTF16-H
+Registry:Adobe
+Ordering:GB1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniGB-UTF16-H
+FileLength:214334
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniGB-UTF16-V
+Registry:Adobe
+Ordering:GB1
+UseCMap:UniGB-UTF16-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniGB-UTF16-V
+FileLength:3234
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniJIS-UCS2-H
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniJIS-UCS2-H
+FileLength:177536
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniJIS-UCS2-HW-H
+Registry:Adobe
+Ordering:Japan1
+UseCMap:UniJIS-UCS2-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniJIS-UCS2-HW-H
+FileLength:2970
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniJIS-UCS2-HW-V
+Registry:Adobe
+Ordering:Japan1
+UseCMap:UniJIS-UCS2-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniJIS-UCS2-HW-V
+FileLength:6939
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniJIS-UCS2-V
+Registry:Adobe
+Ordering:Japan1
+UseCMap:UniJIS-UCS2-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniJIS-UCS2-V
+FileLength:6853
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniJIS-UTF16-H
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniJIS-UTF16-H
+FileLength:202173
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniJIS-UTF16-V
+Registry:Adobe
+Ordering:Japan1
+UseCMap:UniJIS-UTF16-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniJIS-UTF16-V
+FileLength:6061
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniJIS2004-UTF16-H
+Registry:Adobe
+Ordering:Japan1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniJIS2004-UTF16-H
+FileLength:202256
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniJIS2004-UTF16-V
+Registry:Adobe
+Ordering:Japan1
+UseCMap:UniJIS2004-UTF16-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniJIS2004-UTF16-V
+FileLength:6085
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniKS-UCS2-H
+Registry:Adobe
+Ordering:Korea1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniKS-UCS2-H
+FileLength:174803
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniKS-UCS2-V
+Registry:Adobe
+Ordering:Korea1
+UseCMap:UniKS-UCS2-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniKS-UCS2-V
+FileLength:3240
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniKS-UTF16-H
+Registry:Adobe
+Ordering:Korea1
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniKS-UTF16-H
+FileLength:131866
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniKS-UTF16-V
+Registry:Adobe
+Ordering:Korea1
+UseCMap:UniKS-UTF16-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\UniKS-UTF16-V
+FileLength:3198
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:V
+Registry:Adobe
+Ordering:Japan1
+UseCMap:H
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CMap\V
+FileLength:3373
+FileModTime:1288023228
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeFanHeitiStd-Bold
+FamilyName:Adobe Fan Heiti Std
+StyleName:B
+FullName:Adobe Fan Heiti Std B
+MenuName:Adobe Fan Heiti Std B
+StyleBits:2
+FamilyNameNative:Adobe 繁黑體 Std
+StyleNameNative:B
+FullNameNative:Adobe 繁黑體 Std B
+WritingScript:TraditionalChinese
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CIDFont\AdobeFanHeitiStd-Bold.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:5497908
+FileModTime:1288023230
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeGothicStd-Bold
+FamilyName:Adobe Gothic Std
+StyleName:B
+FullName:Adobe Gothic Std B
+MenuName:Adobe Gothic Std B
+StyleBits:2
+FamilyNameNative:Adobe 고딕 Std
+StyleNameNative:B
+FullNameNative:Adobe 고딕 Std B
+WritingScript:Korean
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CIDFont\AdobeGothicStd-Bold.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:2885176
+FileModTime:1288023228
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeHeitiStd-Regular
+FamilyName:Adobe Heiti Std
+StyleName:R
+FullName:Adobe Heiti Std R
+MenuName:Adobe Heiti Std R
+StyleBits:0
+FamilyNameNative:Adobe 黑体 Std
+StyleNameNative:R
+FullNameNative:Adobe 黑体 Std R
+WritingScript:SimplifiedChinese
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CIDFont\AdobeHeitiStd-Regular.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:12265424
+FileModTime:1288023228
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeMingStd-Light
+FamilyName:Adobe Ming Std
+StyleName:L
+FullName:Adobe Ming Std L
+MenuName:Adobe Ming Std L
+StyleBits:0
+FamilyNameNative:Adobe 明體 Std
+StyleNameNative:L
+FullNameNative:Adobe 明體 Std L
+WritingScript:TraditionalChinese
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CIDFont\AdobeMingStd-Light.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:10171656
+FileModTime:1288023228
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeMyungjoStd-Medium
+FamilyName:Adobe Myungjo Std
+StyleName:M
+FullName:Adobe Myungjo Std M
+MenuName:Adobe Myungjo Std M
+StyleBits:0
+FamilyNameNative:Adobe 명조 Std
+StyleNameNative:M
+FullNameNative:Adobe 명조 Std M
+WritingScript:Korean
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CIDFont\AdobeMyungjoStd-Medium.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:4101108
+FileModTime:1288023228
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeSongStd-Light
+FamilyName:Adobe Song Std
+StyleName:L
+FullName:Adobe Song Std L
+MenuName:Adobe Song Std L
+StyleBits:0
+FamilyNameNative:Adobe 宋体 Std
+StyleNameNative:L
+FullNameNative:Adobe 宋体 Std L
+WritingScript:SimplifiedChinese
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CIDFont\AdobeSongStd-Light.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:15586660
+FileModTime:1288023228
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:KozGoPr6N-Medium
+FamilyName:Kozuka Gothic Pr6N
+StyleName:M
+FullName:Kozuka Gothic Pr6N M
+MenuName:Kozuka Gothic Pr6N M
+StyleBits:0
+FamilyNameNative:小塚ゴシック Pr6N
+StyleNameNative:M
+FullNameNative:小塚ゴシック Pr6N M
+WritingScript:Japanese
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CIDFont\KozGoPr6N-Medium.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:5499164
+FileModTime:1288023228
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:KozMinPr6N-Regular
+FamilyName:Kozuka Mincho Pr6N
+StyleName:R
+FullName:Kozuka Mincho Pr6N R
+MenuName:Kozuka Mincho Pr6N R
+StyleBits:0
+FamilyNameNative:小塚明朝 Pr6N
+StyleNameNative:R
+FullNameNative:小塚明朝 Pr6N R
+WritingScript:Japanese
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\CIDFont\KozMinPr6N-Regular.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:8134748
+FileModTime:1288023228
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-Bold
+FamilyName:Adobe Arabic
+StyleName:Bold
+FullName:Adobe Arabic Bold
+MenuName:Adobe Arabic
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\AdobeArabic-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:228988
+FileModTime:1288023228
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-BoldItalic
+FamilyName:Adobe Arabic
+StyleName:Bold Italic
+FullName:Adobe Arabic Bold Italic
+MenuName:Adobe Arabic
+StyleBits:3
+FamilyNameNative:
+StyleNameNative:Bold Italic
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\AdobeArabic-BoldItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:252320
+FileModTime:1288023230
+WeightClass:700
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-Italic
+FamilyName:Adobe Arabic
+StyleName:Italic
+FullName:Adobe Arabic Italic
+MenuName:Adobe Arabic
+StyleBits:1
+FamilyNameNative:
+StyleNameNative:Italic
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\AdobeArabic-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:253152
+FileModTime:1288023230
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-Regular
+FamilyName:Adobe Arabic
+StyleName:Regular
+FullName:Adobe Arabic Regular
+MenuName:Adobe Arabic
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\AdobeArabic-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:228404
+FileModTime:1288023230
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-Bold
+FamilyName:Adobe Hebrew
+StyleName:Bold
+FullName:Adobe Hebrew Bold
+MenuName:Adobe Hebrew
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\AdobeHebrew-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:69196
+FileModTime:1288023228
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-BoldItalic
+FamilyName:Adobe Hebrew
+StyleName:Bold Italic
+FullName:Adobe Hebrew Bold Italic
+MenuName:Adobe Hebrew
+StyleBits:3
+FamilyNameNative:
+StyleNameNative:Bold Italic
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\AdobeHebrew-BoldItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:72400
+FileModTime:1288023228
+WeightClass:600
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-Italic
+FamilyName:Adobe Hebrew
+StyleName:Italic
+FullName:Adobe Hebrew Italic
+MenuName:Adobe Hebrew
+StyleBits:1
+FamilyNameNative:
+StyleNameNative:Italic
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\AdobeHebrew-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:72300
+FileModTime:1288023230
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-Regular
+FamilyName:Adobe Hebrew
+StyleName:Regular
+FullName:Adobe Hebrew Regular
+MenuName:Adobe Hebrew
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\AdobeHebrew-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:70528
+FileModTime:1288023228
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobePiStd
+FamilyName:Adobe Pi Std
+StyleName:Regular
+FullName:Adobe Pi Std
+MenuName:Adobe Pi Std
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\AdobePIStd.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:89660
+FileModTime:1288023228
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeThai-Bold
+FamilyName:Adobe Thai
+StyleName:Bold
+FullName:Adobe Thai Bold
+MenuName:Adobe Thai
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Thai
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\AdobeThai-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:67160
+FileModTime:1288023230
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeThai-BoldItalic
+FamilyName:Adobe Thai
+StyleName:Bold Italic
+FullName:Adobe Thai Bold Italic
+MenuName:Adobe Thai
+StyleBits:3
+FamilyNameNative:
+StyleNameNative:Bold Italic
+FullNameNative:
+WritingScript:Thai
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\AdobeThai-BoldItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:70308
+FileModTime:1288023230
+WeightClass:600
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeThai-Italic
+FamilyName:Adobe Thai
+StyleName:Italic
+FullName:Adobe Thai Italic
+MenuName:Adobe Thai
+StyleBits:1
+FamilyNameNative:
+StyleNameNative:Italic
+FullNameNative:
+WritingScript:Thai
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\AdobeThai-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:70584
+FileModTime:1288023228
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeThai-Regular
+FamilyName:Adobe Thai
+StyleName:Regular
+FullName:Adobe Thai Regular
+MenuName:Adobe Thai
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Thai
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\AdobeThai-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:66864
+FileModTime:1288023228
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CourierStd-Bold
+FamilyName:Courier Std
+StyleName:Bold
+FullName:Courier Std Bold
+MenuName:Courier Std
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\CourierStd-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:37524
+FileModTime:1443109320
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CourierStd-BoldOblique
+FamilyName:Courier Std
+StyleName:Bold Oblique
+FullName:Courier Std Bold Oblique
+MenuName:Courier Std
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\CourierStd-BoldOblique.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:38984
+FileModTime:1443109320
+WeightClass:700
+WidthClass:5
+AngleClass:1
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CourierStd-Oblique
+FamilyName:Courier Std
+StyleName:Medium Oblique
+FullName:Courier Std Medium Oblique
+MenuName:Courier Std
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\CourierStd-Oblique.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:39332
+FileModTime:1443109318
+WeightClass:500
+WidthClass:5
+AngleClass:1
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CourierStd
+FamilyName:Courier Std
+StyleName:Medium
+FullName:Courier Std Medium
+MenuName:Courier Std
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\CourierStd.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:37860
+FileModTime:1443109320
+WeightClass:500
+WidthClass:5
+AngleClass:0
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Bold
+FamilyName:Minion Pro
+StyleName:Bold
+FullName:Minion Pro Bold
+MenuName:Minion Pro
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\MinionPro-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217028
+FileModTime:1443109320
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-BoldIt
+FamilyName:Minion Pro
+StyleName:Bold Italic
+FullName:Minion Pro Bold Italic
+MenuName:Minion Pro
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\MinionPro-BoldIt.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:257148
+FileModTime:1443109320
+WeightClass:700
+WidthClass:5
+AngleClass:1
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-It
+FamilyName:Minion Pro
+StyleName:Italic
+FullName:Minion Pro Italic
+MenuName:Minion Pro
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\MinionPro-It.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:258056
+FileModTime:1443109318
+WeightClass:400
+WidthClass:5
+AngleClass:1
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217280
+FileModTime:1443109322
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-Bold
+FamilyName:Myriad Pro
+StyleName:Bold
+FullName:Myriad Pro Bold
+MenuName:Myriad Pro
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\MyriadPro-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:98056
+FileModTime:1443109322
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-BoldIt
+FamilyName:Myriad Pro
+StyleName:Bold Italic
+FullName:Myriad Pro Bold Italic
+MenuName:Myriad Pro
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\MyriadPro-BoldIt.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:101744
+FileModTime:1443109320
+WeightClass:700
+WidthClass:5
+AngleClass:1
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-It
+FamilyName:Myriad Pro
+StyleName:Italic
+FullName:Myriad Pro Italic
+MenuName:Myriad Pro
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\MyriadPro-It.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:100396
+FileModTime:1443109320
+WeightClass:400
+WidthClass:5
+AngleClass:1
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-Regular
+FamilyName:Myriad Pro
+StyleName:Regular
+FullName:Myriad Pro
+MenuName:Myriad Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\MyriadPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:96560
+FileModTime:1443109320
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Symbol
+FamilyName:Symbol
+StyleName:Regular
+FullName:Symbol
+MenuName:Symbol
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\SY______.PFB
+DataFormat:Plain
+UsesStandardEncoding:no
+isCFF:no
+FileLength:34705
+FileModTime:1288023230
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeSansMM
+FamilyName:Adobe Sans MM
+StyleName:Regular
+FullName:Adobe Sans MM
+MenuName:Adobe Sans MM
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\ZX______.PFB
+DataFormat:Plain
+MMAxisName:Weight
+MMAxisName:Width
+UsesStandardEncoding:yes
+isCFF:no
+FileLength:75573
+FileModTime:1288023228
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeSerifMM
+FamilyName:Adobe Serif MM
+StyleName:Regular
+FullName:Adobe Serif MM
+MenuName:Adobe Serif MM
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\ZY______.PFB
+DataFormat:Plain
+MMAxisName:Weight
+MMAxisName:Width
+UsesStandardEncoding:yes
+isCFF:no
+FileLength:96418
+FileModTime:1288023230
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:Symbol
+NumMMAxes:0
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\Pfm\SY______.PFM
+FileLength:672
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:AdobeSansMM
+NumMMAxes:0
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\Pfm\zx______.pfm
+FileLength:683
+FileModTime:1288023230
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:AdobeSerifMM
+NumMMAxes:0
+OutlineFileName:C:\Program Files (x86)\Adobe\Acrobat 10.0\Resource\Font\Pfm\zy______.pfm
+FileLength:684
+FileModTime:1288023230
+%EndFont
+

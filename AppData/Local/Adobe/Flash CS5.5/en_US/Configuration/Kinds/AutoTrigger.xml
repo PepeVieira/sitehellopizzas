@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<flash_kind version="1.0">
+	<kind_definition category="Basic Types" name="AutoTrigger" >
+		<properties>
+		</properties>
+		<actionscript class="mx.data.kinds.AutoTrigger"/>
+	</kind_definition>
+</flash_kind>

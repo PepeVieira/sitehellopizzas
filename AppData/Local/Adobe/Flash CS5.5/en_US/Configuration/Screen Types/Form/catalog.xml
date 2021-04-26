@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE screenTypePackage SYSTEM "../catalog.dtd">
+
+<!-- the default templates for Matador -->
+
+<screenTypePackage xmlns="http://www.macromedia.com/flash/crscatalog/7"
+				name="Screen Types">
+
+	<!-- A screenTemplate tag defines each wizard. -->
+
+	<screenType name="Form"
+			  version="1.0"
+			  menu="yes"
+			  default="form"	
+			  symbolname="form"
+			  minActionScriptVersion="2.0"
+			  minPlayerVersion="6.0"
+			  jsfl_implementation="Form.jsfl"
+			  class_implementation="\mx\screens\Form.as"
+			  classname="mx.screens.Form">
+
+	</screenType>
+
+</screenTypePackage>

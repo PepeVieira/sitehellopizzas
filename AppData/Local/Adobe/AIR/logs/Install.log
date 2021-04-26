@@ -1,0 +1,56 @@
+﻿[2019-12-31:14:25:13] Runtime Installer begin with version 2.5.1.17730 on Windows 7 x86
+[2019-12-31:14:25:13] Commandline is: -silent -eulaAccepted -programMenu AdobeHelp.air
+[2019-12-31:14:25:13] No installed runtime detected
+[2019-12-31:14:25:13] Invoking Application Installer for combined install
+[2019-12-31:14:25:13] Launching subprocess with commandline C:\Users\Felipe\AppData\Local\Temp\AIR7020.tmp\Adobe AIR\Versions\1.0\Adobe AIR Application Installer -runtime C:\Users\Felipe\AppData\Local\Temp\AIR7020.tmp -silent -withRuntime -url -programMenu -eulaAccepted file:///F:/Programas/Adobe%20CS5.5%20Master%20Collection/SOFTWARE/payloads/AdobeHelp/AdobeHelp.air
+[2019-12-31:14:25:13] Application Installer begin with version 2.5.1.17730 on Windows 7 x86
+[2019-12-31:14:25:13] Commandline is: -runtime C:\Users\Felipe\AppData\Local\Temp\AIR7020.tmp -silent -withRuntime -url -programMenu -eulaAccepted file:///F:/Programas/Adobe%20CS5.5%20Master%20Collection/SOFTWARE/payloads/AdobeHelp/AdobeHelp.air
+[2019-12-31:14:25:13] No installed runtime detected
+[2019-12-31:14:25:13] Unpackaging file:///F:/Programas/Adobe%20CS5.5%20Master%20Collection/SOFTWARE/payloads/AdobeHelp/AdobeHelp.air to C:\Users\Felipe\AppData\Local\Temp\fla76F3.tmp
+[2019-12-31:14:25:14] Package signature validation failed
+[2019-12-31:14:25:14] Got an unexpected fatal error while unpackaging: [ErrorEvent type="error" bubbles=false cancelable=false eventPhase=2 text="invalid package signature" errorID=5022]
+[2019-12-31:14:25:14] Application Installer end with exit code 7
+[2019-12-31:14:25:14] Subprocess app installer failed (7)
+[2019-12-31:14:25:14] Runtime Installer end with exit code 7
+[2019-12-31:14:30:50] Runtime Installer begin with version 2.5.1.17730 on Windows 7 x86
+[2019-12-31:14:30:50] Commandline is: -silent -eulaAccepted -programMenu AdobeStory.air
+[2019-12-31:14:30:50] No installed runtime detected
+[2019-12-31:14:30:50] Invoking Application Installer for combined install
+[2019-12-31:14:30:50] Launching subprocess with commandline C:\Users\Felipe\AppData\Local\Temp\AIR96B3.tmp\Adobe AIR\Versions\1.0\Adobe AIR Application Installer -runtime C:\Users\Felipe\AppData\Local\Temp\AIR96B3.tmp -silent -withRuntime -url -programMenu -eulaAccepted file:///F:/Programas/Adobe%20CS5.5%20Master%20Collection/SOFTWARE/payloads/AdobeStory1.0-mul/AdobeStory.air
+[2019-12-31:14:30:50] Application Installer begin with version 2.5.1.17730 on Windows 7 x86
+[2019-12-31:14:30:50] Commandline is: -runtime C:\Users\Felipe\AppData\Local\Temp\AIR96B3.tmp -silent -withRuntime -url -programMenu -eulaAccepted file:///F:/Programas/Adobe%20CS5.5%20Master%20Collection/SOFTWARE/payloads/AdobeStory1.0-mul/AdobeStory.air
+[2019-12-31:14:30:50] No installed runtime detected
+[2019-12-31:14:30:51] Unpackaging file:///F:/Programas/Adobe%20CS5.5%20Master%20Collection/SOFTWARE/payloads/AdobeStory1.0-mul/AdobeStory.air to C:\Users\Felipe\AppData\Local\Temp\fla9CEA.tmp
+[2019-12-31:14:30:51] Package signature validation failed
+[2019-12-31:14:30:51] Got an unexpected fatal error while unpackaging: [ErrorEvent type="error" bubbles=false cancelable=false eventPhase=2 text="invalid package signature" errorID=5022]
+[2019-12-31:14:30:51] Application Installer end with exit code 7
+[2019-12-31:14:30:51] Subprocess app installer failed (7)
+[2019-12-31:14:30:51] Runtime Installer end with exit code 7
+[2019-12-31:14:31:32] Runtime Installer begin with version 2.5.1.17730 on Windows 7 x86
+[2019-12-31:14:31:32] Commandline is: -silent -eulaAccepted -desktopShortcut -programMenu DesktopPreviewer.air
+[2019-12-31:14:31:32] No installed runtime detected
+[2019-12-31:14:31:32] Invoking Application Installer for combined install
+[2019-12-31:14:31:32] Launching subprocess with commandline C:\Users\Felipe\AppData\Local\Temp\AIR3745.tmp\Adobe AIR\Versions\1.0\Adobe AIR Application Installer -runtime C:\Users\Felipe\AppData\Local\Temp\AIR3745.tmp -silent -withRuntime -url -desktopShortcut -programMenu -eulaAccepted file:///F:/Programas/Adobe%20CS5.5%20Master%20Collection/SOFTWARE/payloads/AdobeContentViewer-mul/DesktopPreviewer.air
+[2019-12-31:14:31:32] Application Installer begin with version 2.5.1.17730 on Windows 7 x86
+[2019-12-31:14:31:32] Commandline is: -runtime C:\Users\Felipe\AppData\Local\Temp\AIR3745.tmp -silent -withRuntime -url -desktopShortcut -programMenu -eulaAccepted file:///F:/Programas/Adobe%20CS5.5%20Master%20Collection/SOFTWARE/payloads/AdobeContentViewer-mul/DesktopPreviewer.air
+[2019-12-31:14:31:32] No installed runtime detected
+[2019-12-31:14:31:32] Unpackaging file:///F:/Programas/Adobe%20CS5.5%20Master%20Collection/SOFTWARE/payloads/AdobeContentViewer-mul/DesktopPreviewer.air to C:\Users\Felipe\AppData\Local\Temp\fla3EF3.tmp
+[2019-12-31:14:31:32] Package signature validation failed
+[2019-12-31:14:31:32] Got an unexpected fatal error while unpackaging: [ErrorEvent type="error" bubbles=false cancelable=false eventPhase=2 text="invalid package signature" errorID=5022]
+[2019-12-31:14:31:32] Application Installer end with exit code 7
+[2019-12-31:14:31:33] Subprocess app installer failed (7)
+[2019-12-31:14:31:33] Runtime Installer end with exit code 7
+[2020-02-22:01:24:55] Runtime Installer begin with version 2.6.0.19140 on Windows 7 x86
+[2020-02-22:01:24:55] Commandline is: -silent -eulaAccepted -location "C:\Program Files (x86)\Bamboo Dock" C:\Users\Felipe\AppData\Local\Temp\BWM\BambooDock.air
+[2020-02-22:01:24:55] No installed runtime detected
+[2020-02-22:01:24:55] Invoking Application Installer for combined install
+[2020-02-22:01:24:55] Launching subprocess with commandline C:\Users\Felipe\AppData\Local\Temp\BWM\Adobe AIR\Versions\1.0\Adobe AIR Application Installer -runtime C:\Users\Felipe\AppData\Local\Temp\BWM -silent -withRuntime -url -location "C:\Program Files (x86)\Bamboo Dock" -eulaAccepted file:///C:/Users/Felipe/AppData/Local/Temp/BWM/BambooDock.air
+[2020-02-22:01:24:56] Application Installer begin with version 2.6.0.19140 on Windows 7 x86
+[2020-02-22:01:24:56] Commandline is: -runtime C:\Users\Felipe\AppData\Local\Temp\BWM -silent -withRuntime -url -location "C:\Program Files (x86)\Bamboo Dock" -eulaAccepted file:///C:/Users/Felipe/AppData/Local/Temp/BWM/BambooDock.air
+[2020-02-22:01:24:56] No installed runtime detected
+[2020-02-22:01:24:56] Unpackaging file:///C:/Users/Felipe/AppData/Local/Temp/BWM/BambooDock.air to C:\Users\Felipe\AppData\Local\Temp\fla8EE8.tmp
+[2020-02-22:01:24:58] Package signature validation failed
+[2020-02-22:01:24:58] Got an unexpected fatal error while unpackaging: [ErrorEvent type="error" bubbles=false cancelable=false eventPhase=2 text="invalid package signature" errorID=5022]
+[2020-02-22:01:24:58] Application Installer end with exit code 7
+[2020-02-22:01:24:58] Subprocess app installer failed (7)
+[2020-02-22:01:24:58] Runtime Installer end with exit code 7

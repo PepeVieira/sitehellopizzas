@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flash_formatter version="1.0">
+	<formatter_definition dialogID="Dialog" category="Basic Types" name ="Rearrange Fields" >
+		<properties>
+			<property id="fields" default=""/>
+		</properties>
+		<dialog id="Dialog" title="Rearrange Fields" buttons="accept, cancel">
+			<vbox>
+				<hbox>
+					<label value="Fields definitions:" control="fields"/>
+					<textbox id="fields" width="300"/>
+				</hbox>
+			</vbox>
+		</dialog>
+		<actionscript class="mx.data.formatters.RearrangeFields"/>
+	</formatter_definition>
+</flash_formatter>

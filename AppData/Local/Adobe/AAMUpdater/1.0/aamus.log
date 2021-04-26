@@ -1,0 +1,540 @@
+ully.
+2020-11-03T15:49:00: UCGetprogress : Check for updates returning state for reffId  = 
+2020-11-03T15:49:00: UCGetprogress : Check for updates returning state     = 21
+2020-11-03T15:49:00: UCGetprogress : Check for updates returning outError  = 0
+2020-11-03T15:49:00: UCGetprogress : Check for updates returning percent   = 100
+2020-11-03T15:49:00: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-11-04T11:06:52: >>> Adobe Updater Log Begin >>>
+2020-11-04T11:06:52: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-11-04T11:06:52: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-11-04T11:06:52: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-11-04T11:06:52: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-11-04T11:06:52: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-11-04T11:06:52: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-11-04T11:06:52: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-11-04T11:06:52: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-11-04T11:06:52: CFU(Webfeed): Webfeed is empty
+2020-11-04T11:06:52: CFU(Webfeed): MRL is empty
+2020-11-04T11:06:53: Check for Updates was done successfully.
+2020-11-04T11:06:53: UCGetprogress : Check for updates returning state for reffId  = 
+2020-11-04T11:06:53: UCGetprogress : Check for updates returning state     = 21
+2020-11-04T11:06:53: UCGetprogress : Check for updates returning outError  = 0
+2020-11-04T11:06:53: UCGetprogress : Check for updates returning percent   = 100
+2020-11-04T11:06:53: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-11-05T10:31:10: >>> Adobe Updater Log Begin >>>
+2020-11-05T10:31:10: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-11-05T10:31:10: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-11-05T10:31:10: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-11-05T10:31:10: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-11-05T10:31:10: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-11-05T10:31:10: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-11-05T10:31:10: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-11-05T10:31:10: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-11-05T10:31:11: CFU(Webfeed): Webfeed is empty
+2020-11-05T10:31:11: CFU(Webfeed): MRL is empty
+2020-11-05T10:31:11: Check for Updates was done successfully.
+2020-11-05T10:31:11: UCGetprogress : Check for updates returning state for reffId  = 
+2020-11-05T10:31:11: UCGetprogress : Check for updates returning state     = 21
+2020-11-05T10:31:11: UCGetprogress : Check for updates returning outError  = 0
+2020-11-05T10:31:11: UCGetprogress : Check for updates returning percent   = 100
+2020-11-05T10:31:11: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-11-09T18:40:53: >>> Adobe Updater Log Begin >>>
+2020-11-09T18:40:53: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-11-09T18:40:53: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-11-09T18:40:53: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-11-09T18:40:53: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-11-09T18:40:53: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-11-09T18:40:53: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-11-09T18:40:53: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-11-09T18:40:53: UCGetprogress : WARNING - No network connection is available.
+2020-11-09T18:40:53: UCGetprogress : Check for updates returning state for reffId  = 
+2020-11-09T18:40:53: UCGetprogress : Check for updates returning state     = 41
+2020-11-09T18:40:53: UCGetprogress : Check for updates returning outError  = 212
+2020-11-09T18:40:53: UCGetprogress : Check for updates returning percent   = 0
+2020-11-09T18:40:53: UCGetprogress : Check for updates returning unique error code string   = U41M1C212
+2020-11-10T15:30:43: >>> Adobe Updater Log Begin >>>
+2020-11-10T15:30:43: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-11-10T15:30:43: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-11-10T15:30:43: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-11-10T15:30:44: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-11-10T15:30:44: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-11-10T15:30:44: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-11-10T15:30:44: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-11-10T15:30:45: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-11-10T15:30:45: CFU(Webfeed): Webfeed is empty
+2020-11-10T15:30:45: CFU(Webfeed): MRL is empty
+2020-11-10T15:30:45: Check for Updates was done successfully.
+2020-11-10T15:30:45: UCGetprogress : Check for updates returning state for reffId  = 
+2020-11-10T15:30:45: UCGetprogress : Check for updates returning state     = 21
+2020-11-10T15:30:45: UCGetprogress : Check for updates returning outError  = 0
+2020-11-10T15:30:45: UCGetprogress : Check for updates returning percent   = 100
+2020-11-10T15:30:45: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-11-12T14:10:09: >>> Adobe Updater Log Begin >>>
+2020-11-12T14:10:09: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-11-12T14:10:09: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-11-12T14:10:09: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-11-12T14:10:09: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-11-12T14:10:09: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-11-12T14:10:09: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-11-12T14:10:09: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-11-12T14:10:17: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-11-12T14:10:17: CFU(Webfeed): Webfeed is empty
+2020-11-12T14:10:17: CFU(Webfeed): MRL is empty
+2020-11-12T14:10:18: Check for Updates was done successfully.
+2020-11-12T14:10:18: UCGetprogress : Check for updates returning state for reffId  = 
+2020-11-12T14:10:18: UCGetprogress : Check for updates returning state     = 21
+2020-11-12T14:10:18: UCGetprogress : Check for updates returning outError  = 0
+2020-11-12T14:10:18: UCGetprogress : Check for updates returning percent   = 100
+2020-11-12T14:10:18: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-11-13T04:00:00: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-11-13T04:00:00: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-11-13T04:00:00: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-11-13T04:00:00: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-11-13T04:00:00: CFU(Webfeed): Webfeed is empty
+2020-11-13T04:00:00: CFU(Webfeed): MRL is empty
+2020-11-13T04:00:01: Check for Updates was done successfully.
+2020-11-13T04:00:01: UCGetprogress : Check for updates returning state for reffId  = 
+2020-11-13T04:00:01: UCGetprogress : Check for updates returning state     = 21
+2020-11-13T04:00:01: UCGetprogress : Check for updates returning outError  = 0
+2020-11-13T04:00:01: UCGetprogress : Check for updates returning percent   = 100
+2020-11-13T04:00:01: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-11-16T01:18:43: >>> Adobe Updater Log Begin >>>
+2020-11-16T01:18:43: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-11-16T01:18:43: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-11-16T01:18:43: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-11-16T01:18:43: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-11-16T01:18:43: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-11-16T01:18:43: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-11-16T01:18:43: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-11-16T01:18:43: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-11-16T01:18:43: CFU(Webfeed): Webfeed is empty
+2020-11-16T01:18:43: CFU(Webfeed): MRL is empty
+2020-11-16T01:18:43: Check for Updates was done successfully.
+2020-11-16T01:18:43: UCGetprogress : Check for updates returning state for reffId  = 
+2020-11-16T01:18:43: UCGetprogress : Check for updates returning state     = 21
+2020-11-16T01:18:43: UCGetprogress : Check for updates returning outError  = 0
+2020-11-16T01:18:43: UCGetprogress : Check for updates returning percent   = 100
+2020-11-16T01:18:43: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-11-25T01:22:38: >>> Adobe Updater Log Begin >>>
+2020-11-25T01:22:38: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-11-25T01:22:38: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-11-25T01:22:38: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-11-25T01:22:43: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-11-25T01:22:43: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-11-25T01:22:43: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-11-25T01:22:43: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-11-25T01:22:43: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-11-25T01:22:43: CFU(Webfeed): Webfeed is empty
+2020-11-25T01:22:43: CFU(Webfeed): MRL is empty
+2020-11-25T01:22:44: Check for Updates was done successfully.
+2020-11-25T01:22:44: UCGetprogress : Check for updates returning state for reffId  = 
+2020-11-25T01:22:44: UCGetprogress : Check for updates returning state     = 21
+2020-11-25T01:22:44: UCGetprogress : Check for updates returning outError  = 0
+2020-11-25T01:22:44: UCGetprogress : Check for updates returning percent   = 100
+2020-11-25T01:22:44: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-12-01T15:32:55: >>> Adobe Updater Log Begin >>>
+2020-12-01T15:32:55: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-12-01T15:32:55: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-12-01T15:32:55: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-12-01T15:32:55: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-12-01T15:32:55: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-12-01T15:32:55: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-12-01T15:32:55: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-12-01T15:32:57: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-12-01T15:32:58: CFU(Webfeed): Webfeed is empty
+2020-12-01T15:32:58: CFU(Webfeed): MRL is empty
+2020-12-01T15:32:58: Check for Updates was done successfully.
+2020-12-01T15:32:58: UCGetprogress : Check for updates returning state for reffId  = 
+2020-12-01T15:32:58: UCGetprogress : Check for updates returning state     = 21
+2020-12-01T15:32:58: UCGetprogress : Check for updates returning outError  = 0
+2020-12-01T15:32:58: UCGetprogress : Check for updates returning percent   = 100
+2020-12-01T15:32:58: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-12-01T15:42:45: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-12-01T15:42:45: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-12-01T15:42:45: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-12-01T15:42:45: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-12-01T15:42:45: CFU(Webfeed): Webfeed is empty
+2020-12-01T15:42:45: CFU(Webfeed): MRL is empty
+2020-12-01T15:42:46: Check for Updates was done successfully.
+2020-12-01T15:42:46: UCGetprogress : Check for updates returning state for reffId  = 
+2020-12-01T15:42:46: UCGetprogress : Check for updates returning state     = 21
+2020-12-01T15:42:46: UCGetprogress : Check for updates returning outError  = 0
+2020-12-01T15:42:46: UCGetprogress : Check for updates returning percent   = 100
+2020-12-01T15:42:46: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-12-02T19:56:21: >>> Adobe Updater Log Begin >>>
+2020-12-02T19:56:21: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-12-02T19:56:21: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-12-02T19:56:21: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-12-02T19:56:21: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-12-02T19:56:21: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-12-02T19:56:21: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-12-02T19:56:21: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-12-02T19:56:22: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-12-02T19:56:22: CFU(Webfeed): Webfeed is empty
+2020-12-02T19:56:22: CFU(Webfeed): MRL is empty
+2020-12-02T19:56:22: Check for Updates was done successfully.
+2020-12-02T19:56:22: UCGetprogress : Check for updates returning state for reffId  = 
+2020-12-02T19:56:22: UCGetprogress : Check for updates returning state     = 21
+2020-12-02T19:56:22: UCGetprogress : Check for updates returning outError  = 0
+2020-12-02T19:56:22: UCGetprogress : Check for updates returning percent   = 100
+2020-12-02T19:56:22: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-12-04T01:12:46: >>> Adobe Updater Log Begin >>>
+2020-12-04T01:12:46: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-12-04T01:12:46: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-12-04T01:12:46: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-12-04T01:12:46: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-12-04T01:12:46: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-12-04T01:12:46: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-12-04T01:12:46: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-12-04T01:12:47: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-12-04T01:12:47: CFU(Webfeed): Webfeed is empty
+2020-12-04T01:12:47: CFU(Webfeed): MRL is empty
+2020-12-04T01:12:47: Check for Updates was done successfully.
+2020-12-04T01:12:47: UCGetprogress : Check for updates returning state for reffId  = 
+2020-12-04T01:12:47: UCGetprogress : Check for updates returning state     = 21
+2020-12-04T01:12:47: UCGetprogress : Check for updates returning outError  = 0
+2020-12-04T01:12:47: UCGetprogress : Check for updates returning percent   = 100
+2020-12-04T01:12:47: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-12-04T01:24:02: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-12-04T01:24:02: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-12-04T01:24:02: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-12-04T01:24:02: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-12-04T01:24:02: CFU(Webfeed): Webfeed is empty
+2020-12-04T01:24:02: CFU(Webfeed): MRL is empty
+2020-12-04T01:24:02: Check for Updates was done successfully.
+2020-12-04T01:24:02: UCGetprogress : Check for updates returning state for reffId  = 
+2020-12-04T01:24:02: UCGetprogress : Check for updates returning state     = 21
+2020-12-04T01:24:02: UCGetprogress : Check for updates returning outError  = 0
+2020-12-04T01:24:02: UCGetprogress : Check for updates returning percent   = 100
+2020-12-04T01:24:02: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-12-07T14:51:18: >>> Adobe Updater Log Begin >>>
+2020-12-07T14:51:18: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-12-07T14:51:18: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-12-07T14:51:18: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-12-07T14:51:19: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-12-07T14:51:19: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-12-07T14:51:19: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-12-07T14:51:19: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-12-07T14:51:24: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-12-07T14:51:24: CFU(Webfeed): Webfeed is empty
+2020-12-07T14:51:24: CFU(Webfeed): MRL is empty
+2020-12-07T14:51:24: Check for Updates was done successfully.
+2020-12-07T14:51:24: UCGetprogress : Check for updates returning state for reffId  = 
+2020-12-07T14:51:24: UCGetprogress : Check for updates returning state     = 21
+2020-12-07T14:51:24: UCGetprogress : Check for updates returning outError  = 0
+2020-12-07T14:51:24: UCGetprogress : Check for updates returning percent   = 100
+2020-12-07T14:51:24: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-12-07T15:01:51: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-12-07T15:01:51: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-12-07T15:01:52: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-12-07T15:01:52: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-12-07T15:01:52: CFU(Webfeed): Webfeed is empty
+2020-12-07T15:01:52: CFU(Webfeed): MRL is empty
+2020-12-07T15:01:52: Check for Updates was done successfully.
+2020-12-07T15:01:52: UCGetprogress : Check for updates returning state for reffId  = 
+2020-12-07T15:01:52: UCGetprogress : Check for updates returning state     = 21
+2020-12-07T15:01:52: UCGetprogress : Check for updates returning outError  = 0
+2020-12-07T15:01:52: UCGetprogress : Check for updates returning percent   = 100
+2020-12-07T15:01:52: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-12-11T01:54:49: >>> Adobe Updater Log Begin >>>
+2020-12-11T01:54:49: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-12-11T01:54:49: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-12-11T01:54:49: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-12-11T01:54:58: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-12-11T01:54:58: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-12-11T01:54:58: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-12-11T01:54:59: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-12-11T01:55:00: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-12-11T01:55:02: CFU(Webfeed): Webfeed is empty
+2020-12-11T01:55:02: CFU(Webfeed): MRL is empty
+2020-12-11T01:55:02: Check for Updates was done successfully.
+2020-12-11T01:55:02: UCGetprogress : Check for updates returning state for reffId  = 
+2020-12-11T01:55:02: UCGetprogress : Check for updates returning state     = 21
+2020-12-11T01:55:02: UCGetprogress : Check for updates returning outError  = 0
+2020-12-11T01:55:02: UCGetprogress : Check for updates returning percent   = 100
+2020-12-11T01:55:02: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-12-11T02:09:39: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-12-11T02:09:39: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-12-11T02:09:39: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-12-11T02:09:39: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-12-11T02:09:39: CFU(Webfeed): Webfeed is empty
+2020-12-11T02:09:39: CFU(Webfeed): MRL is empty
+2020-12-11T02:09:39: Check for Updates was done successfully.
+2020-12-11T02:09:39: UCGetprogress : Check for updates returning state for reffId  = 
+2020-12-11T02:09:39: UCGetprogress : Check for updates returning state     = 21
+2020-12-11T02:09:39: UCGetprogress : Check for updates returning outError  = 0
+2020-12-11T02:09:39: UCGetprogress : Check for updates returning percent   = 100
+2020-12-11T02:09:39: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-12-12T11:56:36: >>> Adobe Updater Log Begin >>>
+2020-12-12T11:56:36: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-12-12T11:56:36: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-12-12T11:56:36: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-12-12T11:56:37: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-12-12T11:56:37: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-12-12T11:56:37: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-12-12T11:56:37: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-12-12T11:56:39: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-12-12T11:56:39: CFU(Webfeed): Webfeed is empty
+2020-12-12T11:56:39: CFU(Webfeed): MRL is empty
+2020-12-12T11:56:40: Check for Updates was done successfully.
+2020-12-12T11:56:40: UCGetprogress : Check for updates returning state for reffId  = 
+2020-12-12T11:56:40: UCGetprogress : Check for updates returning state     = 21
+2020-12-12T11:56:40: UCGetprogress : Check for updates returning outError  = 0
+2020-12-12T11:56:40: UCGetprogress : Check for updates returning percent   = 100
+2020-12-12T11:56:40: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-12-13T14:22:55: >>> Adobe Updater Log Begin >>>
+2020-12-13T14:22:55: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-12-13T14:22:55: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-12-13T14:22:55: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-12-13T14:23:01: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-12-13T14:23:01: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-12-13T14:23:01: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-12-13T14:23:02: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-12-13T14:23:02: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-12-13T14:23:02: CFU(Webfeed): Webfeed is empty
+2020-12-13T14:23:02: CFU(Webfeed): MRL is empty
+2020-12-13T14:23:03: Check for Updates was done successfully.
+2020-12-13T14:23:03: UCGetprogress : Check for updates returning state for reffId  = 
+2020-12-13T14:23:03: UCGetprogress : Check for updates returning state     = 21
+2020-12-13T14:23:03: UCGetprogress : Check for updates returning outError  = 0
+2020-12-13T14:23:03: UCGetprogress : Check for updates returning percent   = 100
+2020-12-13T14:23:03: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2020-12-18T02:05:53: >>> Adobe Updater Log Begin >>>
+2020-12-18T02:05:53: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2020-12-18T02:05:53: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2020-12-18T02:05:53: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2020-12-18T02:05:54: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2020-12-18T02:05:54: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2020-12-18T02:05:54: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2020-12-18T02:05:54: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2020-12-18T02:05:54: CFU(Webfeed):: Web feed hasn't changed since last time.
+2020-12-18T02:05:55: CFU(Webfeed): Webfeed is empty
+2020-12-18T02:05:55: CFU(Webfeed): MRL is empty
+2020-12-18T02:05:55: Check for Updates was done successfully.
+2020-12-18T02:05:55: UCGetprogress : Check for updates returning state for reffId  = 
+2020-12-18T02:05:55: UCGetprogress : Check for updates returning state     = 21
+2020-12-18T02:05:55: UCGetprogress : Check for updates returning outError  = 0
+2020-12-18T02:05:55: UCGetprogress : Check for updates returning percent   = 100
+2020-12-18T02:05:55: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2021-01-04T18:08:20: >>> Adobe Updater Log Begin >>>
+2021-01-04T18:08:20: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2021-01-04T18:08:20: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2021-01-04T18:08:20: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2021-01-04T18:08:21: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2021-01-04T18:08:21: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-01-04T18:08:21: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-01-04T18:08:21: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-01-04T18:08:31: CFU(Webfeed):: Web feed hasn't changed since last time.
+2021-01-04T18:08:31: CFU(Webfeed): Webfeed is empty
+2021-01-04T18:08:31: CFU(Webfeed): MRL is empty
+2021-01-04T18:08:31: Check for Updates was done successfully.
+2021-01-04T18:08:31: UCGetprogress : Check for updates returning state for reffId  = 
+2021-01-04T18:08:31: UCGetprogress : Check for updates returning state     = 21
+2021-01-04T18:08:31: UCGetprogress : Check for updates returning outError  = 0
+2021-01-04T18:08:31: UCGetprogress : Check for updates returning percent   = 100
+2021-01-04T18:08:31: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2021-01-22T02:37:28: >>> Adobe Updater Log Begin >>>
+2021-01-22T02:37:28: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2021-01-22T02:37:28: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2021-01-22T02:37:28: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2021-01-22T02:37:28: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2021-01-22T02:37:28: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-01-22T02:37:28: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-01-22T02:37:28: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-01-22T02:37:28: UCGetprogress : WARNING - No network connection is available.
+2021-01-22T02:37:28: UCGetprogress : Check for updates returning state for reffId  = 
+2021-01-22T02:37:28: UCGetprogress : Check for updates returning state     = 41
+2021-01-22T02:37:28: UCGetprogress : Check for updates returning outError  = 212
+2021-01-22T02:37:28: UCGetprogress : Check for updates returning percent   = 0
+2021-01-22T02:37:28: UCGetprogress : Check for updates returning unique error code string   = U41M1C212
+2021-01-22T02:50:02: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-01-22T02:50:02: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-01-22T02:50:02: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-01-22T02:50:03: CFU(Webfeed):: Web feed hasn't changed since last time.
+2021-01-22T02:50:03: CFU(Webfeed): Webfeed is empty
+2021-01-22T02:50:03: CFU(Webfeed): MRL is empty
+2021-01-22T02:50:03: Check for Updates was done successfully.
+2021-01-22T02:50:03: UCGetprogress : Check for updates returning state for reffId  = 
+2021-01-22T02:50:03: UCGetprogress : Check for updates returning state     = 21
+2021-01-22T02:50:03: UCGetprogress : Check for updates returning outError  = 0
+2021-01-22T02:50:03: UCGetprogress : Check for updates returning percent   = 100
+2021-01-22T02:50:03: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2021-02-22T20:18:47: >>> Adobe Updater Log Begin >>>
+2021-02-22T20:18:47: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2021-02-22T20:18:47: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2021-02-22T20:18:47: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2021-02-22T20:18:47: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2021-02-22T20:18:47: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-02-22T20:18:47: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-02-22T20:18:47: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-02-22T20:18:50: CFU(Webfeed):: Web feed hasn't changed since last time.
+2021-02-22T20:18:50: CFU(Webfeed): Webfeed is empty
+2021-02-22T20:18:50: CFU(Webfeed): MRL is empty
+2021-02-22T20:18:50: Check for Updates was done successfully.
+2021-02-22T20:18:50: UCGetprogress : Check for updates returning state for reffId  = 
+2021-02-22T20:18:50: UCGetprogress : Check for updates returning state     = 21
+2021-02-22T20:18:50: UCGetprogress : Check for updates returning outError  = 0
+2021-02-22T20:18:50: UCGetprogress : Check for updates returning percent   = 100
+2021-02-22T20:18:50: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2021-02-25T16:46:11: >>> Adobe Updater Log Begin >>>
+2021-02-25T16:46:11: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2021-02-25T16:46:11: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2021-02-25T16:46:11: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2021-02-25T16:46:12: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2021-02-25T16:46:12: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-02-25T16:46:12: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-02-25T16:46:12: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-02-25T16:46:14: CFU(Webfeed):: Web feed hasn't changed since last time.
+2021-02-25T16:46:14: CFU(Webfeed): Webfeed is empty
+2021-02-25T16:46:14: CFU(Webfeed): MRL is empty
+2021-02-25T16:46:15: Check for Updates was done successfully.
+2021-02-25T16:46:15: UCGetprogress : Check for updates returning state for reffId  = 
+2021-02-25T16:46:15: UCGetprogress : Check for updates returning state     = 21
+2021-02-25T16:46:15: UCGetprogress : Check for updates returning outError  = 0
+2021-02-25T16:46:15: UCGetprogress : Check for updates returning percent   = 100
+2021-02-25T16:46:15: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2021-02-25T16:56:03: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-02-25T16:56:03: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-02-25T16:56:03: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-02-25T16:56:03: CFU(Webfeed):: Web feed hasn't changed since last time.
+2021-02-25T16:56:03: CFU(Webfeed): Webfeed is empty
+2021-02-25T16:56:03: CFU(Webfeed): MRL is empty
+2021-02-25T16:56:03: Check for Updates was done successfully.
+2021-02-25T16:56:03: UCGetprogress : Check for updates returning state for reffId  = 
+2021-02-25T16:56:03: UCGetprogress : Check for updates returning state     = 21
+2021-02-25T16:56:03: UCGetprogress : Check for updates returning outError  = 0
+2021-02-25T16:56:03: UCGetprogress : Check for updates returning percent   = 100
+2021-02-25T16:56:03: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2021-02-26T05:00:00: >>> Adobe Updater Log Begin >>>
+2021-02-26T05:00:00: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2021-02-26T05:00:00: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2021-02-26T05:00:00: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2021-02-26T05:00:00: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2021-02-26T05:00:00: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-02-26T05:00:00: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-02-26T05:00:01: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-02-26T05:00:01: CFU(Webfeed):: Web feed hasn't changed since last time.
+2021-02-26T05:00:01: CFU(Webfeed): Webfeed is empty
+2021-02-26T05:00:01: CFU(Webfeed): MRL is empty
+2021-02-26T05:00:01: Check for Updates was done successfully.
+2021-02-26T05:00:01: UCGetprogress : Check for updates returning state for reffId  = 
+2021-02-26T05:00:01: UCGetprogress : Check for updates returning state     = 21
+2021-02-26T05:00:01: UCGetprogress : Check for updates returning outError  = 0
+2021-02-26T05:00:01: UCGetprogress : Check for updates returning percent   = 100
+2021-02-26T05:00:01: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2021-03-04T00:56:30: >>> Adobe Updater Log Begin >>>
+2021-03-04T00:56:30: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2021-03-04T00:56:30: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2021-03-04T00:56:30: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2021-03-04T00:56:31: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2021-03-04T00:56:31: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-03-04T00:56:31: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-03-04T00:56:32: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-03-04T00:56:32: CFU(Webfeed):: Web feed hasn't changed since last time.
+2021-03-04T00:56:32: CFU(Webfeed): Webfeed is empty
+2021-03-04T00:56:32: CFU(Webfeed): MRL is empty
+2021-03-04T00:56:32: Check for Updates was done successfully.
+2021-03-04T00:56:32: UCGetprogress : Check for updates returning state for reffId  = 
+2021-03-04T00:56:32: UCGetprogress : Check for updates returning state     = 21
+2021-03-04T00:56:32: UCGetprogress : Check for updates returning outError  = 0
+2021-03-04T00:56:32: UCGetprogress : Check for updates returning percent   = 100
+2021-03-04T00:56:32: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2021-03-08T14:53:12: >>> Adobe Updater Log Begin >>>
+2021-03-08T14:53:12: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2021-03-08T14:53:12: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2021-03-08T14:53:12: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2021-03-08T14:53:12: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2021-03-08T14:53:12: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-03-08T14:53:12: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-03-08T14:53:12: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-03-08T14:53:16: CFU(Webfeed):: Web feed hasn't changed since last time.
+2021-03-08T14:53:16: CFU(Webfeed): Webfeed is empty
+2021-03-08T14:53:16: CFU(Webfeed): MRL is empty
+2021-03-08T14:53:16: Check for Updates was done successfully.
+2021-03-08T14:53:16: UCGetprogress : Check for updates returning state for reffId  = 
+2021-03-08T14:53:16: UCGetprogress : Check for updates returning state     = 21
+2021-03-08T14:53:16: UCGetprogress : Check for updates returning outError  = 0
+2021-03-08T14:53:16: UCGetprogress : Check for updates returning percent   = 100
+2021-03-08T14:53:16: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2021-04-04T22:42:28: >>> Adobe Updater Log Begin >>>
+2021-04-04T22:42:28: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2021-04-04T22:42:28: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2021-04-04T22:42:28: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2021-04-04T22:42:30: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2021-04-04T22:42:30: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-04-04T22:42:30: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-04-04T22:42:30: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-04-04T22:42:00: UCGetprogress : WARNING - No network connection is available.
+2021-04-04T22:42:00: UCGetprogress : Check for updates returning state for reffId  = 
+2021-04-04T22:42:00: UCGetprogress : Check for updates returning state     = 41
+2021-04-04T22:42:00: UCGetprogress : Check for updates returning outError  = 212
+2021-04-04T22:42:00: UCGetprogress : Check for updates returning percent   = 0
+2021-04-04T22:42:00: UCGetprogress : Check for updates returning unique error code string   = U41M1C212
+2021-04-22T11:45:44: >>> Adobe Updater Log Begin >>>
+2021-04-22T11:45:44: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2021-04-22T11:45:44: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2021-04-22T11:45:44: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2021-04-22T11:45:44: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2021-04-22T11:45:44: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-04-22T11:45:44: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-04-22T11:45:45: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-04-22T11:45:52: CFU(Webfeed):: Web feed hasn't changed since last time.
+2021-04-22T11:45:52: CFU(Webfeed): Webfeed is empty
+2021-04-22T11:45:52: CFU(Webfeed): MRL is empty
+2021-04-22T11:45:52: Check for Updates was done successfully.
+2021-04-22T11:45:52: UCGetprogress : Check for updates returning state for reffId  = 
+2021-04-22T11:45:52: UCGetprogress : Check for updates returning state     = 21
+2021-04-22T11:45:52: UCGetprogress : Check for updates returning outError  = 0
+2021-04-22T11:45:52: UCGetprogress : Check for updates returning percent   = 100
+2021-04-22T11:45:52: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2021-04-22T19:27:04: >>> Adobe Updater Log Begin >>>
+2021-04-22T19:27:04: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2021-04-22T19:27:04: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2021-04-22T19:27:04: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2021-04-22T19:27:04: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2021-04-22T19:27:04: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-04-22T19:27:04: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-04-22T19:27:04: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-04-22T19:27:04: CFU(Webfeed):: Web feed hasn't changed since last time.
+2021-04-22T19:27:04: CFU(Webfeed): Webfeed is empty
+2021-04-22T19:27:04: CFU(Webfeed): MRL is empty
+2021-04-22T19:27:05: Check for Updates was done successfully.
+2021-04-22T19:27:05: UCGetprogress : Check for updates returning state for reffId  = 
+2021-04-22T19:27:05: UCGetprogress : Check for updates returning state     = 21
+2021-04-22T19:27:05: UCGetprogress : Check for updates returning outError  = 0
+2021-04-22T19:27:05: UCGetprogress : Check for updates returning percent   = 100
+2021-04-22T19:27:05: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2021-04-23T11:33:28: >>> Adobe Updater Log Begin >>>
+2021-04-23T11:33:28: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2021-04-23T11:33:28: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2021-04-23T11:33:28: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2021-04-23T11:33:28: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2021-04-23T11:33:28: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-04-23T11:33:28: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-04-23T11:33:29: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-04-23T11:33:29: CFU(Webfeed):: Web feed hasn't changed since last time.
+2021-04-23T11:33:29: CFU(Webfeed): Webfeed is empty
+2021-04-23T11:33:29: CFU(Webfeed): MRL is empty
+2021-04-23T11:33:29: Check for Updates was done successfully.
+2021-04-23T11:33:29: UCGetprogress : Check for updates returning state for reffId  = 
+2021-04-23T11:33:29: UCGetprogress : Check for updates returning state     = 21
+2021-04-23T11:33:29: UCGetprogress : Check for updates returning outError  = 0
+2021-04-23T11:33:29: UCGetprogress : Check for updates returning percent   = 100
+2021-04-23T11:33:29: UCGetprogress : Check for updates returning unique error code string   = U21M1C0
+2021-04-25T20:24:29: >>> Adobe Updater Log Begin >>>
+2021-04-25T20:24:29: UpdaterCoreImpl::InitLogFile : Application Version 2.0.0.22
+2021-04-25T20:24:29: UpdaterCoreImpl::InitLogFile : cmdline option --> -logFile = C:\Users\Felipe\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log
+2021-04-25T20:24:29: UpdaterCoreImpl::InitLogFile : cmdline option --> -logLevel = 2
+2021-04-25T20:24:29: UpdaterCore : Returning from << UCInitialize >> Returning with outErr Value =>  = 0
+2021-04-25T20:24:29: UCCheckForUpdates : Updater is loaded in AAM Updates Notifier mode.
+2021-04-25T20:24:29: UCCheckForUpdates : User level lock acquired for AAM Updates Notifier.
+2021-04-25T20:24:29: Returning from << UCCheckForUpdates >> call with outErr value -  = 0
+2021-04-25T20:24:30: CFU(Webfeed):: Web feed hasn't changed since last time.
+2021-04-25T20:24:30: CFU(Webfeed): Webfeed is empty
+2021-04-25T20:24:30: CFU(Webfeed): MRL is empty
+2021-04-25T20:24:31: Check for Updates was done successfully.
+2021-04-25T20:24:31: UCGetprogress : Check for updates returning state for reffId  = 
+2021-04-25T20:24:31: UCGetprogress : Check for updates returning state     = 21
+2021-04-25T20:24:31: UCGetprogress : Check for updates returning outError  = 0
+2021-04-25T20:24:31: UCGetprogress : Check for updates returning percent   = 100
+2021-04-25T20:24:31: UCGetprogress : Check for updates returning unique error code string   = U21M1C0

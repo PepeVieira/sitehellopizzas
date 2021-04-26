@@ -1,0 +1,2601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+<!--
+This file determines which code snippets appear in the Code Snippets panel.
+
+isBranch attribute - Set to "false" for snippets.
+title - The name of the snippet to display in the Code Snippets panel.
+description - The description of the snippet to display in the tooltip.
+requiresSymbol - Set to true if snippet requires an object to be selected on stage.
+code - The code to insert.  Actual code should be placed inside the CDATA block as in this example.
+minPlayerVersion - Require FLA file to meet a minimum Player version.
+maxPlayerVersion -  Require FLA file to be less than or equal to a maximum Player version.
+minASVersion - Require FLA file to meet a minimum ActionScript version.
+maxASVersion - Require FLA file to be less than or equal to a maximum ActionScript version.
+
+To create your own code snippets copy the following empty one and paste it into the category where you want it to appear.
+
+	<snippet isBranch="false">
+	  <title>Custom Snippet</title>
+	  <description>This is an example of a custom code snippet.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <code><![CDATA[
+// Code goes here
+trace("A custom code snippet");
+	  ]]></code>
+	</snippet>
+-->
+<snippets>
+  <category title="Actions"
+      isBranch="true" expanded="false"
+      description="Code for common interactions">
+	<snippet isBranch="false">
+	  <title>Click to Go to Web Page</title>
+	  <description>Clicking on the specified object loads the URL in a new browser window.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			text="http://www.adobe.com"
+			type="editableText" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Go_to_Web_Page</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Go to Web Page
+Clicking on the specified symbol instance loads the URL in a new browser window.
+
+Instructions:
+1. Replace http://www.adobe.com with the desired URL address.
+   Keep the quotation marks ("").
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToGoToWebPage);
+
+function fl_ClickToGoToWebPage(event:MouseEvent):void
+{
+	navigateToURL(new URLRequest("http://www.adobe.com"), "_blank");
+}
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Custom Mouse Cursor</title>
+	  <description>Replaces the default mouse cursor with the specified object on stage.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Custom_Mouse_Cursor</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Custom Mouse Cursor
+Replaces the default mouse cursor with the specified symbol instance.
+*/
+
+stage.addChild(instance_name_here);
+instance_name_here.mouseEnabled = false;
+instance_name_here.addEventListener(Event.ENTER_FRAME, fl_CustomMouseCursor);
+
+function fl_CustomMouseCursor(event:Event)
+{
+	instance_name_here.x = stage.mouseX;
+	instance_name_here.y = stage.mouseY;
+}
+Mouse.hide();
+
+//To restore the default mouse pointer, uncomment the following lines:
+//instance_name_here.removeEventListener(Event.ENTER_FRAME, fl_CustomMouseCursor);
+//stage.removeChild(instance_name_here);
+//Mouse.show();
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Drag and Drop</title>
+	  <description>Makes the specified object moveable with drag and drop.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Drag_and_Drop</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Drag and Drop
+Makes the specified symbol instance moveable with drag and drop.
+*/
+
+instance_name_here.addEventListener(MouseEvent.MOUSE_DOWN, fl_ClickToDrag);
+
+function fl_ClickToDrag(event:MouseEvent):void
+{
+	instance_name_here.startDrag();
+}
+
+stage.addEventListener(MouseEvent.MOUSE_UP, fl_ReleaseToDrop);
+
+function fl_ReleaseToDrop(event:MouseEvent):void
+{
+	instance_name_here.stopDrag();
+}
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Play a Movie Clip</title>
+	  <description>Plays the specified object or movie clip which is currently stopped on stage.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <ADOBE_PIP_ID>Play_a_Movie_Clip</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Play a Movie Clip
+Plays the specified movie clip on stage.
+
+Instructions:
+1. Use this code for movie clips that are currently stopped.
+*/
+
+instance_name_here.play();
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Stop a Movie Clip</title>
+	  <description>Stops the specified object or movie clip currently playing on stage.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <ADOBE_PIP_ID>Stop_a_Movie_Clip</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Stop a Movie Clip
+Stops the specified movie clip on stage.
+
+Instructions:
+1. Use this code for movie clips that are currently playing.
+*/
+
+instance_name_here.stop();
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Click to Hide an Object</title>
+	  <description>Clicking the specified object hides it.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Hide_an_Object</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Hide an Object
+Clicking on the specified symbol instance hides it.
+
+Instructions:
+1. Use this code for objects that are currently visible.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToHide);
+
+function fl_ClickToHide(event:MouseEvent):void
+{
+	instance_name_here.visible = false;
+}
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Show an Object</title>
+	  <description>Makes the specified object visible.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Show_an_Object</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Show an Object
+Shows the specified symbol instance.
+
+Instructions:
+1. Use this code to show objects that are currently hidden.
+*/
+
+instance_name_here.visible = true;
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Click to Position an Object</title>
+	  <description>Moves the specified object to the x and y coordinates you specify.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			text="200"
+			type="hotTextNumber"
+			min="-500"
+			max="5000"/>
+		<placeholder
+			text="100"
+			type="hotTextNumber"
+			min="-500"
+			max="5000"/>
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Position_an_Object</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Position an Object
+Moves the specified symbol instance to the x-coordinate and y-coordinate you specify.
+
+Instructions:
+1. Replace the value 200 with the x-coordinate
+   where you want to position the object.
+2. Replace the value 100 with the y-coordinate where you want to position the object.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToPosition);
+
+function fl_ClickToPosition(event:MouseEvent):void
+{
+	instance_name_here.x = 200;
+	instance_name_here.y = 100;
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Click to Display a TextField</title>
+	  <description>Clicking on the specified object creates and displays a TextField at a position you specify.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="hotTextNumber"
+			text="100"
+			subType="int"
+			min="0" />
+		<placeholder
+			type="hotTextNumber"
+			text="200"
+			subType="int"
+			min="0" />
+		<placeholder
+			text="Lorem ipsum dolor sit amet."
+			type="editableText" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Display_a_TextField</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Display a TextField
+Clicking on the specified symbol instance creates and displays a TextField at the x-coordinate and y-coordinate you specify.
+
+Instructions:
+1. Replace the value 200 with the x-coordinate where you want to position the TextField.
+2. Replace the value 100 with the y-coordinate where you want to position the TextField.
+3. Replace the string value "Lorem ipsum dolor sit amet" with the text you want to display in the TextField that appears. Keep the quotation marks.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToPosition);
+
+var fl_TF:TextField;
+var fl_TextToDisplay:String = "Lorem ipsum dolor sit amet.";
+
+function fl_ClickToPosition(event:MouseEvent):void
+{
+	fl_TF = new TextField();
+	fl_TF.autoSize = TextFieldAutoSize.LEFT;
+	fl_TF.background = true;
+	fl_TF.border = true;
+	fl_TF.x = 200;
+	fl_TF.y = 100;
+	fl_TF.text = fl_TextToDisplay;
+	addChild(fl_TF);
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Generate a Random Number</title>
+	  <description>Generates a random number value between 0 and a number you specify.</description>
+	  <placeholders>
+		<placeholder
+			type="hotTextNumber"
+			text="100"
+			subType="int"
+			min="2" />
+	  </placeholders>
+	  <ADOBE_PIP_ID>Generate_a_Random_Number</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Generate a Random Number
+Generates a random number between 0 and a limit number you specify.
+
+Instructions:
+1. To change the maximum random value, change the number 100 in the last line of this snippet to the number you want to use.
+2. This code outputs the random number to the Output panel.
+*/
+
+function fl_GenerateRandomNumber(limit:Number):Number
+{
+	var randomNumber:Number = Math.floor(Math.random()*(limit+1));
+	return randomNumber;
+}
+trace(fl_GenerateRandomNumber(100));
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Bring Object to the Front</title>
+	  <description>Brings any clicked object to the front.</description>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Bring_Object_to_the_Front</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Bring Any Clicked Object to the Front
+Clicking on any symbol on the Stage moves it in front of all other instances.
+*/
+
+// This code makes all symbol instances on stage clickable by making them listen for the CLICK event.
+for (var fl_ChildIndex:int = 0;
+		fl_ChildIndex < this.numChildren;
+		fl_ChildIndex++)
+{
+	this.getChildAt(fl_ChildIndex).addEventListener(MouseEvent.CLICK, fl_ClickToBringToFront);
+}
+
+// This is the function that moves the clicked object to the front of the display list
+
+function fl_ClickToBringToFront(event:MouseEvent):void
+{
+	this.addChild(event.currentTarget as DisplayObject);
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Simple Timer</title>
+	  <description>Displays a timer in the Output panel, which counts down a duration you specify.</description>
+	  <placeholders>
+		<placeholder
+			type="hotTextNumber"
+			text="30"
+			subType="int"
+			min="1" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Simple_Timer</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Simple Timer
+Displays a countdown timer in the Output panel until 30 seconds elapse.
+This code is a good place to start for creating timers for your own purposes.
+
+Instructions:
+1. To change the number of seconds in the timer, change the value 30 in the first line below to the number of seconds you want.
+*/
+
+var fl_TimerInstance:Timer = new Timer(1000, 30);
+fl_TimerInstance.addEventListener(TimerEvent.TIMER, fl_TimerHandler);
+fl_TimerInstance.start();
+
+var fl_SecondsElapsed:Number = 1;
+
+function fl_TimerHandler(event:TimerEvent):void
+{
+	trace("Seconds elapsed: " + fl_SecondsElapsed);
+	fl_SecondsElapsed++;
+}
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Countdown Timer</title>
+	  <description>Counts down from a duration you specify.</description>
+	  <placeholders>
+		<placeholder
+			type="hotTextNumber"
+			text="10"
+			subType="int"
+			min="2" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Countdown_Timer</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Countdown Timer
+Counts down from a specified number of seconds.
+
+Instructions:
+1. To change the length of the countdown, change the value 10 in the first line below to the number of seconds you want.
+*/
+
+var fl_SecondsToCountDown:Number = 10;
+
+var fl_CountDownTimerInstance:Timer = new Timer(1000, fl_SecondsToCountDown);
+fl_CountDownTimerInstance.addEventListener(TimerEvent.TIMER, fl_CountDownTimerHandler);
+fl_CountDownTimerInstance.start();
+
+function fl_CountDownTimerHandler(event:TimerEvent):void
+{
+	trace(fl_SecondsToCountDown + " seconds");
+	fl_SecondsToCountDown--;
+}
+]]></code>
+	</snippet>
+	</category>
+
+
+	<category title="Timeline Navigation"
+	    isBranch="true"
+	    description="Code to control movie playback">
+	<snippet isBranch="false">
+	  <title>Stop at this Frame</title>
+	  <description>Stops the playhead from advancing to the next frame in the Timeline.</description>
+	  <ADOBE_PIP_ID>Stop_at_this_Frame</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Stop at This Frame
+The Flash timeline will stop/pause at the frame where you insert this code.
+Can also be used to stop/pause the timeline of movieclips.
+*/
+
+stop();
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Click to Go to Frame and Stop</title>
+	  <description>Clicking the object moves the playhead to the specified frame and stops.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			text="5"
+			type="hotTextNumber"
+			min="1" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Go_to_Frame_and_Stop</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Go to Frame and Stop
+Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+Can be used on the main timeline or on movie clip timelines.
+
+Instructions:
+1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToGoToAndStopAtFrame);
+
+function fl_ClickToGoToAndStopAtFrame(event:MouseEvent):void
+{
+	gotoAndStop(5);
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Click to Go to Frame and Play</title>
+	  <description>Clicking the object moves the playhead to the specified frame and continues playing.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			text="5"
+			type="hotTextNumber"
+			min="1" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Go_to_Frame_and_Play</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Go to Frame and Play
+Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+Can be used on the main timeline or on movie clip timelines.
+
+Instructions:
+1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToGoToAndPlayFromFrame);
+
+function fl_ClickToGoToAndPlayFromFrame(event:MouseEvent):void
+{
+	gotoAndPlay(5);
+}
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Click to Go to Next Frame and Stop</title>
+	  <description>Clicking the object moves the playhead to the next frame and stops.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Go_to_Next_Frame_and_Stop</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Go to Next Frame and Stop
+Clicking on the specified symbol instance moves the playhead to the next frame and stops the movie.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToGoToNextFrame);
+
+function fl_ClickToGoToNextFrame(event:MouseEvent):void
+{
+	nextFrame();
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Click to Go to Previous Frame and Stop</title>
+	  <description>Clicking the object moves the playhead to the previous frame and stops.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Go_to_Previous_Frame_and_Stop</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Go to Previous Frame and Stop
+Clicking on the specified symbol instance moves the playhead to the previous frame and stops the movie.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToGoToPreviousFrame);
+
+function fl_ClickToGoToPreviousFrame(event:MouseEvent):void
+{
+	prevFrame();
+}
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Click to Go to Next Scene and Play</title>
+	  <description>Clicking the object moves the playhead to the next scene and continues playing.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Go_to_Next_Scene_and_Play</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Go to Next Scene and Play
+Clicking on the specified symbol instance moves the playhead to the next scene in the timeline and continues playback in that scene.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToGoToNextScene);
+
+function fl_ClickToGoToNextScene(event:MouseEvent):void
+{
+	MovieClip(this.root).nextScene();
+}
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Click to Go to Previous Scene and Play</title>
+	  <description>Clicking the object moves the playhead to the previous scene and continues playing.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Go_to_Previous_Scene_and_Play</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Go to Previous Scene and Play
+Clicking on the specified symbol instance moves the playhead to the previous scene in the timeline and continues playback in that scene.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToGoToPreviousScene);
+
+function fl_ClickToGoToPreviousScene(event:MouseEvent):void
+{
+	MovieClip(this.root).prevScene();
+}
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Click to Go to Scene and Play</title>
+	  <description>Clicking the object plays the movie from the specified scene and frame.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			text="Scene 3"
+			type="editableText" />
+		<placeholder
+			text="1"
+			type="hotTextNumber"
+			min="1" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Go_to_Scene_and_Play</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Go to Scene and Play
+Clicking on the specified symbol instance plays the movie from the specified scene and frame.
+
+Instructions:
+1. Replace "Scene 3" with the name of the scene you would like play.
+2. Replace 1 with the frame number you would like the movie to play from in the specified scene.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToGoToScene);
+
+function fl_ClickToGoToScene(event:MouseEvent):void
+{
+	MovieClip(this.root).gotoAndPlay(1, "Scene 3");
+}
+]]></code>
+	</snippet>
+	</category>
+
+
+	<category title="Animation"
+	    isBranch="true"
+	    description="Code to change an object's properties over time">
+
+	<snippet isBranch="false">
+	  <title>Move with Keyboard Arrows</title>
+	  <description>Allows the object to be moved with the keyboard arrows.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="hotTextNumber"
+			text="5"
+			subType="int"
+			min="1" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Move_with_Keyboard_Arrows</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Move with Keyboard Arrows
+Allows the specified symbol instance to be moved with the keyboard arrows.
+
+Instructions:
+1. To increase or decrease the amount of movement, replace the number 5 below with the number of pixels you want the symbol instance to move with each key press.
+Note the number 5 appears four times in the code below.
+*/
+
+var upPressed:Boolean = false;
+var downPressed:Boolean = false;
+var leftPressed:Boolean = false;
+var rightPressed:Boolean = false;
+
+instance_name_here.addEventListener(Event.ENTER_FRAME, fl_MoveInDirectionOfKey);
+stage.addEventListener(KeyboardEvent.KEY_DOWN, fl_SetKeyPressed);
+stage.addEventListener(KeyboardEvent.KEY_UP, fl_UnsetKeyPressed);
+
+function fl_MoveInDirectionOfKey(event:Event)
+{
+	if (upPressed)
+	{
+		instance_name_here.y -= 5;
+	}
+	if (downPressed)
+	{
+		instance_name_here.y += 5;
+	}
+	if (leftPressed)
+	{
+		instance_name_here.x -= 5;
+	}
+	if (rightPressed)
+	{
+		instance_name_here.x += 5;
+	}
+}
+
+function fl_SetKeyPressed(event:KeyboardEvent):void
+{
+	switch (event.keyCode)
+	{
+		case Keyboard.UP:
+		{
+			upPressed = true;
+			break;
+		}
+		case Keyboard.DOWN:
+		{
+			downPressed = true;
+			break;
+		}
+		case Keyboard.LEFT:
+		{
+			leftPressed = true;
+			break;
+		}
+		case Keyboard.RIGHT:
+		{
+			rightPressed = true;
+			break;
+		}
+	}
+}
+
+function fl_UnsetKeyPressed(event:KeyboardEvent):void
+{
+	switch (event.keyCode)
+	{
+		case Keyboard.UP:
+		{
+			upPressed = false;
+			break;
+		}
+		case Keyboard.DOWN:
+		{
+			downPressed = false;
+			break;
+		}
+		case Keyboard.LEFT:
+		{
+			leftPressed = false;
+			break;
+		}
+		case Keyboard.RIGHT:
+		{
+			rightPressed = false;
+			break;
+		}
+	}
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Move Horizontally</title>
+	  <description>Moves the specified object to the left or right by the specified number of pixels.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="hotTextNumber"
+			text="100"
+			min="-500"
+			max="500" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Move_Horizontally</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Move Horizontally
+Moves the specified symbol instance to the left or right by decreasing or increasing its x property by the specified number of pixels.
+
+Instructions:
+1. This code will move the symbol instance to the right by default.
+2. To move the symbol instance to the left, change the number 100 below to a negative value.
+3. To change the distance the symbol instance moves, change the number 100 below to the number of pixels you want the symbol instance to move.
+*/
+
+instance_name_here.x += 100;
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Move Vertically</title>
+	  <description>Moves the specified object up or down a number of pixels you specify.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="hotTextNumber"
+			text="100"
+			min="-500"
+			max="500" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Move_Vertically</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Move Vertically
+Moves the symbol instance up or down by decreasing or increasing its y property by the specified number of pixels.
+
+Instructions:
+1. The default movement of the code as written is down.
+2. To move the symbol instance up, change the number 100 below to a negative value.
+3. To change the distance the symbol instance moves, change the number 100 below to the number of pixels you want the symbol instance to move.
+*/
+
+instance_name_here.y += 100;
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Rotate Once</title>
+	  <description>Rotates the specified object one time in the direction you specify by updating the rotation property.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="hotTextNumber"
+			text="45"
+			min="-180"
+			max="180" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Rotate_Once</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Rotate Once
+Rotates the symbol instance by updating its rotation property by the specified number of degrees.
+
+Instructions:
+1. The default rotation of the code as written is clock-wise.
+2. To rotate the symbol instance counter clock-wise, change the number 45 below to a negative value.
+3. To change the amount the symbol instance rotates, change the value 45 below to the number of degrees of rotation you want.
+*/
+
+instance_name_here.rotation += 45;
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Rotate Continuously</title>
+	  <description>Rotates the object continuously by updating its rotation property within an ENTER_FRAME event.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="hotTextNumber"
+			text="10"
+			min="-180"
+			max="180" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Rotate_Continuously</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Rotate Continuously
+Rotates symbol instance continuously by updating its rotation property within an ENTER_FRAME event.
+
+Instructions:
+1. The default rotation of the code as written is clock-wise.
+2. To change the direction of the rotation to counter clock-wise, change the number 10 below to a negative value.
+3. To change the speed at which the symbol instance rotates, change the number 10 below to the number of degrees you want to rotate the symbol instance each frame. Higher numbers cause faster rotation.
+4. Because the animation uses an ENTER_FRAME event, it progresses only when the playhead moves to a new frame. The speed of the animation is also affected by the document frame rate.
+*/
+
+instance_name_here.addEventListener(Event.ENTER_FRAME, fl_RotateContinuously);
+
+function fl_RotateContinuously(event:Event)
+{
+	instance_name_here.rotation += 10;
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Animate Horizontally</title>
+	  <description>Animates the specified object horizontally across the stage by updating the X property within the ENTER_FRAME event.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="hotTextNumber"
+			text="10"
+			min="-100"
+			max="100" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Animate_Horizontally</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Animate Horizontally
+Moves the symbol instance left or right across the stage by decreasing or increasing its x property within an ENTER_FRAME event.
+
+Instructions:
+1. The default direction of the animation is to the right.
+2. To change the direction of the animation to the left, change the number 10 below to a negative value.
+3. To change the speed at which the symbol instance moves, change the number 10 below to the number of pixels you want the symbol instance to move in each frame.
+4. Because the animation uses an ENTER_FRAME event, it progresses only when the playhead moves to a new frame. The speed of the animation is also affected by the document frame rate.
+*/
+
+instance_name_here.addEventListener(Event.ENTER_FRAME, fl_AnimateHorizontally);
+
+function fl_AnimateHorizontally(event:Event)
+{
+	instance_name_here.x += 10;
+}
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Animate Vertically</title>
+	  <description>Animates the specified object vertically across the stage by updating the Y property within the ENTER_FRAME event.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="hotTextNumber"
+			text="10"
+			min="-100"
+			max="100" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Animate_Vertically</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Animate Vertically
+Moves the symbol instance vertically on the stage by decreasing or increasing its y property within an ENTER_FRAME event.
+
+Instructions:
+1. The default direction of the animation is down.
+2. To change the direction of the animation to up, change the number 10 below to a negative value.
+3. To change the speed at which the symbol instance moves, change the number 10 below to the number of pixels you want the symbol instance to move in each frame.
+4. Because the animation uses an ENTER_FRAME event, it progresses only when the playhead moves to a new frame. The speed of the animation is also affected by the document frame rate.
+*/
+
+instance_name_here.addEventListener(Event.ENTER_FRAME, fl_AnimateVertically);
+
+function fl_AnimateVertically(event:Event)
+{
+	instance_name_here.y += 10;
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Fade In a Movie Clip</title>
+	  <description>Fades in the specified object by updating the alpha property within the ENTER_FRAME event.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="hotTextNumber"
+			text="0.01"
+			subType="Number"
+			increment="0.001"
+			min="0.001"
+			max="1" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Fade_In_a_Movie_Clip</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Fade In Movie Clip
+Fades in the symbol instance by increasing its alpha property within an ENTER_FRAME event until it is fully visible.
+
+Instructions:
+1. To change the speed at which the symbol instance fades in, change the 0.01 value below (the number must be greater than 0 and less than or equal to 1). Higher values cause faster fade in.
+2. Because the animation uses an ENTER_FRAME event, it progresses only when the playhead moves to a new frame. The speed of the animation is also affected by the document frame rate.
+*/
+
+instance_name_here.addEventListener(Event.ENTER_FRAME, fl_FadeSymbolIn);
+instance_name_here.alpha = 0;
+
+function fl_FadeSymbolIn(event:Event)
+{
+	instance_name_here.alpha += 0.01;
+	if(instance_name_here.alpha >= 1)
+	{
+		instance_name_here.removeEventListener(Event.ENTER_FRAME, fl_FadeSymbolIn);
+	}
+}
+]]></code>
+	</snippet>
+	<snippet isBranch="false">
+	  <title>Fade Out a Movie Clip</title>
+	  <description>Fades out the specified object by updating the alpha property within the ENTER_FRAME event.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="hotTextNumber"
+			text="0.01"
+			subType="Number"
+			increment="0.001"
+			min="0.001"
+			max="1" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Fade_Out_a_Movie_Clip</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Fade Out Movie Clip
+Fades out the symbol instance by decreasing its alpha property within an ENTER_FRAME event until it is invisible.
+
+Instructions:
+1. To change the speed at which the symbol instance fades out, change the 0.01 value below (the number must be greater than 0 and less than or equal to 1). Higher values cause faster fade out.
+2. Because the animation uses an ENTER_FRAME event, it progresses only when the playhead moves to a new frame. The speed of the animation is also affected by the document frame rate.
+*/
+
+instance_name_here.addEventListener(Event.ENTER_FRAME, fl_FadeSymbolOut);
+instance_name_here.alpha = 1;
+
+function fl_FadeSymbolOut(event:Event)
+{
+	instance_name_here.alpha -= 0.01;
+	if(instance_name_here.alpha <= 0)
+	{
+		instance_name_here.removeEventListener(Event.ENTER_FRAME, fl_FadeSymbolOut);
+	}
+}
+]]></code>
+	</snippet>
+  </category>
+
+
+  <category title="Load and Unload"
+      isBranch="true"
+      description="Code to load and unload assets">
+	<snippet isBranch="false">
+	  <title>Click to Load/Unload SWF or Image</title>
+	  <description>Clicking the specified object loads a SWF or image URL. Clicking a second time unloads it.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="editableText"
+			text="http://www.helpexamples.com/flash/images/image1.jpg" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Load_Unload_SWF_or_Image</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Load/Unload SWF or Image from a URL.
+Clicking on the symbol instance loads and displays the specified SWF or image URL. Clicking on the symbol instance a second time unloads the SWF or image.
+
+Instructions:
+1. Replace "http://www.helpexamples.com/flash/images/image1.jpg" below with the desired URL address of the SWF or image. Keep the quotation marks ("").
+2. Files from internet domains separate from the domain where the calling SWF resides cannot be loaded without special configuration.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToLoadUnloadSWF);
+
+import fl.display.ProLoader;
+var fl_ProLoader:ProLoader;
+
+//This variable keeps track of whether you want to load or unload the SWF
+var fl_ToLoad:Boolean = true;
+
+function fl_ClickToLoadUnloadSWF(event:MouseEvent):void
+{
+	if(fl_ToLoad)
+	{
+		fl_ProLoader = new ProLoader();
+		fl_ProLoader.load(new URLRequest("http://www.helpexamples.com/flash/images/image1.jpg"));
+		addChild(fl_ProLoader);
+	}
+	else
+	{
+		fl_ProLoader.unload();
+		removeChild(fl_ProLoader);
+		fl_ProLoader = null;
+	}
+	// Toggle whether you want to load or unload the SWF
+	fl_ToLoad = !fl_ToLoad;
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Click to Load Image from Library</title>
+	  <description>Clicking the specified object loads and displays an image from the Library.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="editableText"
+			subType="identifierName"
+			text="MyImage" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Load_Image_from_Library</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Load Image from Library
+Clicking the symbol instance displays the specified image from Library.
+To load an image from the Library it must be located in the Library with its Export for ActionScript property turned on and a valid class name.
+
+Instructions:
+1. Right click on any bitmap symbol inside the library and select "Properties...".
+2. Click the "Advanced" button to expand the "Bitmap Properties" dialog.
+3. Enable the "Export for Actionscript" option.
+4. Type 'MyImage' in the Class text field.
+5. Click OK twice.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToLoadImageFromLibrary);
+
+function fl_ClickToLoadImageFromLibrary(event:MouseEvent):void
+{
+	// If you want to add a different image from the library,
+	// enter a different name in the Class text field at step 4 above and in the code below.
+	var libImage:MyImage = new MyImage();
+
+	var holder:Bitmap = new Bitmap(libImage);
+	addChild(holder);
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Add Instance from Library</title>
+	  <description>Adds an instance of the specified Library symbol to the stage.</description>
+	  <placeholders>
+		<placeholder
+			type="editableText"
+			subType="identifierName"
+			text="LibrarySymbol" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Add_Instance_from_Library</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Add Instance from Library to the Stage
+Adds an instance of the specified MovieClip or Button Library symbol to the stage. If you want to add a Bitmap Library symbol to the stage, please use the "Click to Load Image from Library" code snippet.
+
+Instructions:
+1. Right click on any symbol inside the library and select "Properties...".
+2. Click the "Advanced" button to expand the "Symbol Properties" dialog.
+3. Enable the "Export for Actionscript" option.
+4. Type 'LibrarySymbol' in the Class text field.
+5. Click OK twice.
+*/
+
+// If you want to add a different symbol from the library,
+// enter a different name in the Class text field at step 4 above and in the code below.
+var fl_MyInstance:LibrarySymbol = new LibrarySymbol();
+addChild(fl_MyInstance);
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Remove Instance from Stage</title>
+	  <description>Removes the specified symbol instance from the stage.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Remove_Instance_from_Stage</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Remove Instance from Stage
+Removes the specified symbol instance from the stage.
+*/
+
+removeChild(instance_name_here);
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Load External Text</title>
+	  <description>Loads and displays a text file in the Output panel.</description>
+	  <placeholders>
+		<placeholder
+			type="editableText"
+			text="http://www.helpexamples.com/flash/text/loremipsum.txt" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Load_External_Text</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Load External Text
+Loads an external text file and displays it in the Output panel.
+
+Instructions:
+1. Replace "http://www.helpexamples.com/flash/text/loremipsum.txt" with the URL address of the text file you would like to load.
+The address can be a relative link or an "http://" link.
+The address must be placed inside quotation marks ("").
+*/
+
+var fl_TextLoader:URLLoader = new URLLoader();
+var fl_TextURLRequest:URLRequest = new URLRequest("http://www.helpexamples.com/flash/text/loremipsum.txt");
+
+fl_TextLoader.addEventListener(Event.COMPLETE, fl_CompleteHandler);
+
+function fl_CompleteHandler(event:Event):void
+{
+	var textData:String = new String(fl_TextLoader.data);
+	trace(textData);
+}
+
+fl_TextLoader.load(fl_TextURLRequest);
+]]></code>
+	</snippet>
+
+	</category>
+
+	<category title="Audio and Video"
+	    isBranch="true"
+	    description="Code for working with audio and video">
+	<snippet isBranch="false">
+      <title>Click to Play/Stop Sound</title>
+      <description>Clicking the specified object plays a sound. Clicking a second time stops playing it. </description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="editableText"
+			text="http://www.helpexamples.com/flash/sound/song1.mp3" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Play_Stop_Sound</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Play/Stop Sound
+Clicking on the symbol instance plays the specified sound.
+Clicking on the symbol instance a second time stops the sound.
+
+Instructions:
+1. Replace "http://www.helpexamples.com/flash/sound/song1.mp3" below with the desired URL address of your sound file. Keep the quotation marks ("").
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToPlayStopSound);
+
+var fl_SC:SoundChannel;
+
+//This variable keeps track of whether you want to play or stop the sound
+var fl_ToPlay:Boolean = true;
+
+function fl_ClickToPlayStopSound(evt:MouseEvent):void
+{
+	if(fl_ToPlay)
+	{
+		var s:Sound = new Sound(new URLRequest("http://www.helpexamples.com/flash/sound/song1.mp3"));
+		fl_SC = s.play();
+	}
+	else
+	{
+		fl_SC.stop();
+	}
+	fl_ToPlay = !fl_ToPlay;
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Click to Stop All Sounds</title>
+	  <description>Clicking on the object stops all sounds currently playing.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Stop_All_Sounds</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Stop All Sounds
+Clicking on the symbol instance stops all sounds currently playing.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToStopAllSounds);
+
+function fl_ClickToStopAllSounds(event:MouseEvent):void
+{
+	SoundMixer.stopAll();
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>On Cue Point Event</title>
+	  <description>Assigns a function to be executed each time a cue point (any significant moment in time occurring within a video clip) is passed in the selected video.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			subType="FLVPlayback"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>On_Cue_Point_Event</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* On Cue Point Event Handler
+Executes the fl_CuePointHandler function defined below each time a cue point is passed in the specified video instance.
+
+Instructions:
+1. Add your custom code on a new line after the line that says "// Start your custom code" below.
+The code will execute when cue points are reached in a video that is playing.
+*/
+
+import fl.video.MetadataEvent;
+
+instance_name_here.addEventListener(MetadataEvent.CUE_POINT, fl_CuePointHandler);
+
+function fl_CuePointHandler(event:MetadataEvent):void
+{
+	// Start your custom code
+	// This snippet code displays the cue point's name in the Output panel
+	trace(event.info.name);
+	// End your custom code
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Click to Play Video</title>
+	  <description>Clicking the specified object plays a video inside an FLVPlayback component.</description>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="stageInstance"
+			subType="FLVPlayback"
+			text="video_instance_name" />
+	  </placeholders>
+	  <requiresSymbol>true</requiresSymbol>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Play_Video</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click To Play Video (Requires FLVPlayback component)
+Clicking on the symbol instance plays a video in the  specified FLVPlayback component instance.
+
+Instructions:
+1. Replace video_instance_name below with the instance name of the FLVPlayback component that you want to play the video.
+   The specified instance of FLVPlayback video component on stage will play.
+2. Make sure you have assigned a video source file in the properties of the FLVPlayback component instance.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToPlayVideo);
+
+function fl_ClickToPlayVideo(event:MouseEvent):void
+{
+	// Replace video_instance_name with the instance name of the video component
+	video_instance_name.play();
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Click to Pause Video</title>
+	  <description>Clicking the specified object pauses the video in an FLVPlayback component.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="stageInstance"
+			subType="FLVPlayback"
+			text="video_instance_name" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Pause_Video</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click To Pause Video (Requires FLVPlayback component)
+Clicking on the symbol instance pauses the video in the specified FLVPlayback component instance.
+
+Instructions:
+1. Replace video_instance_name below with the instance name of the FLVPlayback component that you want to pause.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToPauseVideo);
+
+function fl_ClickToPauseVideo(event:MouseEvent):void
+{
+	// Replace video_instance_name with the instance name of the video component
+	video_instance_name.pause();
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Click to Rewind Video</title>
+	  <description>Clicking the specified object rewinds the video in an FLVPlayback component.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="stageInstance"
+			subType="FLVPlayback"
+			text="video_instance_name" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Rewind_Video</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click To Rewind Video (Requires FLVPlayback component)
+Clicking on the symbol instance rewinds the video in the specified FLVPlayback component instance.
+
+Instructions:
+1. Replace video_instance_name below with the instance name of the FLVPlayback component that you want to rewind.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToPauseVideo);
+
+function fl_ClickToPauseVideo(event:MouseEvent):void
+{
+	// Replace video_instance_name with the instance name of the video component
+	video_instance_name.seek(0);
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Click to Set Video Source</title>
+	  <description>Clicking the specified object replaces the video in an FLVPlayback component.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="stageInstance"
+			subType="FLVPlayback"
+			text="video_instance_name" />
+		<placeholder
+			type="editableText"
+			text="http://www.helpexamples.com/flash/video/water.flv" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Set_Video_Source</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click To Set Video Source (Requires FLVPlayback)
+Clicking on the specified symbol instance plays a new video file in the specified FLVPlayback component instance. The specified FLVPlayback component instance will pause.
+
+Instructions:
+1. Replace video_instance_name below with the instance name of the FLVPlayback component that you want to play the new video file.
+2. Replace "http://www.helpexamples.com/flash/video/water.flv" below with the URL of the new video file you want to play. Keep the quotation marks ("").
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToSetSource);
+
+function fl_ClickToSetSource(event:MouseEvent):void
+{
+	video_instance_name.source = "http://www.helpexamples.com/flash/video/water.flv";
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Click to Seek to Cue Point</title>
+	  <description>Clicking the specified object seeks to a cue point of the video in an FLVPlayback component.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="stageInstance"
+			subType="FLVPlayback"
+			text="video_instance_name" />
+		<placeholder
+			type="editableText"
+			text="Cue Point 1" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Click_to_Seek_to_Cue_Point</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Click to Seek to Cue Point (Requires FLVPlayback component)
+Clicking on the specified symbol instance seeks to a cue point of the video in the specified FLVPlayback component instance.
+
+Instructions:
+1. Replace video_instance_name below with the instance name of the FLVPlayback component that you want to seek.
+2. Replace "Cue Point 1" below with the name of the cue point to seek to. Keep the quotation marks ("").
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_ClickToSeekToCuePoint);
+
+function fl_ClickToSeekToCuePoint(event:MouseEvent):void
+{
+	// Replace video_instance_name with the instance name of the video component.
+	// Replace "Cue Point 1" with the name of the cue point to seek to.
+	var cuePointInstance:Object = video_instance_name.findCuePoint("Cue Point 1");
+	video_instance_name.seek(cuePointInstance.time);
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Create a NetStream Video</title>
+	  <description>Begins playing a video file without using the FLVPlayback component.</description>
+	  <requiresSymbol>false</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="editableText"
+			text="http://www.helpexamples.com/flash/video/water.flv" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Create_a_NetStream_Video</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Create a NetStream Video
+Displays a video on stage without using the FLVPlayback video component.
+
+Instructions:
+
+1. If you are connecting to a video file that is on a streaming server such as Adobe Flash Media Server 2, replace 'null' below with the URL address of the video file. Place quotation marks ("") around the URL address.
+2. If you are connecting to a local video file or one that is not using a streaming server, leave 'null' in place below.
+3. Replace "http://www.helpexamples.com/flash/video/water.flv" with the URL of the video you want to play. Keep the quotation marks ("").
+*/
+
+var fl_NC:NetConnection = new NetConnection();
+fl_NC.connect(null);    // starts a connection; null is used unless using Flash Media Server
+
+var fl_NS:NetStream = new NetStream(fl_NC);
+fl_NS.client = {};
+
+var fl_Vid:Video = new Video();
+fl_Vid.attachNetStream(fl_NS);
+addChild(fl_Vid);
+
+fl_NS.play("http://www.helpexamples.com/flash/video/water.flv");
+]]></code>
+	</snippet>
+	</category>
+
+	<category title="Event Handlers"
+	    isBranch="true"
+	    description="Code to handle basic user input">
+	<snippet isBranch="false">
+	  <title>Mouse Click Event</title>
+	  <description>Clicking on the specified object executes a function containing your custom code.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Mouse_Click_Event</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Mouse Click Event
+Clicking on the specified symbol instance executes a function in which you can add your own custom code.
+
+Instructions:
+1. Add your custom code on a new line after the line that says "// Start your custom code" below.
+The code will execute when the symbol instance is clicked.
+*/
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_MouseClickHandler);
+
+function fl_MouseClickHandler(event:MouseEvent):void
+{
+	// Start your custom code
+	// This example code displays the words "Mouse clicked" in the Output panel.
+	trace("Mouse clicked");
+	// End your custom code
+}
+]]></code>
+	</snippet>
+
+ 	<snippet isBranch="false">
+	  <title>Mouse Over Event</title>
+	  <description>Mousing over the specified object executes a function containing your custom code.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Mouse_Over_Event</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Mouse Over Event
+Mousing over the symbol instance executes a function in which you can add your own custom code.
+
+Instructions:
+1. Add your custom code on a new line after the line that says "// Start your custom code" below.
+The code will execute when the symbol instance is moused over.
+*/
+
+instance_name_here.addEventListener(MouseEvent.MOUSE_OVER, fl_MouseOverHandler);
+
+function fl_MouseOverHandler(event:MouseEvent):void
+{
+	// Start your custom code
+	// This example code displays the words "Moused over" in the Output panel.
+	trace("Moused over");
+	// End your custom code
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Mouse Out Event</title>
+	  <description>Mousing out of the object executes a function containing your custom code.</description>
+	  <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Mouse_Out_Event</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Mouse Out Event
+Mousing out of the symbol instance executes a function in which you can add your own custom code.
+
+Instructions:
+1. Add your custom code on a new line after the line that says "// Start your custom code" below.
+The code will execute when the symbol instance is moused out of.
+*/
+
+instance_name_here.addEventListener(MouseEvent.MOUSE_OUT, fl_MouseOutHandler);
+
+function fl_MouseOutHandler(event:MouseEvent):void
+{
+	// Start your custom code
+	// This example code displays the words "Moused out" in the Output panel.
+	trace("Moused out");
+	// End your custom code
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Key Pressed Event</title>
+	  <description>Assigns a function to be executed each time a key is pressed.</description>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Key_Pressed_Event</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Key Pressed Event
+Executes the function fl_KeyboardDownHandler defined below when any keyboard key is pressed.
+
+Instructions:
+1. Add your custom code on a new line after the line that says "// Start your custom code" below.
+The code will execute when any key is pressed.
+*/
+
+stage.addEventListener(KeyboardEvent.KEY_DOWN, fl_KeyboardDownHandler);
+
+function fl_KeyboardDownHandler(event:KeyboardEvent):void
+{
+	// Start your custom code
+	// This example code displays the words "Key Code Pressed:" and the keycode of the pressed key in the Output panel.
+	trace("Key Code Pressed: " + event.keyCode);
+	// End your custom code
+}
+]]></code>
+	</snippet>
+
+	<snippet isBranch="false">
+	  <title>Enter Frame Event</title>
+	  <description>Assigns a function to be executed each time the playhead moves into a new frame.</description>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Enter_Frame_Event</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Enter Frame Event
+Executes the function fl_EnterFrameHandler defined below each time the playhead moves into a new frame of the timeline.
+
+Instructions:
+1. Add your custom code on a new line after the line that says "// Start your custom code" below.
+The code will execute when the playhead moves into a new timeline frame.
+*/
+
+addEventListener(Event.ENTER_FRAME, fl_EnterFrameHandler);
+
+function fl_EnterFrameHandler(event:Event):void
+{
+	//Start your custom code
+	// This example code displays the words "Entered frame" in the Output panel.
+	trace("Entered frame");
+	// End your custom code
+}
+]]></code>
+	</snippet>
+	</category>
+	<category title="Mobile Touch Events"
+	  	isBranch="true"
+	  	expanded="false"
+	  	description="Code to handle touch input in Mobile devices">
+    <snippet isBranch="false">
+      <title>Tap Event</title>
+      <description>Tapping on the specified object executes a function containing your custom code.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Tap_Event</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Tap Event
+Tapping on the symbol instance executes a function in which you can add your own custom code.
+
+Instructions:
+1. Add your custom code on a new line after the line that says "// Start your custom code" below.
+The code will execute when the symbol instance is tapped.
+*/
+
+Multitouch.inputMode = MultitouchInputMode.TOUCH_POINT;
+
+instance_name_here.addEventListener(TouchEvent.TOUCH_TAP, fl_TapHandler);
+
+function fl_TapHandler(event:TouchEvent):void
+{
+	// Start your custom code
+	// This example code reduces the transparency of the object by half upon each tap event
+	instance_name_here.alpha *= 0.5;
+	// End your custom code
+}
+]]></code>
+    </snippet>
+    <snippet isBranch="false">
+      <title>Touch and Drag Event</title>
+      <description>Allows the specified object to be moved by holding and dragging.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Touch_and_Drag_Event</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Touch and Drag Event
+Allows the object to be moved by holding and dragging the object.
+*/
+
+Multitouch.inputMode = MultitouchInputMode.TOUCH_POINT;
+
+instance_name_here.addEventListener(TouchEvent.TOUCH_BEGIN, fl_TouchBeginHandler);
+instance_name_here.addEventListener(TouchEvent.TOUCH_END, fl_TouchEndHandler);
+
+var fl_DragBounds:Rectangle = new Rectangle(0, 0, stage.stageWidth, stage.stageHeight);
+
+function fl_TouchBeginHandler(event:TouchEvent):void
+{
+	event.target.startTouchDrag(event.touchPointID, false, fl_DragBounds);
+}
+
+function fl_TouchEndHandler(event:TouchEvent):void
+{
+	event.target.stopTouchDrag(event.touchPointID);
+}
+]]></code>
+    </snippet>
+    <snippet isBranch="false">
+      <title>Long Press Event</title>
+      <description>Pressing the specified object for one second executes a function containing your custom code. This action can be used to display a menu for that object.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Long_Press_Event</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Long Press
+Pressing the object for one second executes a function containing your custom code. You can use this action to display a context menu for that object.
+
+Instructions:
+1. Add your custom code on a new line after the lines that say "// Start your custom code" below.
+*/
+
+var fl_PressTimer:Timer = new Timer(1000);
+fl_PressTimer.addEventListener(TimerEvent.TIMER, fl_PressTimerHandler);
+
+function fl_PressTimerHandler(event:TimerEvent):void
+{
+	// Start your custom code
+	// This example code doubles the object's size
+	instance_name_here.scaleX = 2;
+	instance_name_here.scaleY = 2;
+	// End your custom code
+}
+
+Multitouch.inputMode = MultitouchInputMode.TOUCH_POINT;
+
+instance_name_here.addEventListener(TouchEvent.TOUCH_BEGIN, fl_PressBeginHandler);
+instance_name_here.addEventListener(TouchEvent.TOUCH_END, fl_PressEndHandler);
+instance_name_here.addEventListener(TouchEvent.TOUCH_OUT, fl_PressEndHandler);
+instance_name_here.addEventListener(TouchEvent.TOUCH_ROLL_OUT, fl_PressEndHandler);
+
+function fl_PressBeginHandler(event:TouchEvent):void
+{
+	fl_PressTimer.start();
+}
+
+function fl_PressEndHandler(event:TouchEvent):void
+{
+	fl_PressTimer.stop();
+	// Start your custom code
+	// This example code resets the object to its original size
+	instance_name_here.scaleX = 1;
+	instance_name_here.scaleY = 1;
+	// End your custom code
+}
+]]></code>
+    </snippet>
+    </category>
+   	<category title="Mobile Gesture Events"
+	  	isBranch="true"
+	  	expanded="false"
+	  	description="Code to handle gesture input in Mobile devices">
+	<snippet isBranch="false">
+      <title>Two Finger Tap Event</title>
+      <description>Tapping the stage with two fingers executes a function containing your custom code.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Two_Finger_Tap_Event</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Two Finger Tap Event
+Tapping with two fingers on the stage executes a function in which you can add your own custom code.
+
+Instructions:
+1. Add your custom code on a new line after the line that says "// Start your custom code" below.
+The code will execute when the stage is tapped with two fingers.
+*/
+
+Multitouch.inputMode = MultitouchInputMode.GESTURE;
+
+stage.addEventListener(GestureEvent.GESTURE_TWO_FINGER_TAP, fl_TwoFingerTapHandler);
+
+function fl_TwoFingerTapHandler(event:GestureEvent):void
+{
+	// Start your custom code
+	// This example code zooms in on the object upon each two finger tap event
+	// The object should be a background the size of the stage
+	instance_name_here.scaleX *= 2;
+	instance_name_here.scaleY *= 2;
+	// End your custom code
+}
+]]></code>
+    </snippet>
+	<snippet isBranch="false">
+      <title>Pinch to Zoom Event</title>
+      <description>Pinching the stage will zoom in on the selected object.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Pinch_to_Zoom_Event</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Pinch to Zoom Event
+Pinching the stage will zoom in on the selected object.
+
+Instructions:
+1. The symbol's registration and transformation points should be at the center.
+2. The symbol should be the background of your application and sized to match the stage.
+*/
+
+Multitouch.inputMode = MultitouchInputMode.GESTURE;
+
+stage.addEventListener(TransformGestureEvent.GESTURE_ZOOM, fl_ZoomHandler);
+
+function fl_ZoomHandler(event:TransformGestureEvent):void
+{
+	instance_name_here.scaleX *= event.scaleX;
+	instance_name_here.scaleY *= event.scaleY;
+}
+]]></code>
+    </snippet>
+    <snippet isBranch="false">
+      <title>Pan Event</title>
+      <description>Pans the selected object on stage. The object to be panned is usually larger than the viewable area.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Pan_Event</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Pan Event
+Pans the selected object on stage. The object to be panned is usually larger than the viewable area.
+
+Instructions:
+1. To pan all the objects on stage, place the objects in a single container movie clip and apply this snippet to that movie clip.
+*/
+
+Multitouch.inputMode = MultitouchInputMode.GESTURE;
+
+instance_name_here.addEventListener(TransformGestureEvent.GESTURE_PAN, fl_PanHandler);
+
+function fl_PanHandler(event:TransformGestureEvent):void
+{
+	event.currentTarget.x += event.offsetX;
+	event.currentTarget.y += event.offsetY;
+}
+]]></code>
+    </snippet>
+	<snippet isBranch="false">
+      <title>Rotate Event</title>
+      <description>Rotates the selected object, usually by moving two fingers clockwise or counter-clockwise.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Rotate_Event</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Rotate Event
+Rotates the selected object, usually by moving two fingers clockwise or counter-clockwise.
+
+Instructions:
+1. The symbol's transformation and registration points should be at the center.
+*/
+
+Multitouch.inputMode = MultitouchInputMode.GESTURE;
+
+instance_name_here.addEventListener(TransformGestureEvent.GESTURE_ROTATE, fl_RotateHandler);
+
+function fl_RotateHandler(event:TransformGestureEvent):void
+{
+	event.target.rotation += event.rotation;
+}
+]]></code>
+    </snippet>
+	<snippet isBranch="false">
+      <title>Swipe Event</title>
+      <description>Swiping the stage executes a function containing your custom code. This event can be used to scroll text in a TextField or change states in your application.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="hotTextNumber"
+			text="20"
+			min="1"
+			max="100" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Swipe_Event</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Swipe Event
+Swiping the stage executes a function containing your custom code. You can use this event to scroll text in a TextField or change states in your application.
+
+Instructions:
+1. Add your custom code on a new line after the lines that say "// Start your custom code" below.
+*/
+
+Multitouch.inputMode = MultitouchInputMode.GESTURE;
+
+stage.addEventListener (TransformGestureEvent.GESTURE_SWIPE, fl_SwipeHandler);
+
+function fl_SwipeHandler(event:TransformGestureEvent):void
+{
+	switch(event.offsetX)
+	{
+		// swiped right
+		case 1:
+		{
+			// Start your custom code
+			// This example code moves the selected object 20 pixels to the right.
+			instance_name_here.x += 20;
+			// End your custom code
+			break;
+		}
+		// swiped left
+		case -1:
+		{
+			// Start your custom code
+			// This example code moves the selected object 20 pixels to the left.
+			instance_name_here.x -= 20;
+			// End your custom code
+			break;
+		}
+	}
+
+	switch(event.offsetY)
+	{
+		// swiped down
+		case 1:
+		{
+			// Start your custom code
+			// This example code moves the selected object 20 pixels down.
+			instance_name_here.y += 20;
+			// End your custom code
+			break;
+		}
+		// swiped up
+		case -1:
+		{
+			// Start your custom code
+			// This example code moves the selected object 20 pixels up.
+			instance_name_here.y -= 20;
+			// End your custom code
+			break;
+		}
+	}
+}
+]]></code>
+    </snippet>
+  </category>
+    <category title="Mobile Actions"
+    			isBranch="true"
+    			expanded="false"
+    			description="Code for common interactions on Mobile devices">
+    <snippet isBranch="false">
+      <title>Swipe to Go to Next/Previous Frame and Stop</title>
+      <description>Swiping the stage moves the playhead to the next/previous frame in the Timeline and stops the playhead.</description>
+      <requiresSymbol>false</requiresSymbol>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Swipe_to_Go_to_Next_Previous_Frame_and_Stop</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Swipe to Go to Next/Previous Frame and Stop
+Swiping the stage moves the playhead to the next/previous frame and stops the movie.
+*/
+
+Multitouch.inputMode = MultitouchInputMode.GESTURE;
+
+stage.addEventListener (TransformGestureEvent.GESTURE_SWIPE, fl_SwipeToGoToNextPreviousFrame);
+
+function fl_SwipeToGoToNextPreviousFrame(event:TransformGestureEvent):void
+{
+	if(event.offsetX == 1)
+	{
+		// swiped right
+		prevFrame();
+	}
+	else if(event.offsetX == -1)
+	{
+		// swiped left
+		nextFrame();
+	}
+}
+]]></code>
+    </snippet>
+    <snippet isBranch="false">
+      <title>Swipe to Go to Next/Previous Scene and Play</title>
+      <description>Swiping the stage moves the playhead to the next/previous scene in the Timeline and continues playback in that scene.</description>
+      <requiresSymbol>false</requiresSymbol>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Swipe_to_Go_to_Next_Previous_Scene_and_Play</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Swipe to Go to Next/Previous Scene and Play
+Swiping the stage moves the playhead to the next/previous scene in the timeline and continues playback in that scene.
+*/
+
+Multitouch.inputMode = MultitouchInputMode.GESTURE;
+
+stage.addEventListener (TransformGestureEvent.GESTURE_SWIPE, fl_SwipeToGoToNextPreviousScene);
+
+function fl_SwipeToGoToNextPreviousScene(event:TransformGestureEvent):void
+{
+	if(event.offsetX == 1)
+	{
+		// swiped right
+		prevScene();
+	}
+	else if(event.offsetX == -1)
+	{
+		// swiped left
+		nextScene();
+	}
+}
+]]></code>
+    </snippet>
+    <snippet isBranch="false">
+      <title>Move with Accelerometer</title>
+      <description>Allows the object to be moved by tilting the mobile device.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="hotTextNumber"
+			text="30"
+			min="1"
+			max="100" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Move_with_Accelerometer</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Move with Accelerometer
+Allows the object to be moved by tilting the mobile device.
+
+Instructions:
+1. To increase or decrease the amount of movement, replace the number 30 below with the number of pixels you want the symbol instance to move when tilting the mobile device.
+Note the number 30 appears twice in the code below.
+*/
+
+var fl_Accelerometer:Accelerometer = new Accelerometer();
+fl_Accelerometer.addEventListener(AccelerometerEvent.UPDATE, fl_AccelerometerUpdateHandler);
+
+function fl_AccelerometerUpdateHandler(event:AccelerometerEvent):void
+{
+	instance_name_here.x -= event.accelerationX*30;
+	instance_name_here.y += event.accelerationY*30;
+}
+]]></code>
+    </snippet>
+	<snippet isBranch="false">
+      <title>Deactivate/Activate Event</title>
+      <description>Conserve CPU by suspending the application on Deactivate event and resuming the application on Activate event.</description>
+      <requiresSymbol>false</requiresSymbol>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Conserve_CPU_on_Deactivate_Activate</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Deactivate/Activate Event
+Conserve CPU and battery life by suspending expensive processes, such as ENTER_FRAME and TIMER events, when the application is not in focus.
+
+Instructions:
+1. Start timers and add event listeners in "fl_Activate".
+2. Stop timers and remove event listeners in "fl_Deactivate".
+*/
+
+stage.addEventListener(Event.ACTIVATE, fl_Activate);
+stage.addEventListener(Event.DEACTIVATE, fl_Deactivate);
+
+function fl_Activate(event:Event):void
+{
+	// Start timers and add event listeners here.
+}
+
+function fl_Deactivate(event:Event):void
+{
+	// Stop timers and remove event listeners here.
+}
+]]></code>
+    </snippet>
+    <snippet isBranch="false">
+	  <title>Menu Key Pressed Event</title>
+	  <description>Executes your code when the device's Menu key is pressed.</description>
+	  <minASVersion>3</minASVersion>
+	  <ADOBE_PIP_ID>Menu_Key_Pressed_Event</ADOBE_PIP_ID>
+	  <code><![CDATA[
+/* Menu Key Pressed Event
+Executes your code when the device's Menu key is pressed, useful for displaying an options menu.
+Refer to the Options Menu sample in the templates.
+
+Instructions:
+1. Add your code to display an options menu after the line that says "// Start your custom code" below.
+2. Remove the example code that displays a gray rectangle.
+*/
+
+stage.addEventListener(KeyboardEvent.KEY_UP, fl_OptionsMenuHandler);
+
+function fl_OptionsMenuHandler(event:KeyboardEvent):void
+{
+	if( (event.keyCode == 95) || (event.keyCode == Keyboard.MENU) )
+	{
+		// Start your custom code
+		// This example code displays a gray rectangle.
+		var grayRectangle:Sprite = new Sprite();
+		grayRectangle.graphics.lineStyle(3, 0x888888, 0.95);
+		grayRectangle.graphics.beginFill(0xececec, 0.95);
+		grayRectangle.graphics.drawRect(1, stage.stageHeight - 100, stage.stageWidth-3, 100);
+		grayRectangle.graphics.endFill();
+		addChild(grayRectangle);
+		// End your custom code
+	}
+}
+]]></code>
+	</snippet>
+  </category>
+  <category title="AIR for Mobile"
+	  			isBranch="true"
+	  			expanded="false"
+	  			description="Code for common mobile actions available via AIR.">
+  	<snippet isBranch="false">
+      <title>Show Geolocation</title>
+      <description>Show latitude and longitude in a TextField.</description>
+      <requiresSymbol>false</requiresSymbol>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Show_Geolocation</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Show Geolocation
+Show latitude and longitude in a TextField.
+
+Instructions:
+1. Enable "ACCESS_FINE_LOCATION" and "ACCESS_COARSE_LOCATION" permissions in File -> AIR for Android Settings.
+*/
+
+var fl_GeolocationDisplay:TextField = new TextField();
+fl_GeolocationDisplay.autoSize = TextFieldAutoSize.LEFT;
+fl_GeolocationDisplay.text = "Geolocation is not responding. Verify the device's location settings.";
+addChild(fl_GeolocationDisplay);
+
+if(!Geolocation.isSupported)
+{
+	fl_GeolocationDisplay.text = "Geolocation is not supported on this device.";
+}
+else
+{
+	var fl_Geolocation:Geolocation = new Geolocation();
+	fl_Geolocation.setRequestedUpdateInterval(1000);
+	fl_Geolocation.addEventListener(GeolocationEvent.UPDATE, fl_UpdateGeolocation);
+}
+
+function fl_UpdateGeolocation(event:GeolocationEvent):void
+{
+	fl_GeolocationDisplay.text = "latitude: ";
+	fl_GeolocationDisplay.appendText(event.latitude.toString() + "\n");
+	fl_GeolocationDisplay.appendText("longitude: ");
+	fl_GeolocationDisplay.appendText(event.longitude.toString() + "\n");
+	fl_GeolocationDisplay.appendText("altitude: ");
+	fl_GeolocationDisplay.appendText(event.altitude.toString() + "\n");
+}
+]]></code>
+    </snippet>
+	<snippet isBranch="false">
+      <title>Re-orient Object on Device Rotation</title>
+      <description>Re-orient the specified object when device is rotated.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>ReOrient_Objects_on_Device_Rotation</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Re-orient Objects on Device Rotation
+Re-orient object(s) when device is rotated.
+Specific objects can be oriented differently from the rest of the application.
+This can be used to make an object stay at its current rotation or to rotate it independently of the application.
+
+Instructions:
+1. Turn on the "Auto orientation" option in File -> AIR for Android Settings.
+*/
+
+var fl_initialRotation = instance_name_here.rotation;	// Save the initial rotation value
+
+stage.addEventListener(StageOrientationEvent.ORIENTATION_CHANGE, fl_OrientationChange);
+
+function fl_OrientationChange(event:StageOrientationEvent):void
+{
+	switch (stage.deviceOrientation)
+	{
+		case StageOrientation.DEFAULT:
+		{
+			// Re-orient display objects on default (right-side up) orientation.
+			instance_name_here.rotation = fl_initialRotation;	// Restore the initial rotation value
+			break;
+		}
+		case StageOrientation.ROTATED_RIGHT:
+		{
+			// Re-orient display objects based on right-hand orientation.
+			instance_name_here.rotation += 90;
+			break;
+		}
+		case StageOrientation.ROTATED_LEFT:
+		{
+			// Re-orient display objects based on left-hand orientation.
+			instance_name_here.rotation -= 90;
+			break;
+		}
+		case StageOrientation.UPSIDE_DOWN:
+		{
+			// Re-orient display objects based on upside-down orientation.
+			instance_name_here.rotation += 180;
+			break;
+		}
+	}
+}
+]]></code>
+    </snippet>
+  </category>
+  <category title="AIR"
+	  			isBranch="true"
+	  			expanded="false"
+	  			description="Code for AIR applications">
+    <snippet isBranch="false">
+      <title>Click to Close AIR Window</title>
+      <description>Clicking on the specified object will exit the AIR application.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Click_to_Close_AIR_Window</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Click to Close AIR Window
+Clicking on the specified object will exit the AIR application.
+*/
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_CloseWindow);
+
+function fl_CloseWindow(event:Event):void
+{
+	stage.nativeWindow.close();
+}
+]]></code>
+    </snippet>
+    <snippet isBranch="false">
+      <title>Click to Minimize AIR Window</title>
+      <description>Clicking on the specified object will minimize the AIR application.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Click_to_Minimize_AIR_Window</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Click to Minimize AIR Window
+Clicking on the specified object will minimize the AIR application.
+*/
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_MinimizeWindow);
+
+function fl_MinimizeWindow(event:Event):void
+{
+	stage.nativeWindow.minimize();
+}
+
+]]></code>
+    </snippet>
+    <snippet isBranch="false">
+      <title>Click to Maximize or Restore AIR Window</title>
+      <description>Clicking on the specified object will maximize the AIR application or restore the window to its previous size if it is already maximized.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Click_to_Maximize_or_Restore_AIR_Window</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Click to Maximize or Restore AIR Window
+Clicking on the specified object will maximize the AIR application or restore the window to its previous size if it is already maximized.
+*/
+instance_name_here.addEventListener(MouseEvent.MOUSE_DOWN, fl_MaximizeWindow);
+
+function fl_MaximizeWindow(event:Event):void
+{
+	if(stage.nativeWindow.displayState != NativeWindowDisplayState.MAXIMIZED)
+	{
+		stage.nativeWindow.maximize();
+	}
+	else
+	{
+		stage.nativeWindow.restore();
+	}
+}
+
+]]></code>
+    </snippet>
+    <snippet isBranch="false">
+      <title>Drag to Move AIR Window</title>
+      <description>Allows entire AIR application window to be moved by clicking and dragging on the specified object.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Drag_to_Move_AIR_Window</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Drag to Move AIR Window
+Allows entire AIR application window to be moved by clicking and dragging on the specified object.
+
+Instructions:
+1. The symbol is usually the title bar of the application.
+*/
+instance_name_here.addEventListener(MouseEvent.MOUSE_DOWN, fl_MoveWindow);
+
+function fl_MoveWindow(event:Event):void
+{
+	stage.nativeWindow.startMove();
+}
+]]></code>
+    </snippet>
+    <snippet isBranch="false">
+      <title>Click to Read from a Text File</title>
+      <description>Clicking on the specified object will prompt the user to select a file which will then be displayed in the output panel.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Click_to_Read_from_a_Text_File</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Click to Read from a Text File
+Clicking on the specified symbol instance will prompt the user to select a file which will then be displayed in the output panel.
+
+Instructions:
+1. To use the data read from the file use the fileData variable in the fl_FileReadHandler function.
+*/
+
+import flash.filesystem.File;
+import flash.filesystem.FileMode;
+import flash.filesystem.FileStream;
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_OpenFile);
+
+var fl_OpenFileStream:FileStream = new FileStream();	// FileStream used to read from the file
+var fl_OpenFileChooser:File = File.documentsDirectory;	// Default to the documents directory
+fl_OpenFileChooser.addEventListener(Event.SELECT, fl_FileOpenSelected);
+
+// Main function for opening a file
+function fl_OpenFile(event:MouseEvent):void
+{
+	fl_OpenFileChooser.browseForOpen("Select a text file.");
+}
+
+// Opens a FileStream object to read the file
+function fl_FileOpenSelected(event:Event):void
+{
+	fl_OpenFileChooser = event.target as File;
+	fl_OpenFileStream = new FileStream();
+	fl_OpenFileStream.addEventListener(Event.COMPLETE, fl_FileReadHandler);
+
+	fl_OpenFileStream.openAsync(fl_OpenFileChooser, FileMode.READ);
+}
+
+// Write data from the file to the Output Panel
+function fl_FileReadHandler(event:Event):void
+{
+	var fileData:String = fl_OpenFileStream.readMultiByte(fl_OpenFileStream.bytesAvailable, File.systemCharset);
+	// The data loaded from the file can now be used from the variable fileData.
+	// This example code displays data from the file in the Output panel.
+	trace(fileData);
+	fl_OpenFileStream.close();
+}
+]]></code>
+    </snippet>
+    <snippet isBranch="false">
+      <title>Click to Write to a Text File</title>
+      <description>Clicking on the specified object will prompt the user to select a location and file name and save a text string to it.</description>
+      <requiresSymbol>true</requiresSymbol>
+	  <placeholders>
+		<placeholder
+			type="stageInstance"
+			text="instance_name_here" />
+		<placeholder
+			type="editableText"
+			text="Text to save to file." />
+	  </placeholders>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Click_to_Write_to_a_Text_File</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Click to Write to a Text File
+Clicking on the specified object will prompt the user to select a location and file name and save a text string to it.
+
+Instructions:
+1. To set what data is saved to the file change "Text to save to file." to the data you wish to save.
+*/
+
+import flash.filesystem.File;
+import flash.filesystem.FileMode;
+import flash.filesystem.FileStream;
+
+instance_name_here.addEventListener(MouseEvent.CLICK, fl_SaveFile);
+
+var fl_FileDataToSave:String = "Text to save to file.";
+
+var fl_SaveFileStream:FileStream = new FileStream();	// FileStream used to write to the file
+
+var fl_SaveFileChooser:File = File.documentsDirectory;	// Default to the documents directory
+fl_SaveFileChooser.addEventListener(Event.SELECT, fl_WriteFileHandler);
+
+// Opens a Save As dialog box for user to specify a file name
+function fl_SaveFile(event:MouseEvent):void
+{
+	fl_SaveFileChooser.browseForSave("Save As:");
+}
+
+// Write data in fl_FileDataToSave variable
+function fl_WriteFileHandler(event:Event):void
+{
+	fl_SaveFileChooser = event.target as File;
+	fl_SaveFileStream = new FileStream();
+
+	fl_SaveFileStream.openAsync(fl_SaveFileChooser, FileMode.WRITE);
+
+	fl_SaveFileStream.writeMultiByte(fl_FileDataToSave, File.systemCharset);
+
+	fl_SaveFileStream.close();
+}
+]]></code>
+    </snippet>
+	<snippet isBranch="false">
+      <title>Save and Load Preferences</title>
+      <description>Saves data to local storage and loads it on next launch.</description>
+      <requiresSymbol>false</requiresSymbol>
+      <minASVersion>3</minASVersion>
+      <ADOBE_PIP_ID>Save_and_Load_Preferences</ADOBE_PIP_ID>
+      <code><![CDATA[
+/* Save and Load Preferences
+Saves data to local storage and loads it on next launch.
+
+Function "fl_SavePreference" will save preferences.
+Function "fl_LoadPreference" will load preferences.
+Preferences in this example include the application window's size and location and a text string "Hello World".
+
+Instructions:
+1. Apply this snippet on frame 1 to ensure the preferences are loaded.
+2. To save preferences on exit, insert the code snippet "Click to Close AIR Window" and place "fl_SavePreferences();" inside function "fl_CloseWindow()".
+3. Additional values can be saved in "fl_SavePreference" by using "fs.writeObject."
+4. Additional values can be retrieved in "fl_LoadPreferences" by using "fs.readObject" in the same order as "fs.writeObject".
+*/
+
+import flash.filesystem.File;
+import flash.filesystem.FileMode;
+import flash.filesystem.FileStream;
+
+// Defines the name of the file in local storage to write the preferences to
+var fl_ConfigFile:File = new File("app-storage:/AppConfig.cfg");
+// On Windows 7: C:\Users\<username>\AppData\Roaming\<Name of Air Application>\Local Store\AppConfig.cfg
+// On Windows XP: C:\Documents and Settings\<username>\Application Data\<Name of Air Application>\Local Store\AppConfig.cfg
+// On Mac: /Users/<username>/Library/Preferences/<Name of Air Application>/Local Store/AppConfig.cfg
+
+// Creates TextField to display the string saved in preferences
+var fl_AppPreference = new TextField();
+addChild(fl_AppPreference);
+
+fl_LoadPreferences();	// Call to Load Preferences
+fl_SavePreferences();	// Call to Save Preferences (move this where you want to save your preferences)
+
+// Write preferences to the configuration file
+function fl_SavePreferences():void
+{
+	// Open preference file for writing
+	var fs:FileStream = new FileStream();
+	fs.open(fl_ConfigFile, FileMode.UPDATE);
+
+
+	// Save window size and location
+	fs.writeObject(stage.nativeWindow.bounds);
+
+	// Save the string "Hello World"
+	fs.writeObject("Hello World");
+
+	// You can add additional values to save here
+
+	fs.close();
+}
+
+// Read preferences from the configuration file
+function fl_LoadPreferences():void
+{
+	if (fl_ConfigFile.exists)
+	{
+		// Open preference file for reading
+		var fs:FileStream = new FileStream();
+		fs.open(fl_ConfigFile, FileMode.READ);
+
+		// Loads and restores stage size and location
+		var savedBounds:Object = fs.readObject();
+		stage.nativeWindow.bounds = new Rectangle(savedBounds.x, savedBounds.y, savedBounds.width, savedBounds.height);
+
+		var dataString:String = String(fs.readObject());	// Loads text string from preferences file
+		fl_AppPreference.text = dataString;					// Displays loaded text in text field
+
+		fs.close();
+	}
+}
+]]></code>
+    </snippet>
+  </category>
+</snippets>
+</CodeSnippets>

@@ -1,0 +1,57 @@
+﻿$TTFlash HTTPS with Plug-in Detection
+$DX
+$DS
+Display Adobe Flash Movie in HTML. Direct to an HTTPS server to obtain Adobe Flash Player if not found.
+$DF
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>$TI</title>
+		$CS
+		<script type="text/javascript" src="$JS"></script>
+		<script type="text/javascript">
+			<!-- Adobe recommends that developers use SWFObject2 for Flash Player detection. -->
+			<!-- For more information see the SWFObject page at Google code (http://code.google.com/p/swfobject/). -->
+			<!-- Information is also available on the Adobe Developer Connection Under Detecting Flash Player versions and embedding SWF files with SWFObject 2" -->
+
+			<!-- Set to minimum required Flash Player version or 0 for no version detection -->
+			var swfVersionStr = "$FV.$JR.$NR";
+			<!-- xiSwfUrlStr can be used to define an express installer SWF. -->
+			var xiSwfUrlStr = "";
+			var flashvars = {};
+			var params = {};
+			params.quality = "$QU";
+			params.bgcolor = "$BG";
+			params.play = "$PL";
+			params.loop = "$LO";
+			params.wmode = "$WM";
+			params.scale = "$SC";
+			params.menu = "$ME";
+			params.devicefont = "$DE";
+			params.salign = "$SA";
+			params.allowscriptaccess = "sameDomain";
+			var attributes = {};
+			attributes.id = "$TI";
+			attributes.name = "$TI";
+			attributes.align = "$HA";
+			swfobject.createCSS("html", "height:100%; background-color: $BG;");
+			swfobject.createCSS("body", "margin:0; padding:0; overflow:hidden; height:100%;");
+			swfobject.embedSWF(
+				"$MO.swf", "flashContent",
+				"$WI", "$HE",
+				swfVersionStr, xiSwfUrlStr,
+				flashvars, params, attributes);
+		</script>
+	</head>
+	<body>
+		<!-- SWFObject's dynamic embed method replaces this alternative HTML content for Flash content when enough JavaScript and Flash plug-in support is available. -->
+		<div id="flashContent">
+			<a href="https://www.adobe.com/go/getflash">
+				<img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+			</a>
+			<p>This page requires Flash Player version $FV.$JR.$NR or higher.</p>
+		</div>
+	</body>
+</html>

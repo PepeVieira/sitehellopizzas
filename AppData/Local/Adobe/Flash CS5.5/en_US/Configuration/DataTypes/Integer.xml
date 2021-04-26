@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flash_datatype version="1.0">
+	<datatype_definition dialogID="Integer-dialog" name ="Integer">
+		<properties>
+			<!-- standard properties that all datatypes have. These can be edited
+			in the Inspector's Schema tab. -->			
+			<property id="category" default=""/>		
+			<property id="base" default="Integer"/>		
+			<property id="formatter" default=""/>			
+			<property id="defaultValue" default=""/>			
+			<property id="defaultLabel" default=""/>
+			<property id="defaultUIControl" default=""/>
+
+			<!-- properties that are specific to this datatype. These can be edited
+			in the "Validation Settings" dialog, below. -->			
+			<property id="minValue" default=""/>			
+			<property id="maxValue" default=""/>
+		</properties>
+
+		<dialog id="Integer-dialog" title="Integer Validation Settings" buttons="accept, cancel">
+			<grid>
+				<columns>
+ 					<column/>
+	   				<column/>
+  				</columns>
+
+				<row>
+					<label value="Min Value  " control="minValue"/>
+					<textbox id="minValue"/>
+				</row>
+				<row>
+					<label value="Max Value  " control="maxValue"/>
+					<textbox id="maxValue"/>
+				</row>
+			</grid>
+		</dialog>
+
+		<actionscript class="mx.data.types.Int" />
+	</datatype_definition>
+</flash_datatype>

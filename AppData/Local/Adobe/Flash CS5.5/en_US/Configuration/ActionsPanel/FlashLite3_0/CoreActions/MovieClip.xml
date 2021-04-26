@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xul-overlay href="../../../XULControls/MovieclipControls.xml"?>
+
+<customactions>
+	<actionspanel>
+		<folder name="Global Functions" id="Actions" sort="false" tiptext="Functions that can be added to your script" helpid="x2089A">
+			<folder name="Movie Clip Control" id="Movie Clip Control" tiptext="Functions that control Movie Clips" helpid="x20A39">
+				<action id="onClipEvent" name="onClipEvent" tiptext="Performs actions when a particular movie clip event occurs" helpid="x21B20" text="onClipEvent (% event %) {\n}\n" codehint="false" quickey="oc" version="5"/>
+				<action id="on" name="on" tiptext="Performs actions when a particular mouse event occurs" helpid="x21B04" text="on (% event %) {\n}\n" codehint="false" quickey="on" version="3"/>
+				<action id="setProperty" name="setProperty" tiptext="Set a property of a movie clip" helpid="x21B0A" text="setProperty(% target, property, value %);\n" quickey="sp" version="4"/>
+				<action id="duplicateMovieClip" name="duplicateMovieClip" tiptext="Make a duplicate of a movie clip" helpid="x21AF3" text="duplicateMovieClip(% target, newname=&quot;&quot;, depth %);\n" quickey="dm" version="4"/>
+				<action id="removeMovieClip" name="removeMovieClip" tiptext="Removes a movie clip created with duplicateMovieClip" helpid="x21B09" text="removeMovieClip(% target %);\n" quickey="rm" version="4"/>
+				<action id="startDrag" name="startDrag" tiptext="Start a drag operation on a movie clip" helpid="x21B25" text="startDrag(% target, lockcenter, l, t, r, b %);\n" quickey="dr" version="4"/>
+				<action id="stopDrag" name="stopDrag" tiptext="Stops a drag operation currently in progress" helpid="x21B26" text="stopDrag();\n" quickey="sd" version="4"/>
+				<string name="getProperty" tiptext="Returns a property of the specified movie clip" helpid="x21AF5" text="getProperty(% target, property %)" version="4">
+					<parametersdialog>
+						<label value="Target:" control="TARGET" align="right"/>
+						<expression id="TARGET" size="40" prompt="target"/>
+						<block id="MOVIECLIP_PROPERTIES"/>
+					</parametersdialog>
+				</string>
+				<string name="targetPath" tiptext="Returns the target path string for a specified movie clip" helpid="x21B27" text="targetPath(% movieClip %)" version="5"/>
+			</folder>
+		</folder>
+		<folder name="ActionScript 2.0 Classes" id="ActionScript 2.0 Classes" sort="false" tiptext="Predefined classes provided by ActionScript" helpid="x20980" version="4">
+			<folder name="Movie" id="Movie" tiptext="Classes for scripting Flash movies" helpid="x20AB0" version="5">
+				<folder name="MovieClip" id="MovieClip" sort="false" index="true" tiptext="Class that represents a movie clip" helpid="x208D0" version="5">
+					<folder name="Methods" id="Methods" tiptext="Methods of MovieClip class" helpid="x20A75" version="5">
+						<string name="attachMovie" tiptext="Creates instance of movie clip located in the Library" helpid="x21A96" object="MovieClip" text=".attachMovie(% idName, newName, depth [, initObject] %)" version="5">
+							<parametersdialog>
+								<label value="Linkage Name:" control="LINKAGE_EXPRESSION" align="right"/>
+								<expression id="LINKAGE_EXPRESSION" size="40" prompt="linkage identifier"/>
+								<block id="INSTANCENAME"/>
+								<label value="Depth:" align="right" control="LEVEL_TB"/>
+								<textbox id="LEVEL_TB" size="30" prompt="level"/>
+								<block id="INITOBJ_OPT"/>
+							</parametersdialog>
+						</string>
+						<ifdef mode="FEATURE_DRAWING_API">
+							<string name="createEmptyMovieClip" tiptext="Creates an empty Movie Clip instance" helpid="x21A98" object="MovieClip" text=".createEmptyMovieClip(% instanceName=&quot;&quot;, depth %)" version="6">
+								<parametersdialog>
+									<block id="INSTANCENAME"/>
+									<block id="DEPTH"/>
+								</parametersdialog>
+							</string>
+						</ifdef>
+						<ifdef mode="FEATURE_TEXTFIELD_OBJECT">
+							<string name="createTextField" tiptext="Creates an empty text field in this movie clip" helpid="x21A9B" object="MovieClip" text=".createTextField(% instanceName=&quot;&quot;, depth, x, y, width, height %)" version="6">
+								<parametersdialog>
+									<block id="INSTANCENAME"/>
+									<block id="DEPTH"/>
+									<block id="XPOS"/>
+									<block id="YPOS"/>
+									<block id="WIDTH"/>
+									<block id="HEIGHT"/>
+								</parametersdialog>
+							</string>
+						</ifdef>
+						<string name="duplicateMovieClip" tiptext="Duplicates this movie clip" helpid="x21A9D" object="MovieClip" text=".duplicateMovieClip(% newName=&quot;&quot;, depth, [initObject] %)" version="5">
+							<parametersdialog>
+								<block id="INSTANCENAME"/>
+								<block id="DEPTH"/>
+								<block id="INITOBJ_OPT"/>
+							</parametersdialog>
+						</string>
+						<string name="getBounds" tiptext="Returns an object whose properties contain the bounds of the movie clip" helpid="x21A9F" object="MovieClip" text=".getBounds(% targetCoordinateSpace %)" version="5">
+							<parametersdialog>
+								<label value="Coordinate Space:" control="TARGET_COORD_EXPRESSION" align="right"/>
+								<expression id="TARGET_COORD_EXPRESSION" literal="false" size="40" prompt="movie path"/>
+							</parametersdialog>
+						</string>
+						<string name="getBytesLoaded" tiptext="Returns the number of bytes loaded for this movie clip" helpid="x21AA0" object="MovieClip" text=".getBytesLoaded()" version="5"/>
+						<string name="getBytesTotal" tiptext="Returns the size of the movie clip" helpid="x21AA1" object="MovieClip" text=".getBytesTotal()" version="5"/>
+						<string name="getDepth" tiptext="Returns the absolute &quot;z&quot; order of the movie clip" helpid="x21AA2" object="MovieClip" text=".getDepth()" version="6"/>
+						<string name="getInstanceAtDepth" tiptext="Returns the movie clip instance found at the specified depth." helpid="x21AA3" object="MovieClip" text=".getInstanceAtDepth(% depth %)" version="7">
+							<parametersdialog>
+								<block id="DEPTH"/>
+							</parametersdialog>
+						</string>
+						<string name="getNextHighestDepth" tiptext="Returns the next highest &quot;z&quot; order depth available" helpid="x21AA4" object="MovieClip" text=".getNextHighestDepth()" version="7"/>
+						<string name="getSWFVersion" tiptext="Returns the version of the movie clip" helpid="x21AA5" object="MovieClip" text=".getSWFVersion()" version="7"/>
+						<string name="getURL" tiptext="Navigates to an URL, optionally sending variables" helpid="x21AA6" object="MovieClip" text=".getURL(&quot;url&quot;%, [window], [method] %)" version="5">
+							<parametersdialog autolayout="false">
+								<row>
+									<label id="URL_LABEL" align="right"/>
+									<hbox>
+										<expression id="URL_EXPRESSION"/>
+									</hbox>
+								</row>
+								<row>
+									<label value="[Window]:" control="WINDOW_MENU"/>
+									<hbox>
+										<expressionmenu id="WINDOW_MENU" required="false" editable="true" literal="false" width="20">
+											<menuitem label="_self"/>
+											<menuitem label="_blank"/>
+											<menuitem label="_parent"/>
+											<menuitem label="_top"/>
+										</expressionmenu>
+										<block id="URL_VARIABLES_OPT"/>
+									</hbox>
+								</row>
+							</parametersdialog>
+						</string>
+						<string name="globalToLocal" tiptext="Converts stage coordinate to movie clip coordinate" helpid="x21AA7" object="MovieClip" text=".globalToLocal(% point %)" version="5">
+							<parametersdialog>
+								<block id="POINT"/>
+							</parametersdialog>
+						</string>
+						<string name="gotoAndPlay" tiptext="Go to a frame of movie clip and start playing" helpid="x21AA8" object="MovieClip" text=".gotoAndPlay(% frame %)" version="5">
+							<parametersdialog>
+								<block id="FRAME"/>
+							</parametersdialog>
+						</string>
+						<string name="gotoAndStop" tiptext="Go to a frame of movie clip and stop" helpid="x21AA9" object="MovieClip" text=".gotoAndStop(% frame %)" version="5">
+							<parametersdialog>
+								<block id="FRAME"/>
+							</parametersdialog>
+						</string>
+						<string name="hitTest" tiptext="Check if a point or movie clip intersects another movie clip" helpid="x21AAA" object="MovieClip" text=".hitTest(% x, y, shapeFlag %)" text2=".hitTest(% target %)" version="5"/>
+						<string name="loadMovie" tiptext="Loads a SWF or JPEG from an URL into movie clip" helpid="x21AAD" object="MovieClip" text=".loadMovie(% url, [method] %)" version="5">
+							<parametersdialog>
+								<block id="URL"/>
+								<block id="URL_VARIABLES_OPT"/>
+							</parametersdialog>
+						</string>
+						<string name="loadVariables" tiptext="Loads variables from an URL into movie clip" helpid="x21AAE" object="MovieClip" text=".loadVariables(% url, [method] %)" version="5">
+							<parametersdialog>
+								<block id="URL"/>
+								<block id="URL_VARIABLES_OPT"/>
+							</parametersdialog>
+						</string>
+						<string name="localToGlobal" tiptext="Converts movie clip coordinate to stage coordinate" helpid="x21AAF" object="MovieClip" text=".localToGlobal(% point %)" version="5">
+							<parametersdialog>
+								<block id="POINT"/>
+							</parametersdialog>
+						</string>
+						<string name="nextFrame" tiptext="Go to next frame of movie clip" helpid="x21AB1" object="MovieClip" text=".nextFrame()" version="5"/>
+						<string name="play" tiptext="Starts playing movie clip from current frame" helpid="x21AB2" object="MovieClip" text=".play()" version="5"/>
+						<string name="prevFrame" tiptext="Go to previous frame of movie clip" helpid="x21AB3" object="MovieClip" text=".prevFrame()" version="5"/>
+						<string name="removeMovieClip" tiptext="Removes movie clip created with duplicateMovieClip" helpid="x21AB4" object="MovieClip" text=".removeMovieClip()" version="5"/>
+						<ifdef mode="FEATURE_SCRIPTABLE_CLIPPING">
+							<string name="setMask" tiptext="Sets the scriptable mask of this movie clip" helpid="x21AB5" object="MovieClip" text=".setMask(% maskMovieClip %)" version="6">
+								<parametersdialog>
+									<label value="Mask Movieclip:" control="MASKCLIP_EXPRESSION"/>
+									<expression id="MASKCLIP_EXPRESSION" size="40" prompt="movieclip"/>
+								</parametersdialog>
+							</string>
+						</ifdef>
+						<string name="startDrag" tiptext="Starts drag operation on movie clip" helpid="x21AB6" object="MovieClip" text=".startDrag(% [lockCenter], [left], [top], [right], [bottom] %)" version="5">
+							<parametersdialog>
+								<label value="[Lock Center]:" control="LOCKCENTER_EXPRESSION"/>
+								<expression id="LOCKCENTER_EXPRESSION" size="40" prompt="true/false"/>
+								<label value="[Left]:" control="LEFT_TEXTBOX"/>
+								<textbox id="LEFT_TEXTBOX" size="20" prompt="x-coord"/>
+								<label value="[Top]:" control="TOP_TEXTBOX"/>
+								<textbox id="TOP_TEXTBOX" size="20" prompt="y-coord"/>
+								<label value="[Right]:" control="RIGHT_TEXTBOX"/>
+								<textbox id="RIGHT_TEXTBOX" size="20" prompt="x-coord"/>
+								<label value="[Bottom]:" control="BOTTOM_TEXTBOX"/>
+								<textbox id="BOTTOM_TEXTBOX" size="20" prompt="y-coord"/>
+							</parametersdialog>
+						</string>
+						<string name="stop" tiptext="Stops playing movie clip" helpid="x21AB7" object="MovieClip" text=".stop()" version="5"/>
+						<string name="stopDrag" tiptext="Stops drag operation" helpid="x21AB8" object="MovieClip" text=".stopDrag()" version="5"/>
+						<string name="swapDepths" tiptext="Swaps the &quot;z&quot; order of 2 Movie Clips" text2=".swapDepths(% depth %)" helpid="x21AB9" object="MovieClip" text=".swapDepths(% target %)" version="5"/>
+						<string name="unloadMovie" tiptext="Unloads .swf previously loaded with loadMovie" helpid="x21ABA" object="MovieClip" text=".unloadMovie()" version="5"/>
+						<!-- new FP8 MovieClip methods -->
+						<!-- attachAudio method -->
+					</folder>
+					<folder name="Properties" id="MovieClipProperties" tiptext="Properties of MovieClip object" helpid="x20A76" version="6">
+						<string name="enabled" tiptext="If true, button movie clip is enabled; if false, disabled" helpid="x21A8F" object="MovieClip" text=".enabled" version="6"/>
+						<string name="focusEnabled" tiptext="If true, movie clip may receive the focus" helpid="x21A90" object="MovieClip" text=".focusEnabled" version="6"/>
+						<string name="hitArea" tiptext="Hit Area to use for Button Movie Clips" helpid="x21A91" object="MovieClip" text=".hitArea" version="6"/>
+						<string name="tabIndex" tiptext="Tab index of a MovieClip object" helpid="x21A94" object="MovieClip" text=".tabIndex" version="6"/>
+						<string name="tabEnabled" tiptext="If true, tab stop enabled; if false, disabled" helpid="x21A93" object="MovieClip" text=".tabEnabled" version="6"/>
+						<string name="tabChildren" tiptext="If true, children may be tab stops" helpid="x21A92" object="MovieClip" text=".tabChildren" version="6"/>
+						<string name="trackAsMenu" tiptext="Track as Menu Item for Button Movie Clips" helpid="x21A95" object="MovieClip" text=".trackAsMenu" version="6"/>
+						<string name="_x" tiptext="X position of the movie clip" helpid="x21A89" version="4" object="MovieClip" text="._x"/>
+						<string name="_y" tiptext="Y position of the movie clip" helpid="x21A8C" version="4" object="MovieClip" text="._y"/>
+						<string name="_xmouse" tiptext="X position of the mouse" helpid="x21A8A" version="5" object="MovieClip" text="._xmouse"/>
+						<string name="_ymouse" tiptext="Y position of the mouse" helpid="x21A8D" version="5" object="MovieClip" text="._ymouse"/>
+						<string name="_xscale" tiptext="X scale factor of the movie clip (percentage)" helpid="x21A8B" version="4" object="MovieClip" text="._xscale"/>
+						<string name="_yscale" tiptext="Y scale factor of the movie clip (percentage)" helpid="x21A8E" version="4" object="MovieClip" text="._yscale"/>
+						<string name="_width" tiptext="Width of the movie clip" helpid="x21A88" version="4" object="MovieClip" text="._width"/>
+						<string name="_height" tiptext="Height of the movie clip" helpid="x21A7C" version="4" object="MovieClip" text="._height"/>
+						<string name="_alpha" tiptext="Alpha transparency of the movie clip (percentage)" helpid="x21A77" version="4" object="MovieClip" text="._alpha"/>
+						<string name="_visible" tiptext="Returns true if movie clip is visible, false if hidden" helpid="x21A87" version="4" object="MovieClip" text="._visible"/>
+						<string name="_target" tiptext="Target path of the movie clip" helpid="x21A84" version="4" object="MovieClip" text="._target"/>
+						<string name="_rotation" tiptext="Angle of rotation of the movie clip (degrees)" helpid="x21A82" version="4" object="MovieClip" text="._rotation"/>
+						<string name="_name" tiptext="Instance name of the movie clip" helpid="x21A7F" version="4" object="MovieClip" text="._name"/>
+						<string name="_framesloaded" tiptext="Number of frames already loaded in the movie clip" helpid="x21A7B" version="4" object="MovieClip" text="._framesloaded"/>
+						<string name="_droptarget" tiptext="During drag, movie clip the dragged movie clip is over" helpid="x21A79" version="4" object="MovieClip" text="._droptarget"/>
+						<string name="_currentframe" tiptext="Current frame of the movie clip" helpid="x21A78" version="4" object="MovieClip" text="._currentframe"/>
+						<string name="_totalframes" tiptext="Total number of frames in the movie clip" helpid="x21A85" version="4" object="MovieClip" text="._totalframes"/>
+						<string name="_focusrect" tiptext="Returns false if tab focus rectangles are hidden, true if displayed" helpid="x21A7A" version="4" object="MovieClip" text="._focusrect"/>
+						<string name="_url" tiptext="URL the movie clip was loaded from" helpid="x21A86" version="4" object="MovieClip" text="._url"/>
+						<string name="_parent" text="._parent" tiptext="The parent Movie Clip of the current Movie Clip" helpid="x21A80" version="5" object="MovieClip"/>
+						<string name="_lockroot" tiptext="Forces references to _root in this clip or its children to resolve to this clip" helpid="x21A7E" version="7" object="MovieClip" text="._lockroot"/>
+						<string name="_quality" tiptext="Sets or retrieves the rendering quality used for a SWF file" helpid="x21A81" text="._quality" object="MovieClip" version="6"/>
+						<string name="_soundbuftime" tiptext="Specifies the number of seconds a sound prebuffers before it starts to stream" helpid="x21A83" text="._soundbuftime" object="MovieClip" version="6"/>
+						<!-- new FP8 MovieClip properties -->
+					</folder>
+					<ifdef mode="FEATURE_DRAWING_API">
+						<folder name="Drawing Methods" id="Drawing Methods" tiptext="Methods that perform direct drawing" helpid="x20B28" version="6">
+							<string name="beginFill" tiptext="Identifies the beginning of a solid fill" helpid="x21A99" object="MovieClip" text=".beginFill(% rgb, alpha %)" version="6">
+								<parametersdialog>
+									<block id="RGB"/>
+									<block id="ALPHA_OPT"/>
+								</parametersdialog>
+							</string>
+							<string name="beginGradientFill" tiptext="Identifies the beginning of a gradient fill" helpid="x21A9A" object="MovieClip" text=".beginGradientFill(% fillType, colors, alphas, ratios, matrix %)" version="6"/>
+							<string name="lineStyle" tiptext="Changes the current line style" helpid="x21AAB" object="MovieClip" text=".lineStyle(% thickness, [rgb], [alpha], [pixelHinting], [noScale], [capsStyle], [jointStyle], [miterLimit] %)" version="6">
+								<parametersdialog>
+
+									<label value="Thickness:" control="THICKNESS_TEXTBOX"/>
+									<textbox id="THICKNESS_TEXTBOX" size="10" prompt="0-255"/>
+									<block id="RGB_OPT"/>
+									<label value="[Alpha]:" control="ALPHA_TBOX"/>
+									<textbox id="ALPHA_TBOX" size="10" prompt="0-100"/>								
+									<label value="[Hinting]:" control="HINTING_TBOX"/>
+									<textbox id="HINTING_TBOX" size="10" prompt="boolean"/>			
+									<label value="[No Scale]:" control="NOSCALE_MENU"/>
+									<menulist id="NOSCALE_MENU" editable="true" width="100" oncreate="fl.runScript(fl.configURI + '/Javascript/movieclip.jsfl', 'setControlToNoScale','NOSCALE_MENU');">	
+										<menuitem label=""/>
+									</menulist>
+									<label value="[Cap Style]:" control="CAPSTYLE_MENU"/>
+									<menulist id="CAPSTYLE_MENU" editable="true" width="100" oncreate="fl.runScript(fl.configURI + '/Javascript/movieclip.jsfl', 'setControlToCapsStyle','CAPSTYLE_MENU');">	
+										<menuitem label=""/>
+									</menulist>
+									<label value="[Join Style]:" control="JOINTSTYLE_MENU"/>
+									<menulist id="JOINTSTYLE_MENU" editable="true" width="100" oncreate="fl.runScript(fl.configURI + '/Javascript/movieclip.jsfl', 'setControlToJointStyle','JOINTSTYLE_MENU');">	
+										<menuitem label=""/>
+									</menulist>
+									<label value="[Miter Limit]:" control="MITER_TBOX"/>
+									<textbox id="_TBOX" size="10" prompt="1-255"/>			
+								</parametersdialog>
+							</string>
+							<string name="moveTo" tiptext="Moves the current drawing position" helpid="x21AB0" object="MovieClip" text=".moveTo(% x, y %)" version="6"/>
+							<string name="lineTo" tiptext="Draws a line from the current drawing position" helpid="x21AAC" object="MovieClip" text=".lineTo(% x, y %)" version="6"/>
+							<string name="curveTo" tiptext="Draws a curve from the current drawing position" helpid="x21A9C" object="MovieClip" text=".curveTo(% controlX, controlY, anchorX, anchorY %)" version="6"/>
+							<string name="endFill" tiptext="Identifies the end of a fill" helpid="x21A9E" object="MovieClip" text=".endFill()" version="6"/>
+							<string name="clear" tiptext="Clears all drawing commands on Movie Clip" helpid="x21A97" object="MovieClip" text=".clear()" version="6"/>
+						</folder>
+					</ifdef>
+					<ifdef mode="FEATURE_EVENT_MODEL">
+						<folder name="Event Handlers" id="Event Handlers" tiptext="Event handlers of MovieClip objects" helpid="x20A5B" version="6">
+							<string name="onPress" tiptext="Invoked when press event occurs" helpid="x21AC6" object="MovieClip" text=".onPress" version="6" type="event"/>
+							<string name="onRelease" tiptext="Invoked when release event occurs" helpid="x21AC7" object="MovieClip" text=".onRelease" version="6" type="event"/>
+							<string name="onReleaseOutside" tiptext="Invoked when releaseOutside event occurs" helpid="x21AC8" object="MovieClip" text=".onReleaseOutside" version="6" type="event"/>
+							<string name="onRollOver" tiptext="Invoked when rollOver event occurs" helpid="x21ACA" object="MovieClip" text=".onRollOver" version="6" type="event"/>
+							<string name="onRollOut" tiptext="Invoked when rollOut event occurs" helpid="x21AC9" object="MovieClip" text=".onRollOut" version="6" type="event"/>
+							<string name="onDragOver" tiptext="Invoked when dragOver event occurs" helpid="x21ABD" object="MovieClip" text=".onDragOver" version="6" type="event"/>
+							<string name="onDragOut" tiptext="Invoked when dragOut event occurs" helpid="x21ABC" object="MovieClip" text=".onDragOut" version="6" type="event"/>
+							<string name="onLoad" tiptext="Invoked when load event occurs" helpid="x21AC2" object="MovieClip" text=".onLoad" version="6" type="event"/>
+							<string name="onUnload" tiptext="Invoked when unload event occurs" helpid="x21ACC" object="MovieClip" text=".onUnload" version="6" type="event"/>
+							<string name="onEnterFrame" tiptext="Invoked when frame is entered" helpid="x21ABE" object="MovieClip" text=".onEnterFrame" version="6" type="event"/>
+							<string name="onMouseDown" tiptext="Invoked when mouseDown event occurs" helpid="x21AC3" object="MovieClip" text=".onMouseDown" version="6" type="event"/>
+							<string name="onMouseUp" tiptext="Invoked when mouseUp event occurs" helpid="x21AC5" object="MovieClip" text=".onMouseUp" version="6" type="event"/>
+							<string name="onMouseMove" tiptext="Invoked when mouseMove event occurs" helpid="x21AC4" object="MovieClip" text=".onMouseMove" version="6" type="event"/>
+							<string name="onKeyDown" tiptext="Invoked when keyDown event occurs" helpid="x21ABF" object="MovieClip" text=".onKeyDown" version="6" type="event"/>
+							<string name="onKeyUp" tiptext="Invoked when keyUp event occurs" helpid="x21AC0" object="MovieClip" text=".onKeyUp" version="6" type="event"/>
+							<string name="onData" tiptext="Invoked when data event occurs" helpid="x21ABB" object="MovieClip" text=".onData" version="6" type="event"/>
+							<string name="onSetFocus" tiptext="Invoked when movie clip receives focus" helpid="x21ACB" object="MovieClip" text=".onSetFocus(oldFocus)" version="6" type="event"/>
+							<string name="onKillFocus" tiptext="Invoked when movie clip loses focus" helpid="x21AC1" object="MovieClip" text=".onKillFocus(newFocus)" version="6" type="event"/>
+						</folder>
+					</ifdef>
+				</folder>
+			</folder>
+		</folder>
+	</actionspanel>
+</customactions>

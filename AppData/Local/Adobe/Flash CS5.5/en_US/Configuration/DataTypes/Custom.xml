@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flash_datatype version="1.0">
+	<datatype_definition dialogID="Custom-dialog" name ="Custom">
+		<properties>
+			<!-- standard properties that all datatypes have. These can be edited
+			in the Inspector's Schema tab. -->			
+			<property id="category" default=""/>		
+			<property id="base" default=""/>		
+			<property id="formatter" default=""/>			
+			<property id="defaultValue" default=""/>			
+			<property id="defaultLabel" default=""/>
+			<property id="defaultUIControl" default=""/>
+
+			<!-- properties that are specific to this datatype. These can be edited
+			in the "Validation Settings" dialog, below. -->			
+			<property id="classname" default="" class="yes"/>			
+		</properties>
+
+		<dialog id="Custom-dialog" title="Custom Validation Settings" buttons="accept, cancel">
+			<hbox>
+               <label value="ActionScript class" control="xxx"/>
+               <textbox id="classname"/>
+            </hbox>
+		</dialog>
+
+		<actionscript class="mx.data.types.Custom" />
+	</datatype_definition>
+</flash_datatype>

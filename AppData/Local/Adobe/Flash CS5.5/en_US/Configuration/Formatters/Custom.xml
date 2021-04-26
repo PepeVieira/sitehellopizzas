@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<flash_formatter version="1.0">
+	<formatter_definition dialogID="CustomDialog" category="Basic Types" name ="Custom Formatter" >
+		<properties>
+			<property id="classname" default="" class="yes"/>			
+		</properties>
+		<dialog id="CustomDialog" title="Custom Formatter Settings" buttons="accept, cancel">
+			<hbox>
+               <label value="ActionScript class" control="classname"/>
+               <textbox id="classname"/>
+            </hbox>
+		</dialog>
+		<actionscript class="mx.data.formatters.Custom"/>
+	</formatter_definition>
+</flash_formatter>

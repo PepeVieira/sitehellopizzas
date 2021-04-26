@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flash_formatter version="1.0">
+	<formatter_definition dialogID="Dialog" category="Basic Types" name="Compose String" >
+		<properties>
+			<property id="template" default=""/>
+		</properties>
+		<dialog id="Dialog" title="Compose String" buttons="accept, cancel">
+			<vbox>
+				<hbox>
+					<label value="String template:" control="template"/>
+					<textbox id="template" width="65"/>
+				</hbox>
+			</vbox>
+		</dialog>
+		<actionscript class="mx.data.formatters.ComposeString"/>
+	</formatter_definition>
+</flash_formatter>

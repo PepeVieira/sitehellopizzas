@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<toolbox>
+	<actionspanelsupplement>
+		<string name="attachSound" object="Sound" text='.attachSound(% idName=&quot;&quot; %)'>
+			<parametersdialog>
+				<label id="ATTACH_SND_LABEL" value="ID Name:" align="right" control="ATTACH_SND_EXPR"/>
+				<expression id="ATTACH_SND_EXPR" size="60" prompt="string"/>
+			</parametersdialog>
+		</string>
+		<string name="setRGB" object="Color" text=".setRGB(% 0xRRGGBB %)">
+			<parametersdialog>
+				<label value="Color:" control="COLORCHIP"/>
+				<colorchip id="COLORCHIP" format="hex"/>
+			</parametersdialog>
+		</string>
+		<string name="load" object="[TextField.StyleSheet]" text=".load(% url %)">
+			<parametersdialog>
+				<label id="URL_LABEL" value="URL:" align="right" control="URL_EXPRESSION"/>
+				<expression id="URL_EXPRESSION" size="60" prompt="URL"/>
+			</parametersdialog>
+		</string>
+		<string name="setSelectColor" object="TextSnapshot" text=".setSelectColor(% color %)">
+			<parametersdialog>
+				<label value="Color:" control="COLORCHIP"/>
+				<colorchip id="COLORCHIP" format="hex"/>
+			</parametersdialog>
+		</string>
+		<string name="upload" text=".upload(% url:String %)" object="[flash.net.FileReference]">
+			<parametersdialog>
+				<label value="URL:" control="URL_TEXT"/>
+				<textbox id="URL_TEXT" size="100" prompt="url"/>
+			</parametersdialog>
+		</string>
+	</actionspanelsupplement>
+</toolbox>

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xul-overlay href="../../../XULControls/FSCommand2Controls.xml"?>
+
+<toolbox>
+	<actionspanel>
+		<folder name="Global Properties" id="Properties" tiptext="Global properties and identifiers" helpid="x20999" version="4">
+			<string name="_forceframerate" tiptext="Render at the specified frame rate" helpid="x21B3D" text="_forceframerate;\n" version="5"/>
+		</folder>
+		<folder name="Flash Lite Actions" id="Flash Lite Actions" index="true" tiptext="Custom Actions for Flash Lite" helpid="x20000" version="4">
+			<folder name="FSCommand2" id="FSCommand2" sort="false" index="true" tiptext="Used to access mobile phone's features" helpid="x21C6A" version="4">
+				<string name="Escape" tiptext="Encodes a string in URL format" helpid="x21BB1" text="fscommand2(&quot;Escape&quot;% , original , encoded %);\n" type="keyFirstArg" version="4">
+					<parametersdialog autolayout="false">
+						<row>
+							<block id="COMMAND"/>
+						</row>
+						<row>
+							<label value="Original:" align="right" control="ORIGINAL"/>
+							<textbox id="ORIGINAL" prompt="expression"/>
+						</row>
+						<row>
+							<label value="Encoded Variable Name:" align="right" control="ENCODED"/>
+							<textbox id="ENCODED" prompt="quoted string"/>
+						</row>
+					</parametersdialog>
+				</string>
+				<string name="ExtendBacklightDuration" tiptext="Set Backlight duration for a specified period of time" helpid="x21BBF" text="fscommand2(&quot;ExtendBacklightDuration&quot;%, duration  %);\n" type="keyFirstArg" version="4">
+					<parametersdialog autolayout="false">
+						<row>
+							<block id="COMMAND"/>
+						</row>
+						<row>
+							<label value="Command:" align="right" control="ORIGINAL"/>
+							<textbox id="ORIGINAL" prompt="expression"/>
+						</row>
+						<row>
+							<label value="Duration:" align="right" control="ENCODED"/>
+							<textbox id="ENCODED" prompt="number"/>
+						</row>
+					</parametersdialog>
+				</string>
+				<string name="FullScreen" tiptext="Sets the size of the display area to be used for rendering" helpid="x21BC0" text="fscommand2(&quot;FullScreen&quot;% , boolean %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Full Screen:" align="right" control="FULLSCREEN"/>
+						<textbox id="FULLSCREEN" prompt="boolean"/>
+					</parametersdialog>
+				</string>
+				<string name="GetBatteryLevel" tiptext="Returns the current battery level" helpid="x21BC1" text="fscommand2(&quot;GetBatteryLevel&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetDateDay" tiptext="Returns the day of the current date" helpid="x21BB1" text="fscommand2(&quot;GetDateDay&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetDateMonth" tiptext="Returns the month of the current date" helpid="x21BB1" text="fscommand2(&quot;GetDateMonth&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetDateWeekday" tiptext="Returns the numeric value of the name of the day of the current date" helpid="x21BB1" text="fscommand2(&quot;GetDateWeekday&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetDateYear" tiptext="Returns the numeric value of the year of the current date" helpid="x21BB1" text="fscommand2(&quot;GetDateYear&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetDevice" tiptext="Identifies the mobile phone on which Flash is running" helpid="x21BC2" text="fscommand2(&quot;GetDevice&quot;% , &quot;device&quot;%);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetDeviceID" tiptext="Sets a parameter that represents the unique identifier of the mobile phone" helpid="x21BC3" text="fscommand2(&quot;GetDeviceID&quot;% , &quot;id&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="ID Variable Name:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="quoted string"/>
+					</parametersdialog>
+				</string>
+				<string name="GetFreePlayerMemory" tiptext="Returns the amount of memory in kilobytes available to Flash Lite" helpid="x21BC4" text="fscommand2(&quot;GetFreePlayerMemory&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetLanguage" tiptext="Sets a parameter that identifies the language used by the mobile phone" helpid="x21BB1" text="fscommand2(&quot;GetLanguage&quot;% , &quot;language&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Language Variable Name:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="quoted string"/>
+					</parametersdialog>
+				</string>
+				<string name="GetLocaleLongDate" tiptext="Sets a parameter to a string representing the current date in long form" helpid="x21BB1" text="fscommand2(&quot;GetLocaleLongDate&quot;% , &quot;longdate&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Date Variable Name:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="quoted string"/>
+					</parametersdialog>
+				</string>
+				<string name="GetLocaleShortDate" tiptext="Sets a parameter to a string representing the current date in abbreviated form" helpid="x21BB1" text="fscommand2(&quot;GetLocaleShortDate&quot;% , &quot;shortdate&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Date Variable Name:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="quoted string"/>
+					</parametersdialog>
+				</string>
+				<string name="GetLocaleTime" tiptext="Sets a parameter to a string representing the current time" helpid="x21BB1" text="fscommand2(&quot;GetLocaleTime&quot;% , &quot;time&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Time Variable Name:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="quoted string"/>
+					</parametersdialog>
+				</string>
+				<string name="GetMaxBatteryLevel" tiptext="Returns the current battery level" helpid="x21BC5" text="fscommand2(&quot;GetMaxBatteryLevel&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetMaxSignalLevel" tiptext="Returns the maximum signal strength level" helpid="x21BC6" text="fscommand2(&quot;GetMaxSignalLevel&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetMaxVolumeLevel" tiptext="Returns the maximum volume level of the mobile phone" helpid="x21BC7" text="fscommand2(&quot;GetMaxVolumeLevel&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetNetworkConnectStatus" tiptext="Returns a value indicating the current network connection status" helpid="x21BC9" text="fscommand2(&quot;GetNetworkConnectStatus&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetNetworkConnectionName" tiptext="Name of the active or default network" helpid="x21BC8" text="fscommand2(&quot;GetNetworkConnectionName&quot;% ,&quot;myConnection&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<row>
+							<hbox>
+							<label value="Command:" align="right" control="ORIGINAL"/>
+							<textbox id="ORIGINAL" prompt="expression"/>
+							</hbox>
+						</row>
+						<row>
+							<hbox>
+							<label value="Connection:" align="right" control="VNAME"/>
+							<textbox id="VNAME" prompt="connection name"/>
+							</hbox>
+						</row>
+					</parametersdialog>
+				</string>
+				<string name="GetNetworkGeneration" tiptext="Generation of the current network" helpid="x21BCA" text="fscommand2(&quot;GetNetworkGeneration&quot;);\n" type="keyFirstArg" version="5">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetNetworkName" tiptext="Sets a parameter to the name of the current network" helpid="x21BCB" text="fscommand2(&quot;GetNetworkName&quot;% , &quot;networkname&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Network Name:" align="right" control="NETNAME"/>
+						<textbox id="NETNAME" prompt="quoted string"/>
+					</parametersdialog>
+				</string>
+				<string name="GetNetworkRequestStatus" tiptext="Returns a value indicating the status of the most recent HTTP request" helpid="x21BCC" text="fscommand2(&quot;GetNetworkRequestStatus&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetNetworkStatus" tiptext="Returns a value indicating the network status of the phone" helpid="x21BCD" text="fscommand2(&quot;GetNetworkStatus&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetPlatform" tiptext="Identifies the current platform" helpid="x21BCE" text="fscommand2(&quot;GetPlatform&quot;% , &quot;platform&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Platform Variable Name:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="quoted var name"/>
+					</parametersdialog>
+				</string>
+				<string name="GetPowerSource" tiptext="Returns a value indicating if the power source is battery or external" helpid="x21BCF" text="fscommand2(&quot;GetPowerSource&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetSignalLevel" tiptext="Returns the current signal strength" helpid="x21BD0" text="fscommand2(&quot;GetSignalLevel&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetTimeHours" tiptext="Returns the hour of the current time of day, based on a 24-hour clock" helpid="x21C83" text="fscommand2(&quot;GetTimeHours&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetTimeMinutes" tiptext="Returns the minute of the current time of day" helpid="x21C84" text="fscommand2(&quot;GetTimeMinutes&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetTimeSeconds" tiptext="Returns the second of the current time of day" helpid="x21C85" text="fscommand2(&quot;GetTimeSeconds&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetTimeZoneOffset" tiptext="Sets a parameter comparing the local time zone and the UTC" helpid="x21C86" text="fscommand2(&quot;GetTimeZoneOffset&quot;% , &quot;timezoneoffset&quot; %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Offset Variable Name:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="quoted string"/>
+					</parametersdialog>
+				</string>
+				<string name="GetTotalPlayerMemory" tiptext="Returns the total amount of memory in kilobytes" helpid="x21C87" text="fscommand2(&quot;GetTotalPlayerMemory&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="GetVolumeLevel" tiptext="Returns the current volume level of the mobile phone" helpid="x21C88" text="fscommand2(&quot;GetVolumeLevel&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="ResetSoftKeys" tiptext="Resets the softkeys to their original settings" helpid="x21C89" text="fscommand2(&quot;ResetSoftKeys&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="SetFocusRectColor" tiptext="Set the color of the focus rectangle" helpid="x21BD5" text="fscommand2(&quot;SetFocusRectColor&quot;% , red,green,blue  %   );\n" type="keyFirstArg" version="5">
+					<parametersdialog autolayout="false">
+						<row>
+							<hbox>
+							<block id="COMMAND"/>
+							<label value="Red:" align="right" control="RED"/>
+							<textbox id="RED" prompt="0-255"/>
+							<label value="Green:" align="right" control="GREEN"/>
+							<textbox id="GREEN" prompt="0-255"/>
+							<label value="Blue:" align="right" control="BLUE"/>
+							<textbox id="BLUE" prompt="0-255"/>
+							</hbox>
+						</row>
+						
+					</parametersdialog>
+				</string>
+				<string name="SetInputTextType" tiptext="Specifies the mode in which the input text field should be opened" helpid="x21C8A" text="fscommand2(&quot;SetInputTextType&quot;% , variableName , type %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Input Variable Name:" align="right" control="VNAME"/>
+						<textbox id="VNAME" prompt="quoted var name"/>
+						<block id="INPUTTYPE"/>
+					</parametersdialog>
+				</string>
+				<string name="SetQuality" tiptext="Sets the quality of the rendering of the animation" helpid="x21C8B" text="fscommand2(&quot;SetQuality&quot;% , quality %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="QUALITYTYPE"/>
+					</parametersdialog>
+				</string>
+				<string name="SetSoftKeys" tiptext="Used to remap the left and right softkeys of the mobile phones" helpid="x21C8C" text="fscommand2(&quot;SetSoftkeys&quot;% , left , right %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="Left Key Value:" align="right" control="LKEY"/>
+						<textbox id="LKEY" prompt="expression"/>
+						<label value="Right Key Value:" align="right" control="RKEY"/>
+						<textbox id="RKEY" prompt="expression"/>
+					</parametersdialog>
+				</string>
+				<string name="StartVibrate" tiptext="Starts the phone's vibration" helpid="x21C8D" text="fscommand2(&quot;StartVibrate&quot;% , time_on , time_off , repeat %);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<label value="On Time:" align="right" control="ONTIME"/>
+						<textbox id="ONTIME" prompt="milliseconds"/>
+						<label value="Off Time:" align="right" control="OFFTIME"/>
+						<textbox id="OFFTIME" prompt="milliseconds"/>
+						<block id="REPEAT"/>
+					</parametersdialog>
+				</string>
+				<string name="StopVibrate" tiptext="Stops the phone's vibration" helpid="x21C8E" text="fscommand2(&quot;StopVibrate&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+				<string name="Unescape" tiptext="Decodes a string in URL format" helpid="x21C8F" text="fscommand2(&quot;Unescape&quot;% , original , encoded %);\n" type="keyFirstArg" version="4">
+					<parametersdialog autolayout="false">
+						<row>
+							<block id="COMMAND"/>
+						</row>
+						<row>
+							<label value="Original:" align="right" control="ORIGINAL"/>
+							<textbox id="ORIGINAL" prompt="expression"/>
+						</row>
+						<row>
+							<label value="Encoded Variable Name:" align="right" control="ENCODED"/>
+							<textbox id="ENCODED" prompt="quoted var name"/>
+						</row>
+					</parametersdialog>
+				</string>
+				<string name="Quit" tiptext="Causes Flash Lite to stop playback and exit" helpid="x21C90" text="fscommand2(&quot;Quit&quot;);\n" type="keyFirstArg" version="4">
+					<parametersdialog>
+						<block id="COMMAND"/>
+						<block id="NO_PARAMETERS"/>
+					</parametersdialog>
+				</string>
+			</folder>
+			<folder name="FSCommand" id="FlashLite2" index="true" tiptext="Used to access mobile phone's features" helpid="x21C9E" version="4">
+				<action id="FSCommand" name="Launch" tiptext="Starts another application on the mobile phone" helpid="x21BB0" text="fscommand( &quot;Launch&quot;% , &quot;application-path,arg1,arg2,...,argn&quot; %);\n" version="4"/>
+			</folder>
+			<folder name="Capabilities" id="FlashLite3" index="true" tiptext="Used to determine mobile phone's capabilities" helpid="x21C92" version="4">
+				<string name="_capCompoundSound" tiptext="Indicates whether Flash Lite can process compound sound data" helpid="x21BA4" text="_capCompoundSound;\n" version="4"/>
+				<string name="_capEmail" tiptext="Indicates whether Flash Lite can send e-mail messages" helpid="x21BA5" text="_capEmail;\n" version="4"/>
+				<string name="_capMMS" tiptext="Indicates whether Flash Lite can send MMS messages" helpid="x21BA9" text="_capMMS;\n" version="4"/>
+				<string name="_capSMS" tiptext="Indicates whether Flash Lite can send SMS messages" helpid="x21BAC" text="_capSMS;\n" version="4"/>
+				<string name="_capMFi" tiptext="Indicates whether the device can play MFi sound" helpid="x21BA7" text="_capMFi;\n" version="4"/>
+				<string name="_capMIDI" tiptext="Indicates whether the device can play MIDI sound" helpid="x21BA8" text="_capMIDI;\n" version="4"/>
+				<string name="_capSMAF" tiptext="Indicates whether the device can play SMAF sound" helpid="x21BAB" text="_capSMAF;\n" version="4"/>
+				<string name="_capMP3" tiptext="Indicates whether the device can play MP3 sound" helpid="x21BAA" text="_capMP3;\n" version="4"/>
+				<string name="_capStreamSound" tiptext="Indicates whether the device can play streaming sound" helpid="x21BAD" text="_capStreamSound;\n" version="4"/>
+				<string name="_capLoadData" tiptext="Indicates whether the host application can dynamically load data" helpid="x21BA6" text="_capLoadData;\n" version="4"/>
+				<string name="_cap4WayKeyAS" tiptext="Indicates if Flash Lite executes ActionScript attached to directional keys" helpid="x21BAE" text="_cap4WayKeyAS;\n" version="4"/>
+				<string name="hasCompoundSound" tiptext="If true, player is capable of processing compound sound data" helpid="x219BD" text="hasCompoundSound;\n" version="4"/>
+				<string name="hasEmail" tiptext="If true, player is capable of sending e-mail messages" helpid="x219C1" text="hasEmail;\n" version="4"/>
+				<string name="hasMMS" tiptext="If true, player is capable of sending MMS messages" helpid="x219C5" text="hasMMS;\n" version="4"/>
+				<string name="hasSMS" tiptext="If true, player is capable of sending SMS messages" helpid="x219CA" text="hasSMS;\n" version="4"/>
+				<string name="hasMFI" tiptext="If true, player is capable of playing MFI audio" helpid="x219C3" text="hasMFI;\n" version="4"/>
+				<string name="hasMIDI" tiptext="If true, player is capable of playing MIDI audio" helpid="x219C4" text="hasMIDI;\n" version="4"/>
+				<string name="hasSMAF" tiptext="If true, player is capable of playing SMAF audio" helpid="x219C9" text="hasSMAF;\n" version="4"/>
+				<string name="hasDataLoading" tiptext="Indicates if the player is capable of dynamically loading additional data" helpid="x219BE" text="hasDataLoading;\n" version="4"/>
+				<string name="has4WayKeyAS" tiptext="If true, platform has 4way key" helpid="x219B9" text="has4WayKeyAS;\n" version="4"/>
+				<string name="hasMouse" tiptext="If true, player will send mouse related events" helpid="x219C6" text="has4WayKeyAS;\n" version="4"/>
+				<string name="hasMappableSoftKeys" tiptext="Allows user to set soft key values and handle events from those softkeys" helpid="x219C2" text="hasMappableSoftKeys;\n" version="4"/>
+				<string name="hasStylus" tiptext="If true, platform supports stylus" helpid="x219CB" text="hasStylus;\n" version="4"/>
+				<string name="hasCMIDI" tiptext="If true, platform supports CMIDI sound" helpid="x219BC" text="hasCMIDI;\n" version="4"/>
+				<string name="softKeyCount" tiptext="Number of soft keys supported by the platform" helpid="x219CE" text="softKeyCount;\n" version="4"/>
+				<string name="hasSharedObjects" tiptext="If true, platform can access Mobile Shared Objects" helpid="x219C8" text="hasSharedObjects;\n" version="4"/>
+				<string name="hasQWERTYKeyboard" tiptext="If true, platform has QWERTY keyboard" helpid="x219C7" text="hasQWERTYKeyboard;\n" version="4"/>
+				<string name="audioMIMETypes" tiptext="Array of MIME types supported by the device's audio codecs" helpid="x219B8" text="audioMIMETypes;\n" version="4"/>
+				<string name="imageMIMETypes" tiptext="Array of MIME types supported by the device's image codecs" helpid="x219CC" text="imageMIMETypes;\n" version="4"/>
+				<string name="videoMIMETypes" tiptext="Array of MIME types supported by the device's video codecs" helpid="x219CF" text="videoMIMETypes;\n" version="4"/>
+				<string name="MIMETypes" tiptext="Array of all the MIME types supported" helpid="x219CD" text="MIMETypes;\n" version="4"/>
+				<string name="screenOrientation" tiptext="Current screen orientation" helpid="x219D0" text="screenOrientation;\n" version="4"/>
+				<string name="$version" tiptext="Contains the version number of Flash Lite" helpid="x21BAF" text="$version;\n" version="4"/>
+			</folder>
+		</folder>
+		
+		<folder name="ActionScript 2.0 Classes" id="ActionScript 2.0 Classes" sort="false" tiptext="Predefined classes provided by ActionScript" helpid="x20980" version="4">
+   			<folder name="Core" id="Core" tiptext="Core classes of ActionScript language" helpid="x20AAC" version="5">
+   				<folder name="Date" id="Date" sort="false" index="true" tiptext="Class that helps you work with dates and times" helpid="x208E9" version="5">   					
+   					<folder name="Methods" id="Methods" tiptext="Methods of the Date object" helpid="x20AA2" version="5"> 			
+ 						<string name="getLocaleLongDate" tiptext="Current date in long form" helpid="x21A51" object="Date" text=".getLocaleLongDate()" version="5"/>
+ 						<string name="getLocaleShortDate" tiptext="Current date in abbreviated form" helpid="x21A52" object="Date" text=".getLocaleShortDate()" version="5"/>
+ 						<string name="getLocaleTime" tiptext="String representing the current time" helpid="x21A53" object="Date" text=".getLocaleTime()" version="5"/>
+   					</folder>
+   				</folder>
+				<folder name="Locale" id="Locale" index="true" sort="false" tiptext="Class that controls how a multilanguage text is displayed in a SWF file " helpid="x219FB" version="6">
+					<folder name="Methods" id="Methods" tiptext="Methods of the Locale class "  version="6">
+						<string name="addDelayedInstance" tiptext="Adds the instance and string ID for later use" helpid="x219FE" text=".addDelayedInstance(% instance, stringID %)" object="Locale" version="7"/>					
+						<string name="addXMLPath" tiptext="Adds the language code and language paths for later use " helpid="x219FD" text=".addXMLPath(% langCode, path %)" object="Locale" version="7"/>
+						<string name="checkXMLStatus" tiptext="Returns true if the XML is loaded, false otherwise " helpid="x219FF" text=".checkXMLStatus()" object="Locale" version="7"/>
+						<string name="initialize" tiptext="Determines the language to use and begins XML loading " helpid="x21A02" text=".initialize()" object="Locale" version="7"/>					
+						<string name="loadLanguageXML" tiptext="Loads the specified language XML file " helpid="x21A03" text=".loadLanguageXML(% xmlLanguageCode, customXmlCompleteCallback %)" object="Locale" version="7"/>
+						<string name="loadString" tiptext="Returns the string value associated with the given string ID in the current language" helpid="x21A01" text=".loadString(% id %)" object="Locale" version="7"/> 
+						<string name="setDefaultLang" tiptext="Sets the default language code " helpid="x219FC" text=".setDefaultLang(% langCode %)" object="Locale" version="7"/>					
+						<string name="setLoadCallback" tiptext="Sets the call back function that will be called after the XML file is loaded " helpid="x21A00" text=".setLoadCallback(% loadCallback %)" object="Locale" version="7"/>  					
+					</folder>
+				</folder>
+   			</folder>
+			<folder name="Media" id="Media" tiptext="Media classes in Flash" helpid="x20AB0" version="5">
+   				<!--Video object-->
+   				<folder name="Video" id="Video" index="true" sort="false" tiptext="Class to create video object" version="6" helpid="x20578">
+   					<folder name="Methods" id="Methods" tiptext="Methods of the Video class" version="6" helpid="x20579">
+ 						<string name="play" tiptext="Starts playback of a video" helpid="x21911" object="Video" text=".play()" version="6"/>
+ 						<string name="close" tiptext="Stops playback of the video and frees memory of object" helpid="x21912" object="Video" text=".close()" version="6"/>
+ 						<string name="stop" tiptext="Stops playback of the video" helpid="x21913" object="Video" text=".stop()" version="6"/>
+ 						<string name="pause" tiptext="Pauses playback of the video" helpid="x21914" object="Video" text=".pause()" version="6"/>
+ 						<string name="resume" tiptext="Resumes playback of the video" helpid="x21915" object="Video" text=".resume()" version="6"/>
+ 					</folder>
+					<folder name="Event Handlers" id="Event Handlers" tiptext="Event handlers of the Video class"  version="6">
+					<string name="onStatus" tiptext="Indicates status or error condition" helpid="x21BBD" object="Video" text=".onStatus" version="7" type="event"/>
+					</folder>
+   				</folder>
+   			</folder>
+   			<folder name="Movie" id="Movie" tiptext="Classes for scripting Flash movies" helpid="x20AB0" version="5">
+   				<!--Key Object-->
+   				<folder name="Key" id="Key" index="true" sort="false" tiptext="Class to help you interface with the keyboard" helpid="x2094A" version="5">
+    					<folder name="Constants" id="Constants" tiptext="Constant properties of the Key class" helpid="x20A9D" version="5">
+ 						<string name="SOFT1" tiptext="Virtual key code for SOFT1;" helpid="x21A2D" text="Key.SOFT1" version="5" object="Key"/>
+ 						<string name="SOFT2" tiptext="Virtual key code for SOFT2;" helpid="x21A2E" text="Key.SOFT2" version="5" object="Key"/>
+ 						<string name="SOFT3" tiptext="Virtual key code for SOFT3;" helpid="x21A2F" text="Key.SOFT3" version="5" object="Key"/>
+ 						<string name="SOFT4" tiptext="Virtual key code for SOFT4;" helpid="x21A30" text="Key.SOFT4" version="5" object="Key"/>
+ 						<string name="SOFT5" tiptext="Virtual key code for SOFT5;" helpid="x21A31" text="Key.SOFT5" version="5" object="Key"/>
+ 						<string name="SOFT6" tiptext="Virtual key code for SOFT6;" helpid="x21A32" text="Key.SOFT6" version="5" object="Key"/>
+ 						<string name="SOFT7" tiptext="Virtual key code for SOFT7;" helpid="x21A33" text="Key.SOFT7" version="5" object="Key"/>
+ 						<string name="SOFT8" tiptext="Virtual key code for SOFT8;" helpid="x21A34" text="Key.SOFT8" version="5" object="Key"/>
+ 						<string name="SOFT9" tiptext="Virtual key code for SOFT9;" helpid="x21A35" text="Key.SOFT9" version="5" object="Key"/>
+ 						<string name="SOFT10" tiptext="Virtual key code for SOFT10;" helpid="x21A36" text="Key.SOFT10" version="5" object="Key"/>
+ 						<string name="SOFT11" tiptext="Virtual key code for SOFT11;" helpid="x21A37" text="Key.SOFT11" version="5" object="Key"/>
+ 						<string name="SOFT12" tiptext="Virtual key code for SOFT12;" helpid="x21A38" text="Key.SOFT12" version="5" object="Key"/>
+					</folder>
+   				</folder>
+     				<folder name="SharedObject" id="SharedObject" index="true" sort="false" tiptext="Class for working with locally saved data" helpid="x20501" version="6">
+   					<folder name="Methods" id="Methods" tiptext="Methods of the SharedObject class" helpid="x20502" version="6">
+ 						<string name="addListener" tiptext="Registers an object or function to receive notification about the shared object" helpid="x218E5" text=".addListener()" object="SharedObject" version="7"/>					
+ 						<string name="getMaxSize" tiptext="Returns the max size allotted, in bytes " helpid="x218E9" text=".getMaxSize()" object="SharedObject" version="7"/>
+ 						<string name="removeListener" tiptext="Removes listener added via addListener()" helpid="x218EB" text=".removeListener()" object="SharedObject" version="7"/>
+   					</folder>
+   				</folder>
+   			</folder>
+   		</folder>
+	</actionspanel>
+	<colorsyntax>
+		<identifier text="_capCompoundSound"/>
+		<identifier text="_capEmail"/>
+		<identifier text="_capMMS"/>
+		<identifier text="_capSMS"/>
+		<identifier text="_capMFi"/>
+		<identifier text="_capMIDI"/>
+		<identifier text="_capSMAF"/>
+		<identifier text="_capMP3"/>
+		<identifier text="_capStreamSound"/>
+		<identifier text="_capLoadData"/>
+		<identifier text="_cap4WayKeyAS"/>
+		<identifier text="_forceframerate"/>
+		<identifier text="$version"/>
+		<identifier text="fscommand2"/>
+		<identifier text="hasCompoundSound"/>
+		<identifier text="hasEmail"/>
+		<identifier text="hasMMS"/>
+		<identifier text="hasSMS"/>
+		<identifier text="hasMFI"/>
+		<identifier text="hasMIDI"/>
+		<identifier text="hasSMAF"/>
+		<identifier text="hasDataLoading"/>
+		<identifier text="has4WayKeyAS"/>
+		<identifier text="hasMouse"/>
+		<identifier text="hasMappableSoftKeys"/>
+		<identifier text="hasStylus"/>
+		<identifier text="hasCMIDI"/>
+		<identifier text="softKeyCount"/>
+		<identifier text="hasSharedObjects"/>
+		<identifier text="hasQWERTYKeyboard"/>
+		<identifier text="audioMIMETypes"/>
+		<identifier text="imageMIMETypes"/>
+		<identifier text="videoMIMETypes"/>
+		<identifier text="MIMETypes"/>
+		<identifier text="ExtendBacklightDuration"/>
+		<identifier text="GetNetworkGeneration"/>
+		<identifier text="GetNetworkConnectionName"/>
+		<identifier text="SetFocusRectColor"/>
+		<identifier text="screenOrientation"/>
+	</colorsyntax>
+	<codehints>
+		<codehint pattern="on (keyPress &quot;&lt;Left&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;Right&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;Home&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;End&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;Insert&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;Delete&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;Backspace&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;Enter&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;Up&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;Down&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;PageUp&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;PageDown&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;Tab&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;Escape&gt;&quot;) {\n}\n"/>
+   		<codehint pattern="on (keyPress &quot;&lt;Space&gt;&quot;) {\n}\n"/>
+   		
+   	</codehints>
+</toolbox>

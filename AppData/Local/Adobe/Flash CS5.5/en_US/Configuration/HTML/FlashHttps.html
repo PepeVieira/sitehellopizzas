@@ -1,0 +1,56 @@
+﻿$TTFlash HTTPS
+$DXFlashHttpsDetection.html
+$DJswfobject.js
+$DS
+Display Adobe Flash Movies in HTML files. Direct to an HTTPS server to obtain Adobe Flash Player if not found.
+$DF
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>$TI</title>
+		$CS
+		<style type="text/css" media="screen">
+		html, body { height:100%; background-color: $BG;}
+		body { margin:0; padding:0; overflow:hidden; }
+		#flashContent { width:100%; height:100%; }
+		</style>
+	</head>
+	<body>
+		<div id="flashContent">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="$WI" height="$HE" id="$TI" align="$HA">
+				<param name="movie" value="$MO.swf" />
+				<param name="quality" value="$QU" />
+				<param name="bgcolor" value="$BG" />
+				<param name="play" value="$PL" />
+				<param name="loop" value="$LO" />
+				<param name="wmode" value="$WM" />
+				<param name="scale" value="$SC" />
+				<param name="menu" value="$ME" />
+				<param name="devicefont" value="$DE" />
+				<param name="salign" value="$SA" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="$MO.swf" width="$WI" height="$HE">
+					<param name="movie" value="$MO.swf" />
+					<param name="quality" value="$QU" />
+					<param name="bgcolor" value="$BG" />
+					<param name="play" value="$PL" />
+					<param name="loop" value="$LO" />
+					<param name="wmode" value="$WM" />
+					<param name="scale" value="$SC" />
+					<param name="menu" value="$ME" />
+					<param name="devicefont" value="$DE" />
+					<param name="salign" value="$SA" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="https://www.adobe.com/go/getflash">
+						<img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+	</body>
+</html>

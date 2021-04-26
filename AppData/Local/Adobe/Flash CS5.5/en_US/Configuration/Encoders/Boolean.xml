@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<flash_encoder version="1.0">
+	<encoder_definition dialogID="Dialog" category="Basic Types" name="Boolean" >
+		<properties>
+			<property id="trueStrings"  default="yes,YES,Yes,y,T,t,true,True,TRUE"/>
+			<property id="falseStrings" default="no,NO,No,n,F,f,false,False,FALSE"/>
+		</properties>
+		<dialog id="Dialog" title="Boolean encoder" buttons="accept, cancel">
+			<grid>		
+				<columns>
+					<column/>
+					<column/>
+				</columns>
+	
+				<row>
+					<label value="Strings that mean true:  " control="trueStrings"/>
+					<textbox id="trueStrings" width="50"/>
+				</row>
+				<row>
+					<label value="Strings that mean false:  " control="falseStrings"/>
+					<textbox id="falseStrings" width="50"/>
+				</row>
+			</grid>	
+		</dialog>
+		<actionscript class="mx.data.encoders.Bool"/>
+	</encoder_definition>
+</flash_encoder>

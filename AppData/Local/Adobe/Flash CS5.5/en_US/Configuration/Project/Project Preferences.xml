@@ -1,0 +1,23 @@
+<panelProperties as3boundTemplate="" as3classTemplate="" as3defaultClasspath="" as2boundTemplate="" as2classTemplate="" as2defaultClasspath="" showClassesFolder="true" showHiddenFiles="true" showRecentFiles="true" recentFileLimit="15">
+  <hideFilters editable="true">
+    <s>.settings</s>
+    <s>.svn</s>
+  </hideFilters>
+  <defaultFilters editable="true">
+    <s>as</s>
+    <s>asc</s>
+    <s>fla</s>
+    <s>flv</s>
+    <s>f4v</s>
+    <s>html</s>
+    <s>jsfl</s>
+    <s>mxml</s>
+    <s>swc</s>
+    <s>swf</s>
+    <s>txt</s>
+    <s>xfl</s>
+    <s>xml</s>
+  </defaultFilters>
+  <locations editable="false"/>
+  <projects currentProject="0"/>
+</panelProperties>

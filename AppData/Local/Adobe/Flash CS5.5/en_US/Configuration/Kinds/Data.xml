@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<flash_kind version="1.0">
+	<kind_definition category="Basic Types" name="Data" >
+		<properties>
+		</properties>
+		<actionscript class="mx.data.kinds.Data"/>
+	</kind_definition>
+</flash_kind>

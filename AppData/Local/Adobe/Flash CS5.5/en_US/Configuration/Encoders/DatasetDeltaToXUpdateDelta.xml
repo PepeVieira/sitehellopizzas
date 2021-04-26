@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<flash_encoder version="1.0">
+	<encoder_definition dialogID="Dialog" category="Basic Types" name="DatasetDeltaToXUpdateDelta" >
+		<properties>
+			<property id="rowNodeKey" default=""/>
+		</properties>
+		<dialog id="Dialog" title="DatasetDeltaToXUpdateDelta encoder" buttons="accept, cancel">
+			<label value="rowNodeKey" control="rowNodeKey"/>
+			<textbox id="rowNodeKey" width="50"/>
+		</dialog>
+		<actionscript class="mx.data.encoders.DatasetDeltaToXUpdateDelta"/>
+	</encoder_definition>
+</flash_encoder>

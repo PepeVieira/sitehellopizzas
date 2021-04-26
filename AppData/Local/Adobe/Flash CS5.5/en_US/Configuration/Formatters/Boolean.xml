@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flash_formatter version="1.0">
+	<formatter_definition dialogID="Dialog" category="Basic Types" name ="Boolean" >
+		<properties>
+			<property id="trueString" default="TRUE"/>
+			<property id="falseString" default="FALSE"/>
+		</properties>
+		<dialog id="Dialog" title="Boolean Formatter Settings" buttons="accept, cancel">
+			<grid>		
+				<columns>
+					<column/>
+					<column/>
+				</columns>
+	
+				<row>
+					<label value="String that means true:  " control="trueString"/>
+					<textbox id="trueString" width="50"/>
+				</row>
+				<row>
+					<label value="String that means false:  " control="falseString"/>
+					<textbox id="falseString" width="50"/>
+				</row>
+			</grid>	
+		</dialog>
+		<actionscript class="mx.data.formatters.Bool"/>
+	</formatter_definition>
+</flash_formatter>

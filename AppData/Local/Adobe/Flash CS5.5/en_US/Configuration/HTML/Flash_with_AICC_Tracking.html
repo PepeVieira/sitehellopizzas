@@ -1,0 +1,221 @@
+﻿$TTFlash with AICC Tracking
+$DS
+Display Adobe Flash Movie in HTML.
+
+Includes support for AICC-HACP tracking when using Adobe's Learning Interactions.
+$DF
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<style type="text/css">
+<!--
+	html, body {width:100%; height:100%; margin:0px; padding:0px;}
+-->
+</style>
+$CS
+<title>$TI</title>
+<script language="JavaScript" name="cmifrag">
+<!--
+//AICC tracking code inserted for Macromedia's Learning Interactions
+//Flash MX 2004
+//Modified by Andrew Chemey (08/06/03)
+//Copyright 2003 Macromedia, Inc. All rights reserved.
+
+function goPage(loc){
+	parent.location = loc;
+}
+
+function findcmiframe(sp) {
+	if (sp==null) sp=window.parent;
+	if (sp.frames.length && sp.cmiframe != null)
+		return sp.cmiframe;
+	else if (sp != window.top)
+		return findcmiframe(sp.parent);
+	else return null;
+}
+var aurl;
+function setaurl(url) {
+	tmpp=url.toUpperCase();
+	if ((pos=tmpp.indexOf('AICC_URL'))>-1) {
+		aurl=url.substring(pos+9,tmpp.length);
+		if (aurl.indexOf('&')>0)
+			aurl=aurl.substring(0,aurl.indexOf('&'));
+		aurl=unescape(aurl);
+		if (aurl.toUpperCase().indexOf("HTTP://") == -1)
+			aurl	= "http://" + aurl;
+		return true;
+	}
+	return false;
+}
+function fndUrl(win) {
+	if (setaurl(win.document.location+'') == false) {
+		if (win == window.top) return false;
+		return (fndUrl(win.parent));
+	}
+	return true;
+}
+if (findcmiframe(null)==null) {
+	var cmi;
+	if (document.command == null) {
+		if (fndUrl(window)) {
+			document.write("<form action="+aurl+" method=\'POST\' target=\'cmiresults\' name=\'command\'><input type=\'hidden\' name=\'command\'><input type=\'hidden\' name=\'session_id\'><input type=\'hidden\' name=\'version\' value=\'2.0\'><input type=\'hidden\' name=\'aicc_data\'></form>");
+		}
+	}
+}
+
+//Function creates a new object for tracking
+function trackObject(name, score, weight, possible) {
+	this.name = name;
+	this.score = score;
+	this.trackWeight = weight;
+	this.possibleCorrect = possible;
+	this.e = 0;
+}
+
+//Create new object called G01
+G01 = new trackObject("Flash Learning Object", 0, 1, 1);
+
+//-->
+</script>
+<script language="JavaScript" src="scripts/behCourseBuilder.js"> </script>
+<script language="JavaScript" src="scripts/cmi.js"> </script>
+</head>
+<body bgcolor="$BG">
+<script language="JavaScript">
+<!--
+var InternetExplorer = navigator.appName.indexOf("Microsoft") != -1;
+
+// Handle all the the FSCommand messages in a Flash movie
+function $TI_DoFSCommand(command, args) {
+	var $TIObj = InternetExplorer ? $TI : document.$TI;
+	// CMI CHECK
+
+	if (!window.CMIIsPresent()) {
+		if (findcmiframe != null) {
+			var frm = findcmiframe(null);
+			if (frm != null) frm.installcmi(window);
+			else if (installcmi != null) {
+				installcmi(window);
+				cmiinit(window);
+			}
+		}
+		if (window.CMIInitialize != null) window.CMIInitialize();
+	}
+
+	// PLACE CMI MAPPING FOR EACH FUNCTION HERE
+	args = String(args);
+	command = String(command);
+	var F_intData = args.split(";");
+
+	switch (command){
+		case "MM_StartSession":
+			//If no sessionid, sends user to login page where activity is set and sessionid returned
+			//parameters(loginURL, activityID, activityName)
+			//Does not redirect, if the loginURL is null or an empty string
+			if (!MM_SID && F_intData[0] != ""){
+				goPage(F_intData[0] + "?ActivityID=" + escape(F_intData[1]) + "&ActivityName=" + escape(F_intData[2]) + "&ReferringPage=" + escape(parent.location));
+			}
+			break
+		case "MM_cmiSendInteractionInfo":
+			//MM_cmiSendInteractionInfo(date, time, intid, objid, intrtype, correct, student, result, weight, latency)
+				G01.score = 0;
+			if (F_intData[7].toUpperCase() == "C") G01.score = 1;
+			G01.trackWeight = F_intData[8];
+			if (F_intData[4] == "F"){
+				var sTmp = F_intData[5];
+				F_intData[5] = sTmp.replace(/ /gi, "_");
+				sTmp = F_intData[6];
+				F_intData[6] = sTmp.replace(/ /gi, "_");
+			}
+			MM_cmiSendInteractionInfo(F_intData[0],F_intData[1],F_intData[2],F_intData[3],F_intData[4],F_intData[5],F_intData[6],F_intData[7],F_intData[8],F_intData[9]);
+			break
+		case "MM_cmiSendObjectiveInfo":
+			//MM_cmiSendObjectiveInfo(theInt, index, objid, score, status)
+				MM_cmiSendObjectiveInfo(F_intData[0],F_intData[1],F_intData[2],F_intData[3],F_intData[4]);
+			break
+		case "MM_cmiSendScore":
+			//MM_cmiSendScore(theInt, theScore)
+				MM_cmiSendScore(F_intData[0],F_intData[1]);
+			break
+		case "MM_cmiSetLessonStatus":
+			//MM_cmiSetLessonStatus(theStatus)
+				MM_cmiSetLessonStatus(F_intData[0]);
+			break
+		case "CMISetTime":
+			//CMISetTime(t)
+				CMISetTime(F_intData[0]);
+			break
+		case "CMISetCompleted":
+			//CMISetCompleted()
+				CMISetCompleted();
+			break
+		case "CMISetData":
+			//CMISetData(data)
+				CMISetData(F_intData[0]);
+			break
+		case "CMISetFailed":
+			//CMISetFailed()
+				CMISetFailed();
+			break
+		case "CMISetLocation":
+			//CMISetLocation(loc)
+				CMISetLocation(F_intData[0]);
+			break
+		case "CMISetPassed":
+			//CMISetPassed()
+				CMISetPassed();
+			break
+		case "CMISetScore":
+			//CMISetScore(score)
+				CMISetScore(F_intData[0]);
+			break
+		case "CMISetStarted":
+			//CMISetStarted()
+				CMISetStarted();
+			break
+		case "CMISetStatus":
+			//CMISetStatus(stat)
+				CMISetStatus(F_intData[0]);
+			break
+		case "CMISetTimedOut":
+			//CMISetTimedOut()
+				CMISetTimedOut();
+			break
+		case "CMIInitialize":
+			//CMIInitialize()
+			MM_SVal("command","getparam",1);
+			CMIInitialize();
+			break
+		case "CMIFinish":
+			//MM_SVal("command","lmsfinish",1);
+			break
+		case "CMIExitAU":
+			MM_SVal("command","exitau",1);
+			break
+	}
+	// END OF CMI FUNCTION MAPPING
+}
+
+// Hook for Internet Explorer.
+if (navigator.appName && navigator.appName.indexOf("Microsoft") != -1 && navigator.userAgent.indexOf("Windows") != -1 && navigator.userAgent.indexOf("Windows 3.1") == -1) {
+	document.write('<script language=\"VBScript\"\>\n');
+	document.write('On Error Resume Next\n');
+	document.write('Sub $TI_FSCommand(ByVal command, ByVal args)\n');
+	document.write('	Call $TI_DoFSCommand(command, args)\n');
+	document.write('End Sub\n');
+	document.write('</script\>\n');
+}
+//-->
+</script>
+<!--url's used in the movie-->
+$MU
+<!--text used in the movie-->
+$MT
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=$FV,$JR,$NR,0" id="$TI" width="100%" height="100%" scale="exactfit" align="$HA">
+<param name="allowScriptAccess" value="sameDomain" />
+$PO
+<embed $PEwidth="100%" height="100%" scale="exactfit" name="$TI" align="$HA" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" />
+</object>
+</body>
+</html>

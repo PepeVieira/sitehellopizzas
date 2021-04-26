@@ -1,0 +1,125 @@
+{
+   "checksum": "670c797a262c4b91a50e19eda2dfd572",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13112289073299292",
+            "guid": "431686d4-b0bf-499c-a576-4c6bb8e24ffa",
+            "id": "5",
+            "name": "Corporate :: Serviços",
+            "type": "url",
+            "url": "http://www.animgrafs-evento.com.br/intranet/login.asp"
+         } ],
+         "date_added": "13222404342227846",
+         "date_modified": "13112289073299292",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Barra de marcadores",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13222404342227856",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Outros marcadores",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13227140824799899",
+            "guid": "240c0515-993e-4675-90a6-e0a391c3b6c4",
+            "id": "9",
+            "name": "Conjugation wake | Conjugate verb wake | Reverso Conjugator English",
+            "type": "url",
+            "url": "https://conjugator.reverso.net/conjugation-english-verb-wake.html"
+         }, {
+            "date_added": "13229051399373664",
+            "guid": "29a02302-248a-4ce4-94b7-fe7fd919d414",
+            "id": "30",
+            "name": "www.nfp.fazenda.sp.gov.br",
+            "type": "url",
+            "url": "https://www.nfp.fazenda.sp.gov.br/AdminPFE/manterContribuinte.aspx"
+         }, {
+            "date_added": "13229561100949129",
+            "guid": "9990ac26-a74a-4935-9d9d-71542b24e0ba",
+            "id": "29",
+            "name": "Email Templates and Designs | ThemeForest",
+            "type": "url",
+            "url": "https://themeforest.net/category/marketing/email-templates"
+         }, {
+            "date_added": "13230086051786024",
+            "guid": "884aff77-e768-455d-9a3a-1e04c38bbb29",
+            "id": "27",
+            "name": "Conjugation ring | Conjugate verb ring | Reverso Conjugator English",
+            "type": "url",
+            "url": "https://conjugator.reverso.net/conjugation-english-verb-ring.html"
+         }, {
+            "date_added": "13230364734603373",
+            "guid": "a995e39d-f52e-4700-b458-519a1c2dbed3",
+            "id": "28",
+            "name": "Skore",
+            "type": "url",
+            "url": "https://cursos.endeavor.org.br/lessons/55535-tudo-o-que-voce-precisa-saber/"
+         }, {
+            "date_added": "13242969468180586",
+            "guid": "7216d52d-3ec0-4818-b384-2b4496dde66c",
+            "id": "19",
+            "name": "Fonts, Logos & Icons from GraphicRiver",
+            "type": "url",
+            "url": "https://graphicriver.net/"
+         }, {
+            "date_added": "13243555894827485",
+            "guid": "de68d6b9-55ec-4376-9f16-79ab177dcff7",
+            "id": "21",
+            "name": "W3Schools Online Web Tutorials",
+            "type": "url",
+            "url": "https://www.w3schools.com/"
+         }, {
+            "date_added": "13243555903218855",
+            "guid": "2e831913-2301-4407-b32d-bc347add6e85",
+            "id": "22",
+            "name": "The 5 Planes of UX Design That Make Up a Great Website",
+            "type": "url",
+            "url": "https://www.redrocketmg.com/5-planes-ux-design-great-website/"
+         }, {
+            "date_added": "13243555909276456",
+            "guid": "cda99f4b-709a-4a80-86f1-2527246efcb1",
+            "id": "23",
+            "name": "5 elementos de UX: o famoso Iceberg | by Karla Lima | UX Collective 🇧🇷",
+            "type": "url",
+            "url": "https://brasil.uxdesign.cc/5-elementos-de-ux-o-famoso-iceberg-b06d6976ccbb"
+         }, {
+            "date_added": "13243555916082265",
+            "guid": "b678667a-3d90-4be8-b536-cc6c4ea889a7",
+            "id": "24",
+            "name": "INÍCIO | cocktailf",
+            "type": "url",
+            "url": "https://lecocktailf.wixsite.com/cocktailf"
+         }, {
+            "date_added": "13243570094346562",
+            "guid": "fe5a9325-5985-4901-bdb2-08046c66f97c",
+            "id": "25",
+            "name": "Relevo Americano - a impressão que é sinônimo de convites de casamento | Convites de casamento | Convites para padrinhos | Convites 15 anos | Papelaria para eventos | Caixas para padrinhos",
+            "type": "url",
+            "url": "https://www.artinvitte.com/blog/relevo-americano-em-convites/"
+         }, {
+            "date_added": "13257231491375462",
+            "guid": "afff4bec-111e-4568-9791-f2969d4cd6c3",
+            "id": "32",
+            "name": "Criando um Menu Dropdown Responsivo com HTML5 e CSS3 | by Damiao Souza | Medium",
+            "type": "url",
+            "url": "https://medium.com/@dssdamiao/criando-um-menu-dropdown-responsivo-com-html5-e-css3-d2548839e096"
+         } ],
+         "date_added": "13222404342227858",
+         "date_modified": "13257231491375462",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Marcadores telemóvel",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CrABCo8BCIiBAhKIARJ2CAISOAoGCgJibRABEDMaEgmAfJx28rsFACGAfJx28rsFADIYChYIAhHx5SGH8rsFABgAIQAAAAAAAAAAEjgKBgoCYmQQABAzGhIJgHycdvK7BQAhgHycdvK7BQAyGAoWCAIR8eUhh/K7BQAYACEAAAAAAAAAACAASNvamNv8LnDmuICO2C4SACABKhhFVnpGRW9PaWwwcVFHTnJlQ3FubHpRPT0SrgEIARKpARJOWjpBRHF0QVp5ZDNrdEZXYzRFUnUyajNieWI0NDdvaFZQeEJhRXdnQ1NCYzlKOW84RWRvMWp6WE1JaVBwcStIbUw2aDNLRXFnMlB2Uy9hGAAgACgAMPHB5vbq4+YCOABAAEocVStHR0l0WkVEcFpzSVNsT1VhSVR1SUxkTW5JPVomIiSAAAAAAAAAACaM4tWhG0bKYFCYaitqn5lOG5pC7ikL1BrHen8SrQIIGxKoAgocTTNIdWE5NlhOZ0tyU2dsV3hLZnZ2ZVM2SHR3PRKmAVo6QURxdEFaeVZKeTJPQjNqZnl1RW9CRlJ1eWk5M2xIdHpJdDliQmJSUXp3L0dWcmdwN0JUblAwcEVUcGdhdGwvQ3pmS0ZkODR5STJqSVlyY2NhV3l6d3VlTWtHWHcva2pSODNUTG9UOWxFZUFiQmczZTB0aGU1MFY1TThQY0pPdzNaQkorNndPN3pMUHJLRDRxNHpuV3VqaDRZcmRCMzlUcGFRPT0YACAEKAQw/PWHkq7g7AI4y9/37pIuQNLGjI7YLkocRUo1YlJIek9kZTBOVE1iY1loZEROeWR6cUxJPVofIh3rS1BRa0kvbVY0TmtSRnZ2UmxjOE03bWhEU1N3PWXsUqHCEq0CCB4SqAIKHGMxbFpITVQxWnRzMHE2cm9PaWdEdGM3bVM1cz0SpgFaOkFEcXRBWnlWSnkyT0IzamZ5dUVvQkZSdXlpOTNkc0Jjc3hVU0VjNTJnYlYxZTRlL2p2TFZYTWJzYklnbkEzVElMWUdNTUNpendaVnB5MDdwbkVQa0dnYVhmbkhCaDZQVUVjZXN6MVBrVkpQK0xTa29RMHFIYVdXNGR2a0dJL29rdUhEd2dhalFQdVhGYTU2dFJlRWNFM1RFNnZHMS84ZkRqQT09GAAgBigGMPz1h5Ku4OwCOM3JyYGPLkDSxoyO2C5KHG5jNlhHQWtvYzJkM25zbFRRWHRrb0pkVEt1OD1aHyIdrThlenhFQk5xcWkzOThUWjNMMmhjUllhekFpYz1lEzFL8hKtAggWEqgCChxYQjNsUUQvK0hmZWFyaXRjczhJcXBKaWdHd0U9EqYBWjpBRHF0QVp5Vkp5Mk9CM2pmeXVFb0JGUnV5aTkzZHNCY3N4VVNFYzUyZ2JWMWU0ZS9qdGRPTE1RN1VmYnlCOGFJY1NQWnl3NENiTWZqTDRJU0dBYnlraUJrMXVZaThQVTc1QldaTUcwblEwaklSeCtHQ3NEZ256MmYxTEdkUEFBcDg1R1FzSElrSEh5WTVNUlZhY3hUbXJMbi9GaUJxdzdodVE9PRgAIAQoBDD89YeSruDsAjjzne6FxS5A0saMjtguShxGb2xWcWc1VzBXc1FMNjlPT2NjVzJYcEU5NGM9Wh8iHf5RNnJHRGNHKzV2OGpFVy9QS2o4SmJoY3p2Mm89ZWyGBxUSrAIICRKnAgocL2lFQmhvMWM3MUFwVzA0bjQzZDlCbk5FaC84PRKmAVo6QURxdEFaeVZKeTJPQjNqZnl1RW9CRlJ1eWk5M2xIdHpJdDliQmJSUXp3L0dWcmdwN0Irc0xLS2o1VEMzZWlGNUE5ZkxlUE1GeHZ6aU5iZDZ0SzF4NStpVHVrYUlnVUp0UlBWS0ZjYUtVbW1WUGdhMHJldkxWR1V3VXNWa0MwRC9YdVR5SXpjYWQwZGxtckpvRVl1UGNZR3VvZGZyMU9YbWx3PT0YACAEKAQw/PWHkq7g7AI44q3F8ocuQNLGjI7YLkocaUNNSmMzUnVvUEFyV2NKNzM5RmdwV1dUNXFjPVoeIhxaQmI5Q3hzWXNhZUtRRndTUW1oS2MvbFFEUGc9ZexSocISrgIIGRKpAgocU3dYQmJydWIrMFdlejVkRHFUY2JqU0tFRGhzPRKmAVo6QURxdEFaeVZKeTJPQjNqZnl1RW9CRlJ1eWk5M2RzQmNzeFVTRWM1MmdiVjFlNGUvanEreVN2TStjMmt1NW9JbCtoOXhVVUFZTzJLQ0F2bG9xV3lZQTFOTnNJWUs1RVR5d0xqa0ZYb3ZpQ1VSYWllUGd3SmJxc1FINngxV0JseXhZS3Z1dlp2bDhneTUyL1hJdHNMS0FHYWpWWXhEeGlaeHBBPT0YACAEKAQw/PWHkq7g7AI4irLQjMUuQNLGjI7YLkocTHMxZ2tzbmtJdDRjTUMzZHFsNk11U0dOVGNrPVogIh7/2lhhWjVCVVNDVXFUUnFyUFZhaHJ6UTJsVDRFMD1lTmwUAhKtAggTEqgCChxhMVJ1SWpSMm5PZzJ4SmJucHJqcUxZeHllWmc9EqYBWjpBRHF0QVp5Vkp5Mk9CM2pmeXVFb0JGUnV5aTkzZHNCY3N4VVNFYzUyZ2JWMWU0ZS9qZ2JBNE1HTytaYVhKLzZQMTRNUTJtZS9uQmwyaEszdHZGeTIrMUFmNDB0Y1ZkNm44anFROW9EV2tCSnczUWF5RllxZ1JqV0JoaU1pTzgyeGlzQzhqT09lbERReTROQzlhYW4xMnp5NUFsMDBIUEV6Nmc9PRgAIAQoBDD89YeSruDsAjiUip3uwi5A0saMjtguShwweHRCbzlOTUlDK1hOajgyYWhNUlgydm9ndTA9Wh8iHfpnZVQvNU05dG41R0JyK2ZuOG5OR0pHaTJYQUE9ZQRrPt0SxgEIAxLBARJmWjpBRHF0QVp6MURXNlM2Q0xmZVJxNUZmbG01emR2amZ1MGpPZ0ExUytMdjVLT2U5V1dBY0pjeFp0ZFVZc2tBbXIweXRPMVQ2dkdTdFUrd01JSzVEeTRuQW5MNXREZXE3UHp1QT09GAAgACgAMPHB5vbq4+YCOABAAEocNzlsK0xSRVVwaWFFdkREK0c0M2NwWFN0d0JjPVomIiSAAAAAAAAAAKWwNgN+WwM5yUwaW0qCvAIKGo1yrWccEg6QV38SrgIIGBKpAgocdkZxcTY5YUZwOHpXLy9Pamo3U3ZqbDRVSzI0PRKmAVo6QURxdEFaeVZKeTJPQjNqZnl1RW9CRlJ1eWk5M2RzQmNzeFVTRWM1MmdiVjFlNGUvamhPRG8vUXBqQTVNMVVZOVh2cEVhNzVCamhPRC9jQnlvK0hwRk1hWDVYUFdCQVZZVnAwUFo2SDJmdkVhTm85KzYrYUs3UDhVbU5xUy9KUDU0RGdMdDk1eGc4TWRwZHZBd09rQ1B2OUlFRGc0emt2WURnPT0YACAEKAQw/PWHkq7g7AI4soLvhcUuQNLGjI7YLkoca1d6UGFkSlJqb3Rpa0FEMUEweEw1U0FIcUFZPVogIh7/tWJKalMwWkM4dHZ3cUJ5Q2RhSEVwZFhjYjVVbz1lfkbF9hKtAggdEqgCChx6Y0NUZU5CY21DbzRydTF4M0FOc1JYNU1IN2s9EqYBWjpBRHF0QVp5Vkp5Mk9CM2pmeXVFb0JGUnV5aTkzZHNCY3N4VVNFYzUyZ2JWMWU0ZS9qbU44cE1xNnJPeU54M2t1c1liemJqVUx6SVAzRENES01YUjhZTmdYWVZtaHNxeWV5Q0pYNlZQcnN0V0Z4MU8vYkpqMm5LU1RTMlE1RW1lZitjQzZ5YWhHT2tSNXNNRWxiU1pKWTFnTE9XVjR5eUZBMFE9PRgAIAYoBjD89YeSruDsAjiVpc/0kC5A0saMjtguShxoZkVGbE8rL29weUR2UTNBTjVqZzVoU1JPTW89Wh8iHdZ3T1krWlVXUXpIaTJOL3VWV3dhbmpwejBDY2M9ZaYZbDsSxgEIAhLBARJmWjpBRHF0QVp5QlZOTmd0ZHp2Z0RtWVBpWS9Uak45eHZVcVRnVmFURXRjY0hKOFM2NmZnRmFIN0s0QXNWN3RqS3g4TUFZSm53N2M0L1czR0lubXpjWWdSVzQ4dG5yWWpIMjBtZz09GAAgACgAMPHB5vbq4+YCOABAAEocNXVzeS9jcGZwaTFFdG9CSERnWElzMHFiNHJBPVomIiSAAAAAAAAAAJcx6VcDmdWgOiwt3R+p9GprN91g5g/txHFGjH8SrAIIBRKnAgocY3U3aytPajNrQUQvcUhQM1p1SlVNNWZqZ0dFPRKmAVo6QURxdEFaeVZKeTJPQjNqZnl1RW9CRlJ1eWk5M1RlNUtCdTU3cnJCZFp1dXgvc2I3WXcyS2lRTGNJSmp1QU91V1dwaTA5Mys3QmVNNFpnRTFDeVdCQnp2akZKb1dpcW5lOUp5RDN3Umk3MFAzcjJCVEtHVXd3UnRJTkZreXlZVk5BOTU2YjNza3VPUlA4TUdYYUt2RjNDZEYxNVQzTzhTbXp3PT0YACAFKAUw/JDMka7g7AI4k+H6hNwqQP++jI7YLkocS3F6bU9VdE9iQ0E5WGpkQnhsc1FPbjNMeVUwPVoeIhxnMkVZS1VJYW5NRm8yd0xud2Fqc0w5M1JmUWM9ZQAAAAASrQIIFxKoAgocSGdCVm9GRVJoWm53NGwzdWRzWTdjWE1USndrPRKmAVo6QURxdEFaeVZKeTJPQjNqZnl1RW9CRlJ1eWk5M2RzQmNzeFVTRWM1MmdiVjFlNGUvamhlZGhCS3paT0tpUDZGOGtCcGVqS1NTS0Zic0Z2N3o5VW9OYlVibE1ZZTVJUVpFVHZ5VTN6djdDMmlDZkdoRm5aVzUrR0FYdmpGdUVlcU5Od3M2bXNSUmMxK2pLV0FweVRuMmwxK2pkejdtRTcxc1V3PT0YACAEKAQw/PWHkq7g7AI4nM3uhcUuQNLGjI7YLkocSTY1N1E4MDlkV0VNVHVLR21LamVVU2RndU5rPVofIh3/ank1YWg3eXFpTnlyN05RKzJERjlGVlJzWnFrPWWTlKN5Eq4CCCASqQIKHFNzcWV4M1BxTzlWOUdzVXJialhKR1FWS3VlTT0SpgFaOkFEcXRBWnlWSnkyT0IzamZ5dUVvQkZSdXlpOTNxRDl5RFQxY2Z1SlhUdUlDVTgyTzN0dDhRRTBGR09IdTRvQ3lJNTU2V3hpbjd1bnEwRGFmWGpnWUxwZzVtTWdKd0dlUUsrV1Q0VlhCekpIY1UzaUgrUXhwcWpIT2tEeTFmQ3FYekJzcU4xNFBzQnVGdEpjeDVrMmp1WnR4U0F4THlmNXZaZz09GAAgACgAMIjNyKq32e4COLDy8f73LkCw8vH+9y5KHDB6RVlIdDVKRkNXbHB4VkpRdkJJWTJEN0pVMD1aICIe/+1PT25PajA5cHl3dkhpcmRZNlFtaE9NWVBhZDQ9ZVuFQ2MSrQIIFRKoAgocZkhpWmZLblIwRG9NZGd1MTRONHREM2lQU1hnPRKmAVo6QURxdEFaeVZKeTJPQjNqZnl1RW9CRlJ1eWk5M2RzQmNzeFVTRWM1MmdiVjFlNGUvamxhZjRwRk95VzdtSFUzd000N0xYVVE2SDZWaXh4UFBBUzNVbGQ3bnlqYjczMXYxUW1sL05xM2xTMWlPNUQxT0tuVWtlK1Q0MGQ1R292N21SZWEzQzdnUDRQNm1BYzcxMEY0cXlLTHNoeVVwOTBrcWJ3PT0YACAEKAQw/PWHkq7g7AI4q9zthcUuQNLGjI7YLkocTDMva09xMEtyZm03UStUNE9lQzZ5TXpjanFBPVofIh39c0xFZml1cVJiVzVrS3RBWHJ1VEZXZjEybm5nPWWQOGu0Eq0CCBwSqAIKHCtheXZLb1BjMDVvSzg2THpZZ3BIdFNnTzhIRT0SpgFaOkFEcXRBWnlWSnkyT0IzamZ5dUVvQkZSdXlpOTNkc0Jjc3hVU0VjNTJnYlYxZTRlL2pscHFPcDVrTmVtZWpueUhlTy9qYkhIZDB0SWFacytaYnoyMDgwOXd6alNFU3lHQm11TUhZQXNDUG5OYWxwNWp2cS94a2NtZlRlRGFHOTRORlNFMHdPQ1JBMjRFcjN4enprbmFyQ3RJaU55UEQ5TzIwZz09GAAgBigGMPz1h5Ku4OwCOIuZ6fOTLkDSxoyO2C5KHHo4aWd3ZWxmYzlHT2FtQUZ2bWgrVWF5N2hVVT1aHyId9WMzRyt2QldEdk1CQ2JnNUM1NjBZTDY5bkJaND1l2fc2QhgBIOzcmNv8Lg==",
+   "version": 1
+}
